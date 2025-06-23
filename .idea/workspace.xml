@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="June 2, 2025">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Backtracking/GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Trie/DesignAddAndSearchWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/Candy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/GasStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/H_Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/H_Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/JumpGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/JumpGameII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/JumpGameII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/LengthOfLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/LengthOfLastWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/ProductOfArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/ProductOfArrayExceptSelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/ReverseWordsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/ReverseWordsInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/RomanToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/RotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/ZigzagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/ZigzagConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Backtracking/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Backtracking/CombinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Backtracking/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Backtracking/Combinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Backtracking/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Backtracking/Permutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Backtracking/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Backtracking/WordSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/BinarySearch/FindFirstAndLastPositionOfElementInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/BinarySearch/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/BinarySearch/FindPeakElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/BinarySearch/FindPeakElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/BinarySearch/MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/BinarySearch/MedianOfTwoSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/BinarySearch/Search2DMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/BinarySearch/Search2DMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/BinarySearch/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/BinarySearch/SearchInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/BinarySearch/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/BinarySearch/SearchInsertPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Bit/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Bit/SingleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DivideAndConquer/ConvertSortedArrayToBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DivideAndConquer/ConvertSortedArrayToBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DivideAndConquer/MergekSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DivideAndConquer/MergekSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DivideAndConquer/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DivideAndConquer/SortList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Graph/G02_Problem_On_BFS_DFS/G03_NumberOfProvinces_Leetcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Graph/G02_Problem_On_BFS_DFS/G03_NumberOfProvinces_Leetcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Graph/G03_Topo/G22_AlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Graph/G03_Topo/G22_AlienDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/ContainsDuplicateII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/ContainsDuplicateII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/GroupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/IsomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/IsomorphicStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/LongestConsecutiveSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/RansomNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/ValidAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/WordPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/WordPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Intervals/InsertInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Intervals/InsertInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Intervals/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Intervals/MergeIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Intervals/MinimumNumberOfArrowsToBurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Intervals/MinimumNumberOfArrowsToBurstBalloons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Intervals/SummaryRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Intervals/SummaryRanges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/KadaneAlgorithm/MaximumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/KadaneAlgorithm/MaximumSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/KadaneAlgorithm/MaximumSumCircularSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/KadaneAlgorithm/MaximumSumCircularSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/MergeTwoSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/PartitionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/PartitionList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/RemoveDuplicatesFromSortedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/RemoveDuplicatesFromSortedListII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/ReverseLinkedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/ReverseLinkedListII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/ReverseNodesInKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/ReverseNodesInKGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/RotateList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/RotateList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Math/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Math/PalindromeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Math/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Math/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Math/Pow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Math/Pow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Math/Sqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Math/Sqrt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Matrix/RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Matrix/RotateImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Matrix/SetMatrixZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Matrix/SetMatrixZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Matrix/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Matrix/SpiralMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/SlidingWindow/MinimumSizeSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/SlidingWindow/MinimumSizeSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/SlidingWindow/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/SlidingWindow/MinimumWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Stack/EvaluateReversePolishNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Stack/EvaluateReversePolishNotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Stack/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Stack/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinarySearchTree/KthSmallestElementInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinarySearchTree/KthSmallestElementInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinarySearchTree/MinimumAbsoluteDifferenceInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinarySearchTree/MinimumAbsoluteDifferenceInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinarySearchTree/ValidateBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinarySearchTree/ValidateBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/AverageOfLevelsInBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/AverageOfLevelsInBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/BinaryTreeRightSideView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/BinaryTreeRightSideView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/BinaryTreeZigzagLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/BinaryTreeZigzagLevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/BinaryTreeMaximumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/BinaryTreeMaximumPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/ConstructBinaryTreeFromPreorderAndInorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/ConstructBinaryTreeFromPreorderAndInorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/CountCompleteTreeNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/CountCompleteTreeNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/InvertBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/LowestCommonAncestorOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/LowestCommonAncestorOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/MaximumDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SameTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SumRootToLeafNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SumRootToLeafNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SymmetricTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Trie/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Trie/TrieNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Trie/TrieNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/TwoPointers/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/TwoPointers/ContainerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/TwoPointers/IsSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/TwoPointers/IsSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/TwoPointers/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/TwoPointers/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/TwoPointers/TwoSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/TwoPointers/TwoSumII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/TwoPointers/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/TwoPointers/ValidPalindrome.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2rG01cKUbbSFlRwXdtMTbQtBJeK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;developer&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pranaw_kaushal/Downloads/aws_demo&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pranaw_kaushal/Documents/ALL_EPAM_TRAINING/core-java-training/basic-concepts/src/Main.java&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\LLD" />
+      <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\DesignPatterns" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Comp.CodeWithComplexity75.DP" />
+      <recent name="Leetcode.TwoPointers" />
+      <recent name="Leetcode.Graph.G04_ShortestPath" />
+      <recent name="Leetcode.Graph.G03_Topo" />
+      <recent name="Leetcode.TUF.Tree" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MinimumWindowSubstring">
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.LengthOfLastWord" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Array_String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.LongestCommonPrefix" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Array_String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.SlidingWindow.MinimumWindowSubstring" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.SlidingWindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseWordsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.ReverseWordsInAString" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Array_String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZigzagConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.ZigzagConversion" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Array_String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MinimumWindowSubstring" />
+        <item itemvalue="Application.ZigzagConversion" />
+        <item itemvalue="Application.ReverseWordsInAString" />
+        <item itemvalue="Application.LongestCommonPrefix" />
+        <item itemvalue="Application.LengthOfLastWord" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="" />
+      <created>1736169889863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736169889863</updated>
+    </task>
+    <task id="LOCAL-00001" summary="jan 21 2025">
+      <option name="closed" value="true" />
+      <created>1737474445668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737474445668</updated>
+    </task>
+    <task id="LOCAL-00002" summary="jan 22 2025">
+      <option name="closed" value="true" />
+      <created>1737556925581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737556925581</updated>
+    </task>
+    <task id="LOCAL-00003" summary="jan 23 2025">
+      <option name="closed" value="true" />
+      <created>1737696104041</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737696104041</updated>
+    </task>
+    <task id="LOCAL-00004" summary="jan 29 2025">
+      <option name="closed" value="true" />
+      <created>1738208653842</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738208653842</updated>
+    </task>
+    <task id="LOCAL-00005" summary="jan 30 2025">
+      <option name="closed" value="true" />
+      <created>1738391798760</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738391798760</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Feb 1, 2025">
+      <option name="closed" value="true" />
+      <created>1738640805273</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738640805273</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Feb 1, 2025">
+      <option name="closed" value="true" />
+      <created>1738985679214</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738985679214</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Feb 8, 2025">
+      <option name="closed" value="true" />
+      <created>1739074061738</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739074061738</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Feb 9, 2025">
+      <option name="closed" value="true" />
+      <created>1739120925727</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739120925727</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Feb 9, 2025">
+      <option name="closed" value="true" />
+      <created>1739197193293</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739197193293</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Feb 18, 2025">
+      <option name="closed" value="true" />
+      <created>1739941211281</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739941211282</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Feb 19, 2025">
+      <option name="closed" value="true" />
+      <created>1739952962931</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739952962931</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Feb 19, 2025">
+      <option name="closed" value="true" />
+      <created>1739957278888</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739957278888</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Feb 19, 2025">
+      <option name="closed" value="true" />
+      <created>1740023254554</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740023254554</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Feb 22, 2025">
+      <option name="closed" value="true" />
+      <created>1740230797855</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740230797855</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Feb 22, 2025">
+      <option name="closed" value="true" />
+      <created>1740286761348</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740286761348</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Feb 23, 2025">
+      <option name="closed" value="true" />
+      <created>1740369358111</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740369358111</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Feb 23, 2025">
+      <option name="closed" value="true" />
+      <created>1740404364457</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740404364457</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Feb 24, 2025">
+      <option name="closed" value="true" />
+      <created>1740423128333</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740423128333</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Feb 25, 2025">
+      <option name="closed" value="true" />
+      <created>1740547949461</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1740547949461</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Feb 26, 2025">
+      <option name="closed" value="true" />
+      <created>1740593471395</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1740593471396</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Feb 27, 2025">
+      <option name="closed" value="true" />
+      <created>1740684838695</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1740684838695</updated>
+    </task>
+    <task id="LOCAL-00023" summary="March 1 , 2025">
+      <option name="closed" value="true" />
+      <created>1740893826384</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1740893826384</updated>
+    </task>
+    <task id="LOCAL-00024" summary="March 2 , 2025">
+      <option name="closed" value="true" />
+      <created>1740990569938</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740990569938</updated>
+    </task>
+    <task id="LOCAL-00025" summary="March 3 , 2025">
+      <option name="closed" value="true" />
+      <created>1741058504192</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1741058504192</updated>
+    </task>
+    <task id="LOCAL-00026" summary="March 5 , 2025">
+      <option name="closed" value="true" />
+      <created>1741191535698</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1741191535698</updated>
+    </task>
+    <task id="LOCAL-00027" summary="March 15 , 2025">
+      <option name="closed" value="true" />
+      <created>1742093151673</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1742093151673</updated>
+    </task>
+    <task id="LOCAL-00028" summary="March 19 , 2025">
+      <option name="closed" value="true" />
+      <created>1742395817860</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1742395817860</updated>
+    </task>
+    <task id="LOCAL-00029" summary="March 27 , 2025">
+      <option name="closed" value="true" />
+      <created>1743066482263</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1743066482263</updated>
+    </task>
+    <task id="LOCAL-00030" summary="April 15 , 2025">
+      <option name="closed" value="true" />
+      <created>1744675230287</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1744675230287</updated>
+    </task>
+    <task id="LOCAL-00031" summary="April 15 , 2025">
+      <option name="closed" value="true" />
+      <created>1744756880922</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1744756880922</updated>
+    </task>
+    <task id="LOCAL-00032" summary="April 16 , 2025">
+      <option name="closed" value="true" />
+      <created>1744894985007</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1744894985008</updated>
+    </task>
+    <task id="LOCAL-00033" summary="April 18 , 2025">
+      <option name="closed" value="true" />
+      <created>1745029471960</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1745029471960</updated>
+    </task>
+    <task id="LOCAL-00034" summary="April 19 , 2025">
+      <option name="closed" value="true" />
+      <created>1745123676526</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1745123676526</updated>
+    </task>
+    <task id="LOCAL-00035" summary="April 25 , 2025">
+      <option name="closed" value="true" />
+      <created>1745547906694</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1745547906694</updated>
+    </task>
+    <task id="LOCAL-00036" summary="April 26 , 2025">
+      <option name="closed" value="true" />
+      <created>1745723896927</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1745723896927</updated>
+    </task>
+    <task id="LOCAL-00037" summary="April 27 , 2025">
+      <option name="closed" value="true" />
+      <created>1745803601962</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1745803601962</updated>
+    </task>
+    <task id="LOCAL-00038" summary="April 28 , 2025">
+      <option name="closed" value="true" />
+      <created>1745884849585</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1745884849585</updated>
+    </task>
+    <task id="LOCAL-00039" summary="April 28 , 2025">
+      <option name="closed" value="true" />
+      <created>1746613429915</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1746613429915</updated>
+    </task>
+    <task id="LOCAL-00040" summary="May 30 , 2025">
+      <option name="closed" value="true" />
+      <created>1748666055538</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1748666055538</updated>
+    </task>
+    <task id="LOCAL-00041" summary="June 2, 2025">
+      <option name="closed" value="true" />
+      <created>1749178847039</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1749178847039</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Feb 18, 2025" />
+    <MESSAGE value="Feb 19, 2025" />
+    <MESSAGE value="Feb 22, 2025" />
+    <MESSAGE value="Feb 23, 2025" />
+    <MESSAGE value="Feb 24, 2025" />
+    <MESSAGE value="Feb 25, 2025" />
+    <MESSAGE value="Feb 26, 2025" />
+    <MESSAGE value="Feb 27, 2025" />
+    <MESSAGE value="March 1 , 2025" />
+    <MESSAGE value="March 2 , 2025" />
+    <MESSAGE value="March 3 , 2025" />
+    <MESSAGE value="March 5 , 2025" />
+    <MESSAGE value="March 15 , 2025" />
+    <MESSAGE value="March 19 , 2025" />
+    <MESSAGE value="March 27 , 2025" />
+    <MESSAGE value="April 15 , 2025" />
+    <MESSAGE value="April 16 , 2025" />
+    <MESSAGE value="April 18 , 2025" />
+    <MESSAGE value="April 19 , 2025" />
+    <MESSAGE value="April 25 , 2025" />
+    <MESSAGE value="April 26 , 2025" />
+    <MESSAGE value="April 27 , 2025" />
+    <MESSAGE value="April 28 , 2025" />
+    <MESSAGE value="May 30 , 2025" />
+    <MESSAGE value="June 2, 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="June 2, 2025" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode/Bit/SingleNumberII.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode/Auto/Premium/ValidExpression.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Comp/Target/StringToNumber.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Comp/FirstDerivatives/TestStream.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Comp/EDJO_ASWD/EDJO_ASWD.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/basic_concepts$RemoveDuplicatesFromSortedArrayII.ic" NAME="RemoveDuplicatesFromSortedArrayII Coverage Results" MODIFIED="1737450711599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Leetcode.Array_String.*</FILTER>
+    </SUITE>
+  </component>
+</project>
