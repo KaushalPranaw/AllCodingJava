@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="July 24, 2025">
-      <change afterPath="$PROJECT_DIR$/src/NeetCode250/Array/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NeetCode250/Array/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NeetCode250/Array/ValidAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubArray/PrefixSum/CountSubArrayEqualToK.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Sep 06, 2025">
+      <change afterPath="$PROJECT_DIR$/src/leveUp/executerService/AllOfExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leveUp/executerService/CompletableFutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leveUp/executerService/ExecutorServiceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leveUp/executerService/InvokeAllExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/MergeSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AllOfExample.executor": "Run",
+    "Application.CompletableFutureExample.executor": "Run",
     "Application.CountSubArrayEqualToK.executor": "Run",
+    "Application.ExecutorServiceExample.executor": "Run",
+    "Application.InvokeAllExample.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.ValidAnagram.executor": "Run",
@@ -80,13 +83,52 @@
       <recent name="Leetcode.TUF.Tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestCommonPrefix">
-    <configuration name="CountSubArrayEqualToK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SubArray.PrefixSum.CountSubArrayEqualToK" />
+  <component name="RunManager" selected="Application.AllOfExample">
+    <configuration name="AllOfExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leveUp.executerService.AllOfExample" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SubArray.PrefixSum.*" />
+          <option name="PATTERN" value="leveUp.executerService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompletableFutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leveUp.executerService.CompletableFutureExample" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leveUp.executerService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorServiceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leveUp.executerService.ExecutorServiceExample" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leveUp.executerService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvokeAllExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leveUp.executerService.InvokeAllExample" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leveUp.executerService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,52 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.RemoveElement" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Array_String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NeetCode250.Array.TwoSum" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NeetCode250.Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NeetCode250.Array.ValidAnagram" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NeetCode250.Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllOfExample" />
+        <item itemvalue="Application.InvokeAllExample" />
+        <item itemvalue="Application.CompletableFutureExample" />
+        <item itemvalue="Application.ExecutorServiceExample" />
         <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.ValidAnagram" />
-        <item itemvalue="Application.CountSubArrayEqualToK" />
-        <item itemvalue="Application.RemoveElement" />
       </list>
     </recent_temporary>
   </component>
@@ -501,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753332112070</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Sep 06, 2025">
+      <option name="closed" value="true" />
+      <created>1757139766218</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1757139766218</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feb 19, 2025" />
     <MESSAGE value="Feb 22, 2025" />
     <MESSAGE value="Feb 23, 2025" />
     <MESSAGE value="Feb 24, 2025" />
@@ -541,7 +551,8 @@
     <MESSAGE value="May 30 , 2025" />
     <MESSAGE value="June 2, 2025" />
     <MESSAGE value="July 24, 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="July 24, 2025" />
+    <MESSAGE value="Sep 06, 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sep 06, 2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
