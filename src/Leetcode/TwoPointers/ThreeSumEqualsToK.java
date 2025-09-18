@@ -13,24 +13,22 @@ public class ThreeSumEqualsToK {
 
     public List<List<Integer>> threeSum(int[] nums, int k) {
         //a+b=k-c
-        Set<List<Integer>> set = new HashSet<>();
         Arrays.sort(nums);
+        Set<List<Integer>> set=new HashSet<>();
 
-        for (int i = 0; i < nums.length - 2; i++) {
-            int target = k - nums[i];
-            int l = i + 1, r = nums.length - 1;
-            while (l < r) {
-                int sum = nums[l] + nums[r];
-                if (sum == target) {
-                    set.add(List.of(nums[i], nums[l], nums[r]));
+        for(int i=0;i<nums.length-2;i++){
+            int l=i+1, r=nums.length-1;
+            int tar=k-nums[i];
+            while (l<r){
+                int sum=nums[l]+nums[r];
+                if(sum==tar){
+                    set.add(Arrays.asList(nums[i], nums[l], nums[r]));
                     l++;
                     r--;
-                } else {
-                    if (sum > target) {
-                        r--;
-                    } else {
-                        l++;
-                    }
+                }else if(sum>tar){
+                    r--;
+                }else {
+                    l++;
                 }
             }
         }

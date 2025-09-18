@@ -26,13 +26,14 @@ public class ValidSuduko {
             for (int j = 0; j < 9; j++) {
                 char c = board[i][j];
                 if (c != '.') {
-                    if (!set.add(c + " in row " + i) || !set.add(c + " in col " + j) || !set.add(c + " in box " + (i / 3) + "-" + (j / 3))) {
+                    if (!set.add(c + " in row " + i)
+                            || !set.add(c + " in col " + j)
+                            || !set.add(c + " in box " + (i / 3) + "-" + (j / 3))) {
                         return false;
                     }
                 }
             }
         }
         return true;
-
     }
 }

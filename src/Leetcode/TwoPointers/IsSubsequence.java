@@ -13,18 +13,19 @@ public class IsSubsequence {
         if (s.length() > t.length()) {
             return false;
         }
-
-        if (s.length() == 0) {
+        if (s.isEmpty()) {
             return true;
         }
+        int index = 0;
 
-        int sIndex = 0;
         for (int i = 0; i < t.length(); i++) {
-            if (s.charAt(sIndex) == t.charAt(i)) {
-                sIndex++;
-                if (sIndex == s.length()) {
-                    return true;
-                }
+            char tChar = t.charAt(i);
+            if (tChar == s.charAt(index)) {
+                index++;
+            }
+
+            if (index == s.length()) {
+                return true;
             }
         }
         return false;

@@ -15,25 +15,24 @@ public class ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {
         //a+b=-c;
         Arrays.sort(nums);
-        Set<List<Integer>> wrap = new HashSet<>();
-
-        for (int i = 0; i < nums.length - 2; i++) {
-            int l = i + 1, r = nums.length - 1;
-            int target = -nums[i];
-            while (l < r) {
-                int sum = nums[l] + nums[r];
-                if (sum == target) {
-                    wrap.add(Arrays.asList(nums[i], nums[l], nums[r]));
+        Set<List<Integer>> set=new HashSet<>();
+        for(int i=0;i<nums.length-2;i++){
+            int l=i+1, r=nums.length-1;
+            int target=-nums[i];
+            while (l<r){
+                int sum=nums[l]+nums[r];
+                if(sum==target){
+                    set.add(Arrays.asList(nums[i], nums[l], nums[r]));
                     l++;
                     r--;
-                } else if (sum > target) {
+                } else if(sum>target){
                     r--;
-                } else {
+                }else {
                     l++;
                 }
             }
         }
-        return new ArrayList<>(wrap);
+        return new ArrayList<>(set);
 
     }
 }

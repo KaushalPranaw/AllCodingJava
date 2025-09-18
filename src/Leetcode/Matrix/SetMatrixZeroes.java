@@ -2,6 +2,7 @@ package Leetcode.Matrix;
 
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.Map;
 import java.util.Queue;
 
 public class SetMatrixZeroes {
@@ -15,32 +16,30 @@ public class SetMatrixZeroes {
 
     //using bfs graph
     public void setZeroes(int[][] matrix) {
-        int m = matrix.length;
-        int n = matrix[0].length;
+        int m=matrix.length;
+        int n=matrix[0].length;
 
-        Queue<int[]> q = new LinkedList<>();
+        Queue<int[]> queue=new LinkedList<>();
 
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (matrix[i][j] == 0) {
-                    q.add(new int[]{i, j});
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(matrix[i][j]==0){
+                    queue.add(new int[]{i, j});
                 }
             }
         }
 
-        while (!q.isEmpty()) {
-            int r = q.peek()[0];
-            int c = q.peek()[1];
-            q.poll();
+        while (!queue.isEmpty()){
+            int x=queue.peek()[0];
+            int y=queue.peek()[1];
+            queue.poll();
 
-            //r th row whole colom
-            for (int i = 0; i < n; i++) {
-                matrix[r][i] = 0;
+            for(int j=0;j<n;j++){
+                matrix[x][j]=0;
             }
 
-            //c th col whole row
-            for (int i = 0; i < m; i++) {
-                matrix[i][c] = 0;
+            for(int i=0;i<m;i++){
+                matrix[i][y]=0;
             }
         }
     }

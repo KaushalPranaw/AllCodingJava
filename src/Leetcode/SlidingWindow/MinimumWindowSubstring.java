@@ -18,42 +18,44 @@ public class MinimumWindowSubstring {
             return "";
         }
 
-        //put t occurence in map
-        Map<Character, Long> map = t.chars().mapToObj(c -> (char) c)
-                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+        //t occurence
+        Map<Character, Integer> map = new HashMap<>();
+        for (int i = 0; i < t.length(); i++) {
+            map.put(t.charAt(i), map.getOrDefault(t.charAt(i), 0) + 1);
+        }
 
-        int tlen = t.length();
+        int start = 0, end = 0, ansIndex = 0, ansLen = Integer.MAX_VALUE;
+        int tLen = t.length();
 
-        int start = 0, end = 0;
-        int ansIndex = 0, ansLen = Integer.MAX_VALUE;
         while (end < s.length()) {
             char eChar = s.charAt(end);
             if (map.containsKey(eChar)) {
-                long count = map.get(eChar);
+                int count = map.get(eChar);
                 if (count > 0) {
-                    tlen--;
+                    tLen--;
                 }
                 map.put(eChar, count - 1);
             }
             end++;
 
-            while (tlen == 0) {
+            while (tLen == 0) {
                 if (ansLen > end - start) {
-                    ansLen = end - start;
                     ansIndex = start;
+                    ansLen = end - start;
                 }
-
                 char sChar = s.charAt(start);
                 if (map.containsKey(sChar)) {
-                    long count = map.get(sChar);
+                    int count = map.get(sChar);
                     if (count == 0) {
-                        tlen++;
+                        tLen++;
                     }
                     map.put(sChar, count + 1);
                 }
                 start++;
             }
+
         }
         return ansLen == Integer.MAX_VALUE ? "" : s.substring(ansIndex, ansIndex + ansLen);
+
     }
 }

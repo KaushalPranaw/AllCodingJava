@@ -15,11 +15,11 @@ public class MinimumSizeSubarraySum {
         while (r < nums.length) {
             sum += nums[r];
             while (sum >= target) {
-                min = Math.min(min, r - l + 1);
                 sum -= nums[l];
                 l++;
             }
             r++;
+            min = Math.min(min, r - l + 1);
         }
         return min == Integer.MAX_VALUE ? 0 : min;
     }
