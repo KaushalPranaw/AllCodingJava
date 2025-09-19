@@ -11,7 +11,6 @@ public class HappyNumber {
 
     public boolean isHappy(int n) {
         Set<Integer> set = new HashSet<>();
-
         while (n != 1) {
             int cur = n;
             int sum = 0;
@@ -22,8 +21,9 @@ public class HappyNumber {
             }
             if (set.contains(sum)) {
                 return false;
+            } else {
+                set.add(sum);
             }
-            set.add(sum);
             n = sum;
         }
         return true;

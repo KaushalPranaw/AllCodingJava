@@ -13,16 +13,17 @@ public class ValidAnagram {
         if (s.length() != t.length()) {
             return false;
         }
-        int[] counter = new int[26];
+
+        int[] ca = new int[26];
         for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            counter[c - 'a']++;
+            char ch = s.charAt(i);
+            ca[ch - 'a']++;
         }
 
         for (int i = 0; i < t.length(); i++) {
-            char c = t.charAt(i);
-            counter[c - 'a']--;
-            if (counter[c - 'a'] < 0) {
+            char ch = t.charAt(i);
+            ca[ch - 'a']--;
+            if (ca[ch - 'a'] < 0) {
                 return false;
             }
         }

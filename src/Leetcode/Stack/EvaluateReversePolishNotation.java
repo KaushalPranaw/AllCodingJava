@@ -9,24 +9,31 @@ public class EvaluateReversePolishNotation {
     }
 
     public int evalRPN(String[] tokens) {
-        Stack<Integer> stack = new Stack<>();
-        for (int i = 0; i < tokens.length; i++) {
-            String token = tokens[i];
-            if ("+-*/".contains(token)) {
-                int num2 = stack.pop();
-                int num1 = stack.pop();
-                stack.push(switch (token) {
-                    case "+" -> num1 + num2;
-                    case "-" -> num1 - num2;
-                    case "*" -> num1 * num2;
-                    case "/" -> num1 / num2;
-                    default -> throw new IllegalStateException("not valid");
-                });
+        Stack<String> stack = new Stack<>();
+        for (String token : tokens) {
+            if (isOperator(token)) {
+                int num2 = Integer.valueOf(stack.pop());
+                int num1 = Integer.valueOf(stack.pop());
+                int result = 0;
+                if (token.equals("+")) {
+                    result += num1 + num2;
+                } else if (token.equals("-")) {
+                    result += num1 - num2;
+                } else if (token.equals("*")) {
+                    result += num1 * num2;
+                } else if (token.equals("/")) {
+                    result += num1 / num2;
+                }
+                stack.push(String.valueOf(result));
             } else {
-                stack.push(Integer.valueOf(token));
+                stack.push(token);
             }
         }
-        return stack.pop();
+        return Integer.valueOf(stack.pop());
+    }
+
+    boolean isOperator(String token) {
+        return token.equals("+") || token.equals("-") || token.equals("*") || token.equals("/");
     }
 
 /*    public int evalRPN(String[] tokens) {

@@ -15,19 +15,23 @@ public class ReverseLinkedListII {
             return head;
         }
 
+        // Step 1: Add dummy node
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
-
         ListNode prev = dummy;
+
+        // Step 2: Move prev to the node before left
         for (int i = 1; i < left; i++) {
             prev = prev.next;
         }
 
+        // Step 3: Start reversing
         ListNode curNode = prev.next;
-        ListNode nextNode = null;
+        ListNode nextNode;
         ListNode prevNode = null;
 
-        for (int i = 0; i <= right - left; i++) {
+        // Reverse (right - left) times
+        for (int i = 0; i <= (right - left); i++) {
             nextNode = curNode.next;
             curNode.next = prevNode;
             prevNode = curNode;
@@ -36,7 +40,9 @@ public class ReverseLinkedListII {
 
         prev.next.next = curNode;
         prev.next = prevNode;
+
         return dummy.next;
+
 
     }
 }

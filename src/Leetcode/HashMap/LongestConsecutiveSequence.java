@@ -17,21 +17,23 @@ public class LongestConsecutiveSequence {
             return 0;
         }
 
-        Set<Integer> set = Arrays.stream(nums)
-                .boxed().collect(Collectors.toSet());
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            set.add(num);
+        }
 
         int longest = 1;
         for (int num : nums) {
-            int curNum = num;
-            int curStreak = 1;
 
-            if (!set.contains(curNum - 1)) {
+            if (!set.contains(num - 1)) {
+                int curNum = num;
+                int curStreak = 1;
                 while (set.contains(curNum + 1)) {
-                    curStreak++;
                     curNum++;
+                    curStreak++;
                 }
+                longest = Math.max(longest, curStreak);
             }
-            longest = Math.max(longest, curStreak);
 
         }
         return longest;

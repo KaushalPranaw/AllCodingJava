@@ -12,19 +12,18 @@ public class RansomNote {
             return false;
         }
 
-        int[] counter = new int[26];
+        int[] ca = new int[26];
 
         for (int i = 0; i < magazine.length(); i++) {
-            char c = magazine.charAt(i);
-            counter[c - 'a']++;
+            ca[magazine.charAt(i) - 'a']++;
         }
 
         for (int i = 0; i < ransomNote.length(); i++) {
-            char c = ransomNote.charAt(i);
-            if (counter[c - 'a'] == 0) {
+            char ch = ransomNote.charAt(i);
+            if (ca[ch - 'a'] == 0) {
                 return false;
             }
-            counter[c - 'a']--;
+            ca[ch - 'a']--;
         }
         return true;
     }

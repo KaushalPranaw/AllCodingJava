@@ -11,33 +11,31 @@ public class WordPattern {
 
     public boolean wordPattern(String pattern, String str) {
         String[] words = str.split(" ");
-        if (pattern.length() != words.length) {
+        if (words.length != pattern.length()) {
             return false;
         }
 
-        Map<Character, String> charWordMap = new HashMap<>();
-        Map<String, Character> wordCharMap = new HashMap<>();
-
+        Map<String, Character> wordToCharMap = new HashMap<>();
+        Map<Character, String> charToWordMap = new HashMap<>();
 
         for (int i = 0; i < pattern.length(); i++) {
-            char c = pattern.charAt(i);
+            char ch = pattern.charAt(i);
             String word = words[i];
-            if (charWordMap.containsKey(c)) {
-                if (!charWordMap.get(c).equals(word)) {
+            if (charToWordMap.containsKey(ch)) {
+                if (!charToWordMap.get(ch).equals(word)) {
                     return false;
                 }
             } else {
-                charWordMap.put(c, word);
+                charToWordMap.put(ch, word);
             }
 
-            if (wordCharMap.containsKey(word)) {
-                if (wordCharMap.get(word) != c) {
+            if (wordToCharMap.containsKey(word)) {
+                if (wordToCharMap.get(word) != ch) {
                     return false;
                 }
             } else {
-                wordCharMap.put(word, c);
+                wordToCharMap.put(word, ch);
             }
-
         }
         return true;
 

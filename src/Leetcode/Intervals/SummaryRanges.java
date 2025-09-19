@@ -30,6 +30,7 @@ public class SummaryRanges {
                 start = nums[i];
             }
         }
+
         if (start == nums[nums.length - 1]) {
             list.add(String.valueOf(start));
         } else {
