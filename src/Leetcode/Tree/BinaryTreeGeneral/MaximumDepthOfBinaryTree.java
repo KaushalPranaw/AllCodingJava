@@ -1,7 +1,5 @@
 package Leetcode.Tree.BinaryTreeGeneral;
 
-import java.util.Map;
-
 public class MaximumDepthOfBinaryTree {
     public static void main(String[] args) {
         MaximumDepthOfBinaryTree solution = new MaximumDepthOfBinaryTree();
@@ -25,7 +23,6 @@ public class MaximumDepthOfBinaryTree {
 
         int left = maxDepth(root.left);
         int right = maxDepth(root.right);
-
         return 1 + Math.max(left, right);
     }
 }

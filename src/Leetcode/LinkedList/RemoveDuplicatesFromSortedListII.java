@@ -14,12 +14,16 @@ public class RemoveDuplicatesFromSortedListII {
     }
 
     public ListNode deleteDuplicates(ListNode head) {
-        if (head == null) {
-            return head;
-        }
+        /*Use a dummy node before the head (to handle cases where head itself is a duplicate).
+        Use a pointer prev to track the last node before a duplicate sequence.
+        Traverse with head.
+        If head.val == head.next.val, skip all nodes with that value.
+        Otherwise, move prev forward.
+        Return dummy.next as the new head.*/
 
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
+
         ListNode prev = dummy;
         while (head != null) {
             if (head.next != null && head.val == head.next.val) {

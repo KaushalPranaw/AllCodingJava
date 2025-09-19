@@ -5,65 +5,60 @@ import java.util.Map;
 
 public class LRUCache {
 
-    static class Node {
+    static class Node{
         Node prev, next;
         int key, value;
 
-        Node(int k, int v) {
-            this.key = k;
-            this.value = v;
+        public Node(int key, int value) {
+            this.key = key;
+            this.value = value;
         }
     }
 
-    Node head, tail;
-
+    Node head=new Node(0, 0);
+    Node tail=new Node(0, 0);
     int capacity;
-    Map<Integer, Node> map;
+    Map<Integer, Node> map=new HashMap<>();
 
-    public LRUCache(int c) {
-        head = new Node(0, 0);
-        tail = new Node(0, 0);
+    public LRUCache(int capacity) {
+        this.capacity = capacity;
         head.next=tail;
         tail.prev=head;
-        this.capacity = c;
-        map = new HashMap<>();
     }
 
-    public int get(int key) {
-        if (map.containsKey(key)) {
-            Node node = map.get(key);
+    public int get(int key){
+        if(map.containsKey(key)){
+            Node node=map.get(key);
             remove(node);
             insert(node);
             return node.value;
-        } else {
+        }else {
             return -1;
         }
     }
-
-    public void put(int key, int value) {
-        if (map.containsKey(key)) {
+    public void put(int key, int value){
+        if(map.containsKey(key)){
             remove(map.get(key));
         }
-
-        if (map.size() == this.capacity) {
+        if(map.size()==this.capacity){
             remove(tail.prev);
         }
         insert(new Node(key, value));
     }
 
-    public void insert(Node node) {
-        map.put(node.key, node);
-        Node headNext = head.next;
-        head.next = node;
-        node.prev = head;
-        node.next = headNext;
-        headNext.prev = node;
+    void remove(Node node){
+        map.remove(node.key);
+        node.prev.next=node.next;
+        node.next.prev=node.prev;
     }
 
-    public void remove(Node node) {
-        map.remove(node.key);
-        node.prev.next = node.next;
-        node.next.prev = node.prev;
+    void insert(Node node){
+        map.put(node.key, node);
+        Node headNext=head.next;
+        head.next=node;
+        node.prev=head;
+        node.next=headNext;
+        headNext.prev=node;
     }
 
     public static void main(String[] args) {

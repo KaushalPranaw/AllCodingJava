@@ -4,28 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Sep 17, 2025">
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Sep 18, 2025">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/RemoveDuplicatesFromSortedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/ContainsDuplicateII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/ContainsDuplicateII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/HappyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/IsomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/IsomorphicStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/LongestConsecutiveSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/RansomNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/ValidAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/HashMap/WordPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/HashMap/WordPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Intervals/InsertInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Intervals/InsertInterval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Intervals/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Intervals/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Intervals/MinimumNumberOfArrowsToBurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Intervals/MinimumNumberOfArrowsToBurstBalloons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Intervals/SummaryRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Intervals/SummaryRanges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/LinkedListCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/MergeTwoSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/ReverseLinkedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/ReverseLinkedListII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/ReverseNodesInKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/ReverseNodesInKGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Stack/EvaluateReversePolishNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Stack/EvaluateReversePolishNotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Stack/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Stack/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/PartitionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/PartitionList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/RemoveDuplicatesFromSortedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/RemoveDuplicatesFromSortedListII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/RotateList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/RotateList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/BinaryTreeMaximumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/BinaryTreeMaximumPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/ConstructBinaryTreeFromInorderAndPostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/ConstructBinaryTreeFromInorderAndPostOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/ConstructBinaryTreeFromPreorderAndInorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/ConstructBinaryTreeFromPreorderAndInorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/CountCompleteTreeNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/CountCompleteTreeNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/InvertBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/MaximumDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/PathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SameTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SumRootToLeafNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SumRootToLeafNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SymmetricTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,34 +62,50 @@
   "keyToString": {
     "Application.AddTwoNumbers.executor": "Run",
     "Application.AllOfExample.executor": "Run",
+    "Application.BinaryTreeMaximumPathSum.executor": "Run",
     "Application.CompletableFutureExample.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.ContainsDuplicateII.executor": "Run",
+    "Application.CountCompleteTreeNodes.executor": "Run",
     "Application.CountSubArrayEqualToK.executor": "Run",
     "Application.EvaluateReversePolishNotation.executor": "Run",
     "Application.ExecutorServiceExample.executor": "Run",
+    "Application.FlattenBinaryTreeToLinkedList.executor": "Run",
     "Application.GroupAnagrams.executor": "Run",
     "Application.HappyNumber.executor": "Run",
     "Application.InsertInterval.executor": "Run",
+    "Application.InvertBinaryTree.executor": "Run",
     "Application.InvokeAllExample.executor": "Run",
     "Application.IsSubsequence.executor": "Run",
     "Application.IsomorphicStrings.executor": "Run",
+    "Application.LRUCache.executor": "Run",
     "Application.LinkedListCycle.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Run",
     "Application.LongestConsecutiveSequence.executor": "Run",
     "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Run",
+    "Application.LowestCommonAncestorOfBinaryTree.executor": "Run",
+    "Application.MaximumDepthOfBinaryTree.executor": "Run",
     "Application.MergeIntervals.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
     "Application.MinimumNumberOfArrowsToBurstBalloons.executor": "Run",
     "Application.MinimumSizeSubarraySum.executor": "Run",
     "Application.MinimumWindowSubstring.executor": "Run",
+    "Application.PartitionList.executor": "Run",
+    "Application.PathSum.executor": "Run",
     "Application.RansomNote.executor": "Run",
+    "Application.RemoveDuplicatesFromSortedList.executor": "Run",
+    "Application.RemoveDuplicatesFromSortedListII.executor": "Run",
+    "Application.RemoveNthNodeFromEndOfList.executor": "Run",
     "Application.ReverseLinkedListII.executor": "Run",
     "Application.ReverseNodesInKGroup.executor": "Run",
     "Application.RotateImage.executor": "Run",
+    "Application.RotateList.executor": "Run",
+    "Application.SameTree.executor": "Run",
     "Application.SetMatrixZeroes.executor": "Run",
     "Application.SpiralMatrix.executor": "Run",
+    "Application.SumRootToLeafNumbers.executor": "Run",
     "Application.SummaryRanges.executor": "Run",
+    "Application.SymmetricTree.executor": "Run",
     "Application.ThreeSum.executor": "Run",
     "Application.ThreeSumEqualsToK.executor": "Run",
     "Application.TwoSum.executor": "Run",
@@ -130,13 +141,13 @@
       <recent name="Leetcode.TUF.Tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveNthNodeFromEndOfList">
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.LinkedList.AddTwoNumbers" />
+  <component name="RunManager" selected="Application.LowestCommonAncestorOfBinaryTree">
+    <configuration name="BinaryTreeMaximumPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinaryTreeGeneral.BinaryTreeMaximumPathSum" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.LinkedList.*" />
+          <option name="PATTERN" value="Leetcode.Tree.BinaryTreeGeneral.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.LinkedList.MergeTwoSortedLists" />
+    <configuration name="CountCompleteTreeNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinaryTreeGeneral.CountCompleteTreeNodes" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.LinkedList.*" />
+          <option name="PATTERN" value="Leetcode.Tree.BinaryTreeGeneral.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNthNodeFromEndOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.LinkedList.RemoveNthNodeFromEndOfList" />
+    <configuration name="LowestCommonAncestorOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinaryTreeGeneral.LowestCommonAncestorOfBinaryTree" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.LinkedList.*" />
+          <option name="PATTERN" value="Leetcode.Tree.BinaryTreeGeneral.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedListII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.LinkedList.ReverseLinkedListII" />
+    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinaryTreeGeneral.PathSum" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.LinkedList.*" />
+          <option name="PATTERN" value="Leetcode.Tree.BinaryTreeGeneral.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseNodesInKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.LinkedList.ReverseNodesInKGroup" />
+    <configuration name="SumRootToLeafNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinaryTreeGeneral.SumRootToLeafNumbers" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.LinkedList.*" />
+          <option name="PATTERN" value="Leetcode.Tree.BinaryTreeGeneral.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
-        <item itemvalue="Application.ReverseNodesInKGroup" />
-        <item itemvalue="Application.ReverseLinkedListII" />
-        <item itemvalue="Application.MergeTwoSortedLists" />
-        <item itemvalue="Application.AddTwoNumbers" />
+        <item itemvalue="Application.LowestCommonAncestorOfBinaryTree" />
+        <item itemvalue="Application.BinaryTreeMaximumPathSum" />
+        <item itemvalue="Application.CountCompleteTreeNodes" />
+        <item itemvalue="Application.SumRootToLeafNumbers" />
+        <item itemvalue="Application.PathSum" />
       </list>
     </recent_temporary>
   </component>
@@ -575,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758158740436</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Sep 18, 2025">
+      <option name="closed" value="true" />
+      <created>1758248765748</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1758248765748</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feb 23, 2025" />
     <MESSAGE value="Feb 24, 2025" />
     <MESSAGE value="Feb 25, 2025" />
     <MESSAGE value="Feb 26, 2025" />
@@ -615,7 +633,8 @@
     <MESSAGE value="July 24, 2025" />
     <MESSAGE value="Sep 06, 2025" />
     <MESSAGE value="Sep 17, 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sep 17, 2025" />
+    <MESSAGE value="Sep 18, 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sep 18, 2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

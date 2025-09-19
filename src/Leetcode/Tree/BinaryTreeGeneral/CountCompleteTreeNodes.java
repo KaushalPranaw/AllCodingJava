@@ -11,14 +11,15 @@ public class CountCompleteTreeNodes {
 
     }
 
-    int count;
+    static int count = 0;
+
     public int countNodes(TreeNode root) {
         inorder(root);
         return count;
     }
 
     private void inorder(TreeNode root) {
-        if(root==null){
+        if (root == null) {
             return;
         }
         inorder(root.left);

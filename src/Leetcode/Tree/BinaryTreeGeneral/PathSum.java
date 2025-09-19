@@ -53,9 +53,8 @@ public class PathSum {
         if (root.left == null && root.right == null && root.val == targetSum) {
             return true;
         }
-
-        return hasPathSumHelper(root.left, targetSum - root.val) ||
-                hasPathSumHelper(root.right, targetSum - root.val);
+        return hasPathSumHelper(root.left, targetSum - root.val)
+                || hasPathSumHelper(root.right, targetSum - root.val);
     }
 
 }

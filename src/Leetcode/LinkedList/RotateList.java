@@ -18,32 +18,30 @@ public class RotateList {
         //k=2
         //4,5,1,2,3
         //Edge case
+
         if (head == null || head.next == null || k == 0) {
             return head;
         }
 
-        //calc len
         int len = 1;
-        ListNode tail = head;
-        while (tail.next != null) {
-            tail = tail.next;
+        ListNode cur = head;
+        while (cur.next != null) {
+            cur = cur.next;
             len++;
         }
+        cur.next=head;
 
         k = k % len;
 
-        //form circle
-        tail.next = head;
+        int stepsToNewHead = len - k;
 
-        //find new tail
-        int stepToNewHead = len - k;
         ListNode newTail = head;
-        for (int i = 0; i < stepToNewHead - 1; i++) {
+        for (int i = 1; i < stepsToNewHead; i++) {
             newTail = newTail.next;
         }
-
         ListNode newHead = newTail.next;
         newTail.next = null;
+
         return newHead;
 
     }

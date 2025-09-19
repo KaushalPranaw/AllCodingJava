@@ -28,12 +28,11 @@ public class BinaryTreeMaximumPathSum {
             return 0;
         }
 
-        int leftSum = Math.max(0, dfs(node.left));
-        int rightSum = Math.max(0, dfs(node.right));
+        int left = Math.max(0, dfs(node.left));
+        int right = Math.max(0, dfs(node.right));
+        max = Math.max(max, left + node.val + right);
 
-        max = Math.max(max, node.val + leftSum + rightSum);
-
-        return node.val + Math.max(leftSum, rightSum);
+        return node.val + Math.max(left, right);
 
     }
 
