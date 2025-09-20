@@ -17,12 +17,17 @@ public class SortList {
             return head;
         }
 
+        // Step 1: Split the list into two halves
         ListNode mid = getMid(head);
         ListNode left = head;
         ListNode right = mid.next;
         mid.next = null;
+
+        // Step 2: Recursively sort both halves
         left = sortList(left);
         right = sortList(right);
+
+        // Step 3: Merge the two sorted halves
         return mergeList(left, right);
     }
 
@@ -30,7 +35,7 @@ public class SortList {
         ListNode dummy = new ListNode(-1);
         ListNode cur = dummy;
         while (l1 != null && l2 != null) {
-            if (l1.val < l2.val) {
+            if (l1.val <= l2.val) {
                 cur.next = l1;
                 l1 = l1.next;
             } else {
@@ -39,13 +44,16 @@ public class SortList {
             }
             cur = cur.next;
         }
+
         if (l1 != null) {
             cur.next = l1;
         }
         if (l2 != null) {
             cur.next = l2;
         }
+
         return dummy.next;
+
     }
 
     private ListNode getMid(ListNode head) {

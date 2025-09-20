@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Sep 18, 2025">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/RemoveDuplicatesFromSortedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/PartitionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/PartitionList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/RemoveDuplicatesFromSortedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/RemoveDuplicatesFromSortedListII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/LinkedList/RotateList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LinkedList/RotateList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/BinaryTreeMaximumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/BinaryTreeMaximumPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/ConstructBinaryTreeFromInorderAndPostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/ConstructBinaryTreeFromInorderAndPostOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/ConstructBinaryTreeFromPreorderAndInorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/ConstructBinaryTreeFromPreorderAndInorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/CountCompleteTreeNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/CountCompleteTreeNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/InvertBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/MaximumDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/MaximumDepthOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/PathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SameTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SumRootToLeafNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SumRootToLeafNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeGeneral/SymmetricTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DivideAndConquer/ConvertSortedArrayToBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DivideAndConquer/ConvertSortedArrayToBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DivideAndConquer/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DivideAndConquer/SortList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinarySearchTree/KthSmallestElementInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinarySearchTree/KthSmallestElementInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinarySearchTree/MinimumAbsoluteDifferenceInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinarySearchTree/MinimumAbsoluteDifferenceInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinarySearchTree/ValidateBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinarySearchTree/ValidateBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/AverageOfLevelsInBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/AverageOfLevelsInBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/BinaryTreeRightSideView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/BinaryTreeRightSideView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/BinaryTreeZigzagLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Tree/BinaryTreeBFS/BinaryTreeZigzagLevelOrderTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,11 @@
   "keyToString": {
     "Application.AddTwoNumbers.executor": "Run",
     "Application.AllOfExample.executor": "Run",
+    "Application.AverageOfLevelsInBinaryTree.executor": "Run",
+    "Application.BinaryTreeLevelOrderTraversal.executor": "Run",
     "Application.BinaryTreeMaximumPathSum.executor": "Run",
+    "Application.BinaryTreeRightSideView.executor": "Run",
+    "Application.BinaryTreeZigzagLevelOrderTraversal.executor": "Run",
     "Application.CompletableFutureExample.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.ContainsDuplicateII.executor": "Run",
@@ -78,6 +76,7 @@
     "Application.InvokeAllExample.executor": "Run",
     "Application.IsSubsequence.executor": "Run",
     "Application.IsomorphicStrings.executor": "Run",
+    "Application.KthSmallestElementInBST.executor": "Run",
     "Application.LRUCache.executor": "Run",
     "Application.LinkedListCycle.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Run",
@@ -87,6 +86,7 @@
     "Application.MaximumDepthOfBinaryTree.executor": "Run",
     "Application.MergeIntervals.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
+    "Application.MinimumAbsoluteDifferenceInBST.executor": "Run",
     "Application.MinimumNumberOfArrowsToBurstBalloons.executor": "Run",
     "Application.MinimumSizeSubarraySum.executor": "Run",
     "Application.MinimumWindowSubstring.executor": "Run",
@@ -102,6 +102,7 @@
     "Application.RotateList.executor": "Run",
     "Application.SameTree.executor": "Run",
     "Application.SetMatrixZeroes.executor": "Run",
+    "Application.SortList.executor": "Run",
     "Application.SpiralMatrix.executor": "Run",
     "Application.SumRootToLeafNumbers.executor": "Run",
     "Application.SummaryRanges.executor": "Run",
@@ -114,6 +115,7 @@
     "Application.ValidPalindrome.executor": "Run",
     "Application.ValidParentheses.executor": "Run",
     "Application.ValidSuduko.executor": "Run",
+    "Application.ValidateBinarySearchTree.executor": "Run",
     "Application.WordPattern.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -141,13 +143,13 @@
       <recent name="Leetcode.TUF.Tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LowestCommonAncestorOfBinaryTree">
-    <configuration name="BinaryTreeMaximumPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinaryTreeGeneral.BinaryTreeMaximumPathSum" />
+  <component name="RunManager" selected="Application.SortList">
+    <configuration name="BinaryTreeZigzagLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinaryTreeBFS.BinaryTreeZigzagLevelOrderTraversal" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Tree.BinaryTreeGeneral.*" />
+          <option name="PATTERN" value="Leetcode.Tree.BinaryTreeBFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountCompleteTreeNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinaryTreeGeneral.CountCompleteTreeNodes" />
+    <configuration name="KthSmallestElementInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinarySearchTree.KthSmallestElementInBST" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Tree.BinaryTreeGeneral.*" />
+          <option name="PATTERN" value="Leetcode.Tree.BinarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestCommonAncestorOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinaryTreeGeneral.LowestCommonAncestorOfBinaryTree" />
+    <configuration name="MinimumAbsoluteDifferenceInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinarySearchTree.MinimumAbsoluteDifferenceInBST" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Tree.BinaryTreeGeneral.*" />
+          <option name="PATTERN" value="Leetcode.Tree.BinarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinaryTreeGeneral.PathSum" />
+    <configuration name="SortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DivideAndConquer.SortList" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Tree.BinaryTreeGeneral.*" />
+          <option name="PATTERN" value="Leetcode.DivideAndConquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,12 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumRootToLeafNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinaryTreeGeneral.SumRootToLeafNumbers" />
+    <configuration name="ValidateBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinarySearchTree.ValidateBinarySearchTree" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Tree.BinaryTreeGeneral.*" />
+          <option name="PATTERN" value="Leetcode.Tree.BinarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LowestCommonAncestorOfBinaryTree" />
-        <item itemvalue="Application.BinaryTreeMaximumPathSum" />
-        <item itemvalue="Application.CountCompleteTreeNodes" />
-        <item itemvalue="Application.SumRootToLeafNumbers" />
-        <item itemvalue="Application.PathSum" />
+        <item itemvalue="Application.SortList" />
+        <item itemvalue="Application.ValidateBinarySearchTree" />
+        <item itemvalue="Application.KthSmallestElementInBST" />
+        <item itemvalue="Application.MinimumAbsoluteDifferenceInBST" />
+        <item itemvalue="Application.BinaryTreeZigzagLevelOrderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -594,7 +596,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758248765748</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Sep 18, 2025">
+      <option name="closed" value="true" />
+      <created>1758279264897</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1758279264897</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

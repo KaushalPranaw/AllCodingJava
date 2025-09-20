@@ -29,26 +29,28 @@ public class BinaryTreeZigzagLevelOrderTraversal {
 
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
-        boolean zigzag=false;
-        while (!queue.isEmpty()){
-            int level=queue.size();
-            List<Integer> list=new ArrayList<>();
-            for(int i=0;i<level;i++){
-                TreeNode node= queue.poll();
-                if(zigzag){
-                    list.add(0, node.val);
-                }else {
-                    list.add(node.val);
+
+        boolean zigzag = false;
+        while (!queue.isEmpty()) {
+            int level = queue.size();
+            List<Integer> list = new ArrayList<>();
+            for (int i = 0; i < level; i++) {
+                TreeNode cur = queue.poll();
+                if (zigzag) {
+                    list.add(0, cur.val);
+                } else {
+                    list.add(cur.val);
                 }
-                if(node.left!=null){
-                    queue.add(node.left);
+
+                if (cur.left != null) {
+                    queue.add(cur.left);
                 }
-                if(node.right!=null){
-                    queue.add(node.right);
+                if (cur.right != null) {
+                    queue.add(cur.right);
                 }
             }
-            zigzag=!zigzag;
             ans.add(list);
+            zigzag = !zigzag;
         }
         return ans;
     }

@@ -16,7 +16,7 @@ public class KthSmallestElementInBST {
     int count = 0, result = 0;
 
     public int kthSmallest(TreeNode root, int k) {
-        if(root==null){
+        if (root == null) {
             return result;
         }
         inorder(root, k);
@@ -24,18 +24,15 @@ public class KthSmallestElementInBST {
     }
 
     private void inorder(TreeNode root, int k) {
-        if(root==null){
+        if (root == null) {
             return;
         }
 
         inorder(root.left, k);
-
         count++;
-        if(count==k){
-            result=root.val;
-            return;
+        if (count == k) {
+            result = root.val;
         }
-
         inorder(root.right, k);
     }
 }

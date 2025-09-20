@@ -1,5 +1,7 @@
 package Leetcode.Tree.BinarySearchTree;
 
+import com.sun.source.tree.Tree;
+
 import java.util.Map;
 
 public class MinimumAbsoluteDifferenceInBST {
@@ -21,6 +23,7 @@ public class MinimumAbsoluteDifferenceInBST {
 
 
     public int getMinimumDifference(TreeNode root) {
+
         inorderTrav(root);
         return min == Integer.MAX_VALUE ? -1 : min;
     }
@@ -31,9 +34,8 @@ public class MinimumAbsoluteDifferenceInBST {
         }
 
         inorderTrav(root.left);
-
         if (prev != null) {
-            min = Math.min(min, Math.abs(root.val - prev.val));
+            min = Math.min(min, Math.abs(prev.val - root.val));
         }
         prev = root;
 
