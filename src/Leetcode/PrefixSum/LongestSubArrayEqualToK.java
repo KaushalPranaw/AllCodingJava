@@ -12,22 +12,27 @@ public class LongestSubArrayEqualToK {
 
     private static int longestSubArrayEqualsToK(int[] nums, int k) {
         Map<Integer, Integer> prefixSumMap = new HashMap<>();
-        int prefixSum = 0, maxLen = 0;
+
+        int prefixSum = 0;
+        int maxLen = 0;
 
         for (int i = 0; i < nums.length; i++) {
             prefixSum += nums[i];
 
             if (prefixSum == k) {
-                maxLen = i + 1;
+                maxLen = Math.max(maxLen, i + 1);//means first time we are getting
             }
 
-            if (prefixSumMap.containsKey(prefixSum - k)) {
-                maxLen = Math.max(maxLen, i - prefixSumMap.get(prefixSum - k));
+            //now do reverse enginerring
+            int rem = prefixSum - k;
+            if (prefixSumMap.containsKey(rem)) {
+                int len = i - prefixSumMap.get(rem);
+                maxLen = Math.max(maxLen, len);
             }
-
-            prefixSumMap.putIfAbsent(prefixSum, i);
+            //for handling negative num we need to check if not exist then we have to add
+            if(!prefixSumMap.containsKey(prefixSum))
+                prefixSumMap.put(prefixSum, i);
         }
-
         return maxLen;
 
     }
