@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Sep 22, 2025">
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Sep 23, 2025">
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Backtracking/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Backtracking/Subsets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/PrefixSum/LongestSubArrayEqualToK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/PrefixSum/LongestSubArrayEqualToK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP01_Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP01_Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP02_ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP02_ClimbingStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Graph/G01_BFS_FDS/G01_BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Graph/G01_BFS_FDS/G01_BFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +57,19 @@
     "Application.BinaryTreeMaximumPathSum.executor": "Run",
     "Application.BinaryTreeRightSideView.executor": "Run",
     "Application.BinaryTreeZigzagLevelOrderTraversal.executor": "Run",
+    "Application.CombinationSum.executor": "Run",
     "Application.CompletableFutureExample.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.ContainsDuplicateII.executor": "Run",
     "Application.CountCompleteTreeNodes.executor": "Run",
     "Application.CountOfSubArrayEqualsToK.executor": "Run",
     "Application.CountSubArrayEqualToK.executor": "Run",
+    "Application.DP01_Fibonacci.executor": "Run",
+    "Application.DP02_ClimbingStairs.executor": "Run",
     "Application.EvaluateReversePolishNotation.executor": "Run",
     "Application.ExecutorServiceExample.executor": "Run",
     "Application.FlattenBinaryTreeToLinkedList.executor": "Run",
+    "Application.G01_BFS.executor": "Run",
     "Application.GroupAnagrams.executor": "Run",
     "Application.HappyNumber.executor": "Run",
     "Application.InsertInterval.executor": "Run",
@@ -99,6 +107,7 @@
     "Application.SortList.executor": "Run",
     "Application.SpiralMatrix.executor": "Run",
     "Application.SubarraySumDivisibleByK.executor": "Run",
+    "Application.Subsets.executor": "Run",
     "Application.SumRootToLeafNumbers.executor": "Run",
     "Application.SummaryRanges.executor": "Run",
     "Application.SymmetricTree.executor": "Run",
@@ -138,13 +147,13 @@
       <recent name="Leetcode.TUF.Tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestSubArrayEqualToK">
-    <configuration name="CountOfSubArrayEqualsToK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.PrefixSum.CountOfSubArrayEqualsToK" />
+  <component name="RunManager" selected="Application.CombinationSum">
+    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Neetcode.Backtracking.CombinationSum" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.PrefixSum.*" />
+          <option name="PATTERN" value="Neetcode.Backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubArrayEqualToK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.PrefixSum.LongestSubArrayEqualToK" />
+    <configuration name="DP01_Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP01_Fibonacci" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.PrefixSum.*" />
+          <option name="PATTERN" value="Leetcode.DP.DP00_1D_2D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.DivideAndConquer.SortList" />
+    <configuration name="DP02_ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP02_ClimbingStairs" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.DivideAndConquer.*" />
+          <option name="PATTERN" value="Leetcode.DP.DP00_1D_2D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarraySumDivisibleByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.PrefixSum.SubarraySumDivisibleByK" />
+    <configuration name="G01_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Graph.G01_BFS_FDS.G01_BFS" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.PrefixSum.*" />
+          <option name="PATTERN" value="Leetcode.Graph.G01_BFS_FDS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Tree.BinarySearchTree.ValidateBinarySearchTree" />
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Neetcode.Backtracking.Subsets" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Tree.BinarySearchTree.*" />
+          <option name="PATTERN" value="Neetcode.Backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestSubArrayEqualToK" />
-        <item itemvalue="Application.SubarraySumDivisibleByK" />
-        <item itemvalue="Application.CountOfSubArrayEqualsToK" />
-        <item itemvalue="Application.SortList" />
-        <item itemvalue="Application.ValidateBinarySearchTree" />
+        <item itemvalue="Application.CombinationSum" />
+        <item itemvalue="Application.Subsets" />
+        <item itemvalue="Application.G01_BFS" />
+        <item itemvalue="Application.DP02_ClimbingStairs" />
+        <item itemvalue="Application.DP01_Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -222,14 +231,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736169889863</updated>
-    </task>
-    <task id="LOCAL-00001" summary="jan 21 2025">
-      <option name="closed" value="true" />
-      <created>1737474445668</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1737474445668</updated>
     </task>
     <task id="LOCAL-00002" summary="jan 22 2025">
       <option name="closed" value="true" />
@@ -615,7 +616,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758536351622</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Sep 23, 2025">
+      <option name="closed" value="true" />
+      <created>1758646475869</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1758646475870</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -630,7 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feb 26, 2025" />
     <MESSAGE value="Feb 27, 2025" />
     <MESSAGE value="March 1 , 2025" />
     <MESSAGE value="March 2 , 2025" />
@@ -655,7 +663,8 @@
     <MESSAGE value="Sep 18, 2025" />
     <MESSAGE value="Sep 19, 2025" />
     <MESSAGE value="Sep 22, 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sep 22, 2025" />
+    <MESSAGE value="Sep 23, 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sep 23, 2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

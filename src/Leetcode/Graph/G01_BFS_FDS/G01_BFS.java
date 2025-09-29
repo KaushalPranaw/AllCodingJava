@@ -1,3 +1,4 @@
+/*
 package Leetcode.Graph.G01_BFS_FDS;
 
 import java.util.ArrayList;
@@ -41,52 +42,45 @@ public class G01_BFS {
     }
 
     //if having one component
-    /*private List<Integer> bfsOfGraph(int V, List<List<Integer>> adj) {
-        boolean[] vis = new boolean[V];
+    */
+/*private List<Integer> bfsOfGraph(int V, List<List<Integer>> adj) {
         List<Integer> bfs = new ArrayList<>();
-
+        boolean[] vis = new boolean[V];
         Queue<Integer> queue = new LinkedList<>();
+
         queue.add(0);
         vis[0] = true;
+
         while (!queue.isEmpty()) {
             int node = queue.poll();
             bfs.add(node);
 
-            for (int neighbour : adj.get(node)) {
-                if (!vis[neighbour]) {
-                    queue.add(neighbour);
-                    vis[neighbour] = true;
+            for (int it : adj.get(node)) {
+                if (vis[it] == false) {
+                    vis[it] = true;
+                    queue.add(it);
                 }
             }
         }
-
         return bfs;
-    }*/
+    }*//*
+
 
     //if having multiple component
     private List<Integer> bfsOfGraph(int V, List<List<Integer>> adj) {
-        boolean[] vis = new boolean[V];
-        List<Integer> bfs = new ArrayList<>();
+        boolean[] vis=new boolean[V];
+        List<Integer> bfs=new ArrayList<>();
+        for(int i=0;i<V;i++){
+            Queue<Integer> queue=new LinkedList<>();
+            queue.add(i);
+            vis[i]=true;
 
-        for (int i = 0; i < V; i++) {
-            if (!vis[i]) {
-                Queue<Integer> queue = new LinkedList<>();
-                queue.add(i);
-                vis[i] = true;
-                while (!queue.isEmpty()) {
-                    int node = queue.poll();
-                    bfs.add(node);
+            while (!queue.isEmpty()){
+                int node=queue.poll();
 
-                    for (int neighbour : adj.get(node)) {
-                        if (!vis[neighbour]) {
-                            queue.add(neighbour);
-                            vis[neighbour] = true;
-                        }
-                    }
-                }
             }
         }
-        return bfs;
 
     }
 }
+*/

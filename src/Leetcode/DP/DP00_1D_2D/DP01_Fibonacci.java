@@ -6,8 +6,8 @@ public class DP01_Fibonacci {
     public static void main(String[] args) {
 
         int n = 6;
-        /*int dp[] = new int[n + 1];
-        Arrays.fill(dp, -1);*/
+        int dp[] = new int[n + 1];
+        Arrays.fill(dp, -1);
         System.out.println(f(n));
     }
 
@@ -30,33 +30,53 @@ public class DP01_Fibonacci {
         if (n == 0 || n == 1) {
             return n;
         }
-        if (dp[n] != -1) {
+
+        if(dp[n]!=-1){
+            //means already ans calculated
             return dp[n];
         }
 
-        return dp[n] = f(n - 1, dp) + f(n - 2, dp);
+        //means ans not calculated
+        return dp[n]=f(n - 1, dp) + f(n - 2, dp);
     }*/
 
     //bottom up (tab)
     /*private static int f(int n) {
+        //ulta
+        //phle base cond of dp initialize krege
         int[] dp = new int[n + 1];
         dp[0] = 0;
         dp[1] = 1;
+
+        //now for other values
         for (int i = 2; i <= n; i++) {
-            dp[i] = dp[i - 1] + dp[i - 2];
+            //copy paste
+            //return dp[n]=f(n - 1, dp) + f(n - 2, dp);
+            dp[i] = dp[n - 1] + dp[n - 2];
         }
+        //return last value
         return dp[n];
     }*/
 
     //space optimize
     private static int f(int n) {
+        //copy paste bottom up
+        // check for for loop think
+        //we got to know we need just 2 prev value
+        //so instead of dp array we can take 2 variables
+        /*int[] dp=new int[n+1];
+        dp[0]=0;
+        dp[1]=1;*/
         int prev2 = 0;
-        int prev = 1;
+        int prev1 = 1;
+
+        //now for other values
         for (int i = 2; i <= n; i++) {
-            int cur = prev + prev2;
-            prev2 = prev;
-            prev = cur;
+            int cur = prev1 + prev2;
+            prev2 = prev1;
+            prev1 = cur;
         }
-        return prev;
+        //return last value
+        return prev1;
     }
 }
