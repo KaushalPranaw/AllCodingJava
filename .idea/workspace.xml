@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Sep 23, 2025">
-      <change afterPath="$PROJECT_DIR$/src/Neetcode/Backtracking/CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Neetcode/Backtracking/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day1/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day1/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day1/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day2/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day2/MaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day2/MoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day3/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day3/ThreeSumEqualToK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day3/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day3/TwoSumInputArrayIsSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day4/MaximumSizeSubarraySumEqualsk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day4/MinimumSizeSubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day4/SubarraySumEqualsK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP01_Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP01_Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP02_ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP02_ClimbingStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Graph/G01_BFS_FDS/G01_BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Graph/G01_BFS_FDS/G01_BFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +61,7 @@
     "Application.AddTwoNumbers.executor": "Run",
     "Application.AllOfExample.executor": "Run",
     "Application.AverageOfLevelsInBinaryTree.executor": "Run",
+    "Application.BestTimeToBuyAndSellStock.executor": "Run",
     "Application.BinaryTreeLevelOrderTraversal.executor": "Run",
     "Application.BinaryTreeMaximumPathSum.executor": "Run",
     "Application.BinaryTreeRightSideView.executor": "Run",
@@ -66,8 +75,10 @@
     "Application.CountSubArrayEqualToK.executor": "Run",
     "Application.DP01_Fibonacci.executor": "Run",
     "Application.DP02_ClimbingStairs.executor": "Run",
+    "Application.DSA_RoadMap.Day1.Subsets.executor": "Run",
     "Application.EvaluateReversePolishNotation.executor": "Run",
     "Application.ExecutorServiceExample.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
     "Application.FlattenBinaryTreeToLinkedList.executor": "Run",
     "Application.G01_BFS.executor": "Run",
     "Application.GroupAnagrams.executor": "Run",
@@ -86,14 +97,18 @@
     "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Run",
     "Application.LowestCommonAncestorOfBinaryTree.executor": "Run",
     "Application.MaximumDepthOfBinaryTree.executor": "Run",
+    "Application.MaximumSizeSubarraySumEqualsk.executor": "Run",
+    "Application.MaximumSubarray.executor": "Run",
     "Application.MergeIntervals.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
     "Application.MinimumAbsoluteDifferenceInBST.executor": "Run",
     "Application.MinimumNumberOfArrowsToBurstBalloons.executor": "Run",
     "Application.MinimumSizeSubarraySum.executor": "Run",
     "Application.MinimumWindowSubstring.executor": "Run",
+    "Application.MoveZeroes.executor": "Run",
     "Application.PartitionList.executor": "Run",
     "Application.PathSum.executor": "Run",
+    "Application.Power.executor": "Run",
     "Application.RansomNote.executor": "Run",
     "Application.RemoveDuplicatesFromSortedList.executor": "Run",
     "Application.RemoveDuplicatesFromSortedListII.executor": "Run",
@@ -107,14 +122,17 @@
     "Application.SortList.executor": "Run",
     "Application.SpiralMatrix.executor": "Run",
     "Application.SubarraySumDivisibleByK.executor": "Run",
+    "Application.SubarraySumEqualsK.executor": "Run",
     "Application.Subsets.executor": "Run",
     "Application.SumRootToLeafNumbers.executor": "Run",
     "Application.SummaryRanges.executor": "Run",
     "Application.SymmetricTree.executor": "Run",
     "Application.ThreeSum.executor": "Run",
+    "Application.ThreeSumEqualToK.executor": "Run",
     "Application.ThreeSumEqualsToK.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.TwoSumII.executor": "Run",
+    "Application.TwoSumInputArrayIsSorted.executor": "Run",
     "Application.ValidAnagram.executor": "Run",
     "Application.ValidPalindrome.executor": "Run",
     "Application.ValidParentheses.executor": "Run",
@@ -140,20 +158,20 @@
       <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\DesignPatterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DSA_RoadMap.Day3" />
       <recent name="Comp.CodeWithComplexity75.DP" />
       <recent name="Leetcode.TwoPointers" />
       <recent name="Leetcode.Graph.G04_ShortestPath" />
       <recent name="Leetcode.Graph.G03_Topo" />
-      <recent name="Leetcode.TUF.Tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CombinationSum">
-    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Neetcode.Backtracking.CombinationSum" />
+  <component name="RunManager" selected="Application.MaximumSizeSubarraySumEqualsk">
+    <configuration name="MaximumSizeSubarraySumEqualsk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day4.MaximumSizeSubarraySumEqualsk" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Neetcode.Backtracking.*" />
+          <option name="PATTERN" value="DSA_RoadMap.Day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DP01_Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP01_Fibonacci" />
+    <configuration name="SubarraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day4.SubarraySumEqualsK" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.DP.DP00_1D_2D.*" />
+          <option name="PATTERN" value="DSA_RoadMap.Day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DP02_ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP02_ClimbingStairs" />
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day3.ThreeSum" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.DP.DP00_1D_2D.*" />
+          <option name="PATTERN" value="DSA_RoadMap.Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="G01_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Graph.G01_BFS_FDS.G01_BFS" />
+    <configuration name="ThreeSumEqualToK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day3.ThreeSumEqualToK" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Graph.G01_BFS_FDS.*" />
+          <option name="PATTERN" value="DSA_RoadMap.Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Neetcode.Backtracking.Subsets" />
+    <configuration name="TwoSumInputArrayIsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day3.TwoSumInputArrayIsSorted" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Neetcode.Backtracking.*" />
+          <option name="PATTERN" value="DSA_RoadMap.Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CombinationSum" />
-        <item itemvalue="Application.Subsets" />
-        <item itemvalue="Application.G01_BFS" />
-        <item itemvalue="Application.DP02_ClimbingStairs" />
-        <item itemvalue="Application.DP01_Fibonacci" />
+        <item itemvalue="Application.MaximumSizeSubarraySumEqualsk" />
+        <item itemvalue="Application.SubarraySumEqualsK" />
+        <item itemvalue="Application.ThreeSum" />
+        <item itemvalue="Application.ThreeSumEqualToK" />
+        <item itemvalue="Application.TwoSumInputArrayIsSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -231,14 +249,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736169889863</updated>
-    </task>
-    <task id="LOCAL-00002" summary="jan 22 2025">
-      <option name="closed" value="true" />
-      <created>1737556925581</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1737556925581</updated>
     </task>
     <task id="LOCAL-00003" summary="jan 23 2025">
       <option name="closed" value="true" />
@@ -624,7 +634,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758646475870</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Sep 23, 2025">
+      <option name="closed" value="true" />
+      <created>1759122209247</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1759122209248</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
