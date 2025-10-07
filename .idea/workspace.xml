@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Sep 23, 2025">
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day1/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day1/Power.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day1/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day2/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day2/MaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day2/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day3/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day3/ThreeSumEqualToK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day3/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day3/TwoSumInputArrayIsSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day4/MaximumSizeSubarraySumEqualsk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day4/MinimumSizeSubarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day4/SubarraySumEqualsK.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Oct 07, 2025">
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day5/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day5/SortAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day5/SortColors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA_RoadMap/Day4/MinimumSizeSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day4/MinimumSizeSubarraySum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +110,8 @@
     "Application.RotateList.executor": "Run",
     "Application.SameTree.executor": "Run",
     "Application.SetMatrixZeroes.executor": "Run",
+    "Application.SortAnArray.executor": "Run",
+    "Application.SortColors.executor": "Run",
     "Application.SortList.executor": "Run",
     "Application.SpiralMatrix.executor": "Run",
     "Application.SubarraySumDivisibleByK.executor": "Run",
@@ -165,7 +158,7 @@
       <recent name="Leetcode.Graph.G03_Topo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumSizeSubarraySumEqualsk">
+  <component name="RunManager" selected="Application.SortColors">
     <configuration name="MaximumSizeSubarraySumEqualsk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day4.MaximumSizeSubarraySumEqualsk" />
       <module name="basic-concepts" />
@@ -179,8 +172,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day4.SubarraySumEqualsK" />
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day5.MergeIntervals" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA_RoadMap.Day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumSizeSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day4.MinimumSizeSubarraySum" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -192,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day3.ThreeSum" />
+    <configuration name="SortAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day5.SortAnArray" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA_RoadMap.Day3.*" />
+          <option name="PATTERN" value="DSA_RoadMap.Day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,25 +211,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSumEqualToK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day3.ThreeSumEqualToK" />
+    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day5.SortColors" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA_RoadMap.Day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSumInputArrayIsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day3.TwoSumInputArrayIsSorted" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSA_RoadMap.Day3.*" />
+          <option name="PATTERN" value="DSA_RoadMap.Day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortColors" />
+        <item itemvalue="Application.MergeIntervals" />
+        <item itemvalue="Application.SortAnArray" />
+        <item itemvalue="Application.MinimumSizeSubarraySum" />
         <item itemvalue="Application.MaximumSizeSubarraySumEqualsk" />
-        <item itemvalue="Application.SubarraySumEqualsK" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.ThreeSumEqualToK" />
-        <item itemvalue="Application.TwoSumInputArrayIsSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -249,14 +242,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736169889863</updated>
-    </task>
-    <task id="LOCAL-00003" summary="jan 23 2025">
-      <option name="closed" value="true" />
-      <created>1737696104041</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1737696104041</updated>
     </task>
     <task id="LOCAL-00004" summary="jan 29 2025">
       <option name="closed" value="true" />
@@ -642,7 +627,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759122209248</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Oct 07, 2025">
+      <option name="closed" value="true" />
+      <created>1759810782458</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1759810782459</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -657,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feb 27, 2025" />
     <MESSAGE value="March 1 , 2025" />
     <MESSAGE value="March 2 , 2025" />
     <MESSAGE value="March 3 , 2025" />
@@ -682,7 +674,8 @@
     <MESSAGE value="Sep 19, 2025" />
     <MESSAGE value="Sep 22, 2025" />
     <MESSAGE value="Sep 23, 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sep 23, 2025" />
+    <MESSAGE value="Oct 07, 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oct 07, 2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
