@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Oct 07, 2025">
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day5/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day5/SortAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day5/SortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day6/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day6/SearchInRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day6/Sqrt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA_RoadMap/Day4/MinimumSizeSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day4/MinimumSizeSubarraySum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
     "Application.AllOfExample.executor": "Run",
     "Application.AverageOfLevelsInBinaryTree.executor": "Run",
     "Application.BestTimeToBuyAndSellStock.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
     "Application.BinaryTreeLevelOrderTraversal.executor": "Run",
     "Application.BinaryTreeMaximumPathSum.executor": "Run",
     "Application.BinaryTreeRightSideView.executor": "Run",
@@ -109,6 +109,7 @@
     "Application.RotateImage.executor": "Run",
     "Application.RotateList.executor": "Run",
     "Application.SameTree.executor": "Run",
+    "Application.SearchInRotatedSortedArray.executor": "Run",
     "Application.SetMatrixZeroes.executor": "Run",
     "Application.SortAnArray.executor": "Run",
     "Application.SortColors.executor": "Run",
@@ -151,20 +152,20 @@
       <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\DesignPatterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DSA_RoadMap.Day6" />
       <recent name="DSA_RoadMap.Day3" />
       <recent name="Comp.CodeWithComplexity75.DP" />
       <recent name="Leetcode.TwoPointers" />
       <recent name="Leetcode.Graph.G04_ShortestPath" />
-      <recent name="Leetcode.Graph.G03_Topo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortColors">
-    <configuration name="MaximumSizeSubarraySumEqualsk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day4.MaximumSizeSubarraySumEqualsk" />
+  <component name="RunManager" selected="Application.SearchInRotatedSortedArray">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day6.BinarySearch" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA_RoadMap.Day4.*" />
+          <option name="PATTERN" value="DSA_RoadMap.Day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumSizeSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day4.MinimumSizeSubarraySum" />
+    <configuration name="SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day6.SearchInRotatedSortedArray" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA_RoadMap.Day4.*" />
+          <option name="PATTERN" value="DSA_RoadMap.Day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInRotatedSortedArray" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SortColors" />
         <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.SortAnArray" />
-        <item itemvalue="Application.MinimumSizeSubarraySum" />
-        <item itemvalue="Application.MaximumSizeSubarraySumEqualsk" />
       </list>
     </recent_temporary>
   </component>
@@ -242,14 +243,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736169889863</updated>
-    </task>
-    <task id="LOCAL-00004" summary="jan 29 2025">
-      <option name="closed" value="true" />
-      <created>1738208653842</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1738208653842</updated>
     </task>
     <task id="LOCAL-00005" summary="jan 30 2025">
       <option name="closed" value="true" />
@@ -635,7 +628,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759810782459</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Oct 07, 2025">
+      <option name="closed" value="true" />
+      <created>1759816325558</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1759816325558</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
