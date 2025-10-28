@@ -11,14 +11,13 @@ public class RemoveDuplicatesFromSortedArray {
     }
 
     public int removeDuplicates(int[] nums) {
-        int unique = 0;
+        int uniqueIndex = 0;
         for (int i = 1; i < nums.length; i++) {
-            if (nums[i] != nums[unique]) {
-                unique++;
-                nums[unique] = nums[i];
+            if (nums[uniqueIndex] != nums[i]) {
+                uniqueIndex++;
+                nums[uniqueIndex] = nums[i];
             }
         }
-        return unique + 1;
-
+        return uniqueIndex + 1;
     }
 }

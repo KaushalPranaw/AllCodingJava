@@ -13,8 +13,7 @@ public class RemoveDuplicatesFromSortedArrayII {
         int unique = 0;
         for (int num : nums) {
             if (unique < 2 || num > nums[unique - 2]) {
-                nums[unique] = num;
-                unique++;
+                nums[unique++] = num;
             }
         }
         return unique;

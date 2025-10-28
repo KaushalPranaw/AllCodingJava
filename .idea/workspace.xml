@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Oct 07, 2025">
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day6/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day6/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA_RoadMap/Day6/Sqrt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/RemoveDuplicatesFromSortedArrayII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/RemoveDuplicatesFromSortedArrayII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/RemoveElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +93,7 @@
     "Application.MaximumSizeSubarraySumEqualsk.executor": "Run",
     "Application.MaximumSubarray.executor": "Run",
     "Application.MergeIntervals.executor": "Run",
+    "Application.MergeSortedArray.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
     "Application.MinimumAbsoluteDifferenceInBST.executor": "Run",
     "Application.MinimumNumberOfArrowsToBurstBalloons.executor": "Run",
@@ -101,8 +104,11 @@
     "Application.PathSum.executor": "Run",
     "Application.Power.executor": "Run",
     "Application.RansomNote.executor": "Run",
+    "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
+    "Application.RemoveDuplicatesFromSortedArrayII.executor": "Run",
     "Application.RemoveDuplicatesFromSortedList.executor": "Run",
     "Application.RemoveDuplicatesFromSortedListII.executor": "Run",
+    "Application.RemoveElement.executor": "Run",
     "Application.RemoveNthNodeFromEndOfList.executor": "Run",
     "Application.ReverseLinkedListII.executor": "Run",
     "Application.ReverseNodesInKGroup.executor": "Run",
@@ -159,13 +165,13 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchInRotatedSortedArray">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day6.BinarySearch" />
+  <component name="RunManager" selected="Application.MajorityElement">
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.MajorityElement" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA_RoadMap.Day6.*" />
+          <option name="PATTERN" value="Leetcode.Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day5.MergeIntervals" />
+    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.MergeSortedArray" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA_RoadMap.Day5.*" />
+          <option name="PATTERN" value="Leetcode.Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day6.SearchInRotatedSortedArray" />
+    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.RemoveDuplicatesFromSortedArray" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA_RoadMap.Day6.*" />
+          <option name="PATTERN" value="Leetcode.Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day5.SortAnArray" />
+    <configuration name="RemoveDuplicatesFromSortedArrayII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.RemoveDuplicatesFromSortedArrayII" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA_RoadMap.Day5.*" />
+          <option name="PATTERN" value="Leetcode.Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA_RoadMap.Day5.SortColors" />
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.RemoveElement" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA_RoadMap.Day5.*" />
+          <option name="PATTERN" value="Leetcode.Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SearchInRotatedSortedArray" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.SortColors" />
-        <item itemvalue="Application.MergeIntervals" />
-        <item itemvalue="Application.SortAnArray" />
+        <item itemvalue="Application.MajorityElement" />
+        <item itemvalue="Application.RemoveDuplicatesFromSortedArrayII" />
+        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
+        <item itemvalue="Application.RemoveElement" />
+        <item itemvalue="Application.MergeSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -243,14 +249,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736169889863</updated>
-    </task>
-    <task id="LOCAL-00005" summary="jan 30 2025">
-      <option name="closed" value="true" />
-      <created>1738391798760</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1738391798760</updated>
     </task>
     <task id="LOCAL-00006" summary="Feb 1, 2025">
       <option name="closed" value="true" />
@@ -636,7 +634,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759816325558</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Oct 07, 2025">
+      <option name="closed" value="true" />
+      <created>1761621870074</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1761621870074</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
