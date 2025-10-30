@@ -8,8 +8,9 @@ public class JumpGame {
 
     public boolean canJump(int[] nums) {
         int maxReachable = 0;
+        int n = nums.length;
         for (int i = 0; i < nums.length; i++) {
-            if (maxReachable >= nums.length - 1) {
+            if (maxReachable >= n - 1) {
                 return true;
             }
             if (i > maxReachable) {
@@ -17,7 +18,7 @@ public class JumpGame {
             }
             maxReachable = Math.max(maxReachable, i + nums[i]);
         }
-        return true;
+        return false;
     }
 
     //bottom-up

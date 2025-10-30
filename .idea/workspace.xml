@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Oct 07, 2025">
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Oct 28, 2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/MergeSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/RemoveDuplicatesFromSortedArrayII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/RemoveDuplicatesFromSortedArrayII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/JumpGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/JumpGameII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/JumpGameII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Array_String/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Array_String/RotateArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     "Application.AllOfExample.executor": "Run",
     "Application.AverageOfLevelsInBinaryTree.executor": "Run",
     "Application.BestTimeToBuyAndSellStock.executor": "Run",
+    "Application.BestTimeToBuyAndSellStockII.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.BinaryTreeLevelOrderTraversal.executor": "Run",
     "Application.BinaryTreeMaximumPathSum.executor": "Run",
@@ -81,6 +81,8 @@
     "Application.InvokeAllExample.executor": "Run",
     "Application.IsSubsequence.executor": "Run",
     "Application.IsomorphicStrings.executor": "Run",
+    "Application.JumpGame.executor": "Run",
+    "Application.JumpGameII.executor": "Run",
     "Application.KthSmallestElementInBST.executor": "Run",
     "Application.LRUCache.executor": "Run",
     "Application.LinkedListCycle.executor": "Run",
@@ -89,6 +91,7 @@
     "Application.LongestSubArrayEqualToK.executor": "Run",
     "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Run",
     "Application.LowestCommonAncestorOfBinaryTree.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
     "Application.MaximumDepthOfBinaryTree.executor": "Run",
     "Application.MaximumSizeSubarraySumEqualsk.executor": "Run",
     "Application.MaximumSubarray.executor": "Run",
@@ -112,6 +115,7 @@
     "Application.RemoveNthNodeFromEndOfList.executor": "Run",
     "Application.ReverseLinkedListII.executor": "Run",
     "Application.ReverseNodesInKGroup.executor": "Run",
+    "Application.RotateArray.executor": "Run",
     "Application.RotateImage.executor": "Run",
     "Application.RotateList.executor": "Run",
     "Application.SameTree.executor": "Run",
@@ -165,9 +169,9 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MajorityElement">
-    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.MajorityElement" />
+  <component name="RunManager" selected="Application.JumpGameII">
+    <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.BestTimeToBuyAndSellStock" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -179,8 +183,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.MergeSortedArray" />
+    <configuration name="BestTimeToBuyAndSellStockII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.BestTimeToBuyAndSellStockII" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -192,8 +196,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.RemoveDuplicatesFromSortedArray" />
+    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.JumpGame" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -205,8 +209,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedArrayII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.RemoveDuplicatesFromSortedArrayII" />
+    <configuration name="JumpGameII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.JumpGameII" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -218,8 +222,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.RemoveElement" />
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Array_String.RotateArray" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -233,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MajorityElement" />
-        <item itemvalue="Application.RemoveDuplicatesFromSortedArrayII" />
-        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
-        <item itemvalue="Application.RemoveElement" />
-        <item itemvalue="Application.MergeSortedArray" />
+        <item itemvalue="Application.JumpGameII" />
+        <item itemvalue="Application.JumpGame" />
+        <item itemvalue="Application.BestTimeToBuyAndSellStockII" />
+        <item itemvalue="Application.BestTimeToBuyAndSellStock" />
+        <item itemvalue="Application.RotateArray" />
       </list>
     </recent_temporary>
   </component>
@@ -249,14 +253,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736169889863</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Feb 1, 2025">
-      <option name="closed" value="true" />
-      <created>1738640805273</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1738640805273</updated>
     </task>
     <task id="LOCAL-00007" summary="Feb 1, 2025">
       <option name="closed" value="true" />
@@ -642,7 +638,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761621870074</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Oct 28, 2025">
+      <option name="closed" value="true" />
+      <created>1761623217537</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1761623217537</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -657,7 +661,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="March 1 , 2025" />
     <MESSAGE value="March 2 , 2025" />
     <MESSAGE value="March 3 , 2025" />
     <MESSAGE value="March 5 , 2025" />
@@ -682,7 +685,8 @@
     <MESSAGE value="Sep 22, 2025" />
     <MESSAGE value="Sep 23, 2025" />
     <MESSAGE value="Oct 07, 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oct 07, 2025" />
+    <MESSAGE value="Oct 28, 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oct 28, 2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
