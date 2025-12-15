@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Oct 30, 2025">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/ProgrammingSkills/BasicImplementation/FindTheIndexOfFirstOccurrenceInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/ProgrammingSkills/BasicImplementation/ValidAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test50/Test50.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test51/Test51.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/BestTimeToBuyAndSellStockII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/BestTimeToBuyAndSellStockII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RemoveDuplicatesFromSortedArrayII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RemoveDuplicatesFromSortedArrayII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RotateArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,35 +180,9 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidAnagram">
-    <configuration name="FindTheDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.ProgrammingSkills.BasicImplementation.FindTheDifference" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.ProgrammingSkills.BasicImplementation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindTheIndexOfFirstOccurrenceInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.ProgrammingSkills.BasicImplementation.FindTheIndexOfFirstOccurrenceInAString" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.ProgrammingSkills.BasicImplementation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="H_Index" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.H_Index" />
+  <component name="RunManager" selected="Application.BestTimeToBuyAndSellStockII">
+    <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.BestTimeToBuyAndSellStock" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -212,8 +194,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.ProductOfArrayExceptSelf" />
+    <configuration name="BestTimeToBuyAndSellStockII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.BestTimeToBuyAndSellStockII" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -225,12 +207,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.ProgrammingSkills.BasicImplementation.ValidAnagram" />
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.MajorityElement" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.ProgrammingSkills.BasicImplementation.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicatesFromSortedArrayII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.RemoveDuplicatesFromSortedArrayII" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.RotateArray" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidAnagram" />
-        <item itemvalue="Application.FindTheIndexOfFirstOccurrenceInAString" />
-        <item itemvalue="Application.ProductOfArrayExceptSelf" />
-        <item itemvalue="Application.H_Index" />
-        <item itemvalue="Application.FindTheDifference" />
+        <item itemvalue="Application.BestTimeToBuyAndSellStockII" />
+        <item itemvalue="Application.BestTimeToBuyAndSellStock" />
+        <item itemvalue="Application.RotateArray" />
+        <item itemvalue="Application.MajorityElement" />
+        <item itemvalue="Application.RemoveDuplicatesFromSortedArrayII" />
       </list>
     </recent_temporary>
   </component>
@@ -256,14 +264,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736169889863</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Feb 9, 2025">
-      <option name="closed" value="true" />
-      <created>1739197193293</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1739197193293</updated>
     </task>
     <task id="LOCAL-00011" summary="Feb 18, 2025">
       <option name="closed" value="true" />
@@ -649,7 +649,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761804317538</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Oct 30, 2025">
+      <option name="closed" value="true" />
+      <created>1765771104115</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1765771104116</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
