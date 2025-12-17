@@ -8,20 +8,20 @@ public class H_Index {
 
     public int hIndex(int[] citations) {
         int n = citations.length;
-        int[] ca = new int[n + 1];
+        int countArray[] = new int[n + 1];
 
-        for (int c : citations) {
-            if (c > n) {
-                ca[n]++;
+        for (int citation : citations) {
+            if (citation > n) {
+                countArray[n]++;
             } else {
-                ca[c]++;
+                countArray[citation]++;
             }
         }
 
         int count = 0;
-        for (int i = ca.length - 1; i >= 0; i--) {
-            count += ca[i];
-            if (count >= i) {
+        for (int i = countArray.length - 1; i >= 0; i--) {
+            count += countArray[i];
+            if (i <= count) {
                 return i;
             }
         }

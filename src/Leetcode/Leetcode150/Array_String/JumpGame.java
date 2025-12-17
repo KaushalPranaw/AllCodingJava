@@ -7,16 +7,17 @@ public class JumpGame {
     }
 
     public boolean canJump(int[] nums) {
-        int maxReachable = 0;
+        int maxReach = 0;
         int n = nums.length;
-        for (int i = 0; i < nums.length; i++) {
-            if (maxReachable >= n - 1) {
+
+        for (int i = 0; i < n; i++) {
+            if (maxReach >= n - 1) {
                 return true;
             }
-            if (i > maxReachable) {
+            if (i > maxReach) {
                 return false;
             }
-            maxReachable = Math.max(maxReachable, i + nums[i]);
+            maxReach = Math.max(maxReach, i + nums[i]);
         }
         return false;
     }

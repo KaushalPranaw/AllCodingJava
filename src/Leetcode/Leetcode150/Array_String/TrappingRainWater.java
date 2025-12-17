@@ -15,8 +15,11 @@ public class TrappingRainWater {
     //using 2 pointers
     public int trap(int[] height) {
         int trap = 0;
-        int left = 0, right = height.length - 1;
-        int lmax = height[left], rmax = height[right];
+        int left = 0;
+        int right = height.length - 1;
+        int lmax = height[left];
+        int rmax = height[right];
+
         while (left < right) {
             if (height[left] < height[right]) {
                 lmax = Math.max(lmax, height[left]);
