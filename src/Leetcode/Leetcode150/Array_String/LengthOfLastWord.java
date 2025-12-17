@@ -9,13 +9,10 @@ public class LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         int len = 0;
         for (int i = s.length() - 1; i >= 0; i--) {
-            char c = s.charAt(i);
-            if (c != ' ') {
+            if (s.charAt(i) != ' ') {
                 len++;
-            } else {
-                if (len > 0) {
-                    return len;
-                }
+            } else if (len > 0) {
+                return len;
             }
         }
         return len;

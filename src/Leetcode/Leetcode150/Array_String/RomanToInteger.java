@@ -19,19 +19,19 @@ public class RomanToInteger {
         map.put('D', 500);
         map.put('M', 1000);
 
-        int cur = 0;
-        int prev = 0, ans = 0;
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            cur = map.get(c);
+        int cur;
+        int res = 0;
+        int prev = 0;
+        for (char ch : s.toCharArray()) {
+            cur = map.get(ch);
             if (cur > prev) {
-                ans += cur;
+                //since already we have added prev but it should be substracted so prev * 2 we have to remove from cur
+                res += cur - (2 *prev);
             } else {
-                ans -= cur;
+                res += cur;
             }
             prev = cur;
         }
-        return ans;
-
+        return res;
     }
 }

@@ -20,28 +20,31 @@ public class ZigzagConversion {
             return s;
         }
 
+        //creating rows
         StringBuilder[] rows = new StringBuilder[numRows];
-        for (int i = 0; i < rows.length; i++) {
+        for (int i = 0; i < numRows; i++) {
             rows[i] = new StringBuilder();
         }
 
+        //populate rows
         int i = 0;
         while (i < s.length()) {
-            for (int j = 0; j < numRows && i < s.length(); j++) {
-                rows[j].append(s.charAt(i));
-                i++;
+            //upr se niche wala
+            for (int index = 0; index < numRows && i < s.length(); index++) {
+                rows[index].append(s.charAt(i++));
             }
 
-            for (int j = numRows - 2; j > 0 && i < s.length(); j--) {
-                rows[j].append(s.charAt(i));
-                i++;
+            //niche se upar diagnoal wala
+            for (int index = numRows - 2; index > 0 && i < s.length(); index--) {
+                rows[index].append(s.charAt(i++));
             }
         }
 
-        StringBuilder sb = new StringBuilder();
-        for (int j = 0; j < numRows; j++) {
-            sb.append(rows[j]);
+        //now combine rows
+        StringBuilder res = new StringBuilder();
+        for (StringBuilder row : rows) {
+            res.append(row);
         }
-        return sb.toString();
+        return res.toString();
     }
 }

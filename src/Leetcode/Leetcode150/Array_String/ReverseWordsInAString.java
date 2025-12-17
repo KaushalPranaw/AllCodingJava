@@ -8,13 +8,13 @@ public class ReverseWordsInAString {
 
     public String reverseWords(String s) {
         String[] sa = s.split(" ");
-        int l = 0, r = sa.length - 1;
-        while (l < r) {
-            String t = sa[l];
-            sa[l] = sa[r];
-            sa[r] = t;
-            l++;
-            r--;
+        int left = 0, right = sa.length - 1;
+        while (left < right) {
+            String t = sa[left];
+            sa[left] = sa[right];
+            sa[right] = t;
+            left++;
+            right--;
         }
         return String.join(" ", sa);
     }
