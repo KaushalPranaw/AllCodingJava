@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Dec 16, 2025">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Quest/Stack/BuildArrayWithStackOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Quest/Stack/EvaluateReversePolishNotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Quest/Stack/ExclusiveTimeOfFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/LengthOfLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/LengthOfLastWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/ReverseWordsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/ReverseWordsInAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RomanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/ZigzagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/ZigzagConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/MinimumSizeSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/MinimumSizeSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/MinimumWindowSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +32,12 @@
     &quot;assignee&quot;: &quot;KaushalPranaw&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/KaushalPranaw/AllCodingJava.git",
-    "accountId": "9d686644-5304-4a36-9655-72888516f1e2"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KaushalPranaw/AllCodingJava.git&quot;,
+    &quot;accountId&quot;: &quot;9d686644-5304-4a36-9655-72888516f1e2&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -51,134 +46,134 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AddTwoNumbers.executor": "Run",
-    "Application.AllOfExample.executor": "Run",
-    "Application.AverageOfLevelsInBinaryTree.executor": "Run",
-    "Application.BestTimeToBuyAndSellStock.executor": "Run",
-    "Application.BestTimeToBuyAndSellStockII.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.BinaryTreeLevelOrderTraversal.executor": "Run",
-    "Application.BinaryTreeMaximumPathSum.executor": "Run",
-    "Application.BinaryTreeRightSideView.executor": "Run",
-    "Application.BinaryTreeZigzagLevelOrderTraversal.executor": "Run",
-    "Application.BuildArrayWithStackOperations.executor": "Run",
-    "Application.Candy.executor": "Run",
-    "Application.CombinationSum.executor": "Run",
-    "Application.CompletableFutureExample.executor": "Run",
-    "Application.ContainerWithMostWater.executor": "Run",
-    "Application.ContainsDuplicateII.executor": "Run",
-    "Application.CountCompleteTreeNodes.executor": "Run",
-    "Application.CountOfSubArrayEqualsToK.executor": "Run",
-    "Application.CountSubArrayEqualToK.executor": "Run",
-    "Application.DP01_Fibonacci.executor": "Run",
-    "Application.DP02_ClimbingStairs.executor": "Run",
-    "Application.DSA_RoadMap.Day1.Subsets.executor": "Run",
-    "Application.EvaluateReversePolishNotation.executor": "Run",
-    "Application.ExecutorServiceExample.executor": "Run",
-    "Application.Fibonacci.executor": "Run",
-    "Application.FindTheDifference.executor": "Run",
-    "Application.FindTheIndexOfFirstOccurrenceInAString.executor": "Run",
-    "Application.FlattenBinaryTreeToLinkedList.executor": "Run",
-    "Application.G01_BFS.executor": "Run",
-    "Application.GasStation.executor": "Run",
-    "Application.GroupAnagrams.executor": "Run",
-    "Application.H_Index.executor": "Run",
-    "Application.HappyNumber.executor": "Run",
-    "Application.InsertInterval.executor": "Run",
-    "Application.IntegerToRoman.executor": "Run",
-    "Application.InvertBinaryTree.executor": "Run",
-    "Application.InvokeAllExample.executor": "Run",
-    "Application.IsSubsequence.executor": "Run",
-    "Application.IsomorphicStrings.executor": "Run",
-    "Application.JumpGame.executor": "Run",
-    "Application.JumpGameII.executor": "Run",
-    "Application.KthSmallestElementInBST.executor": "Run",
-    "Application.LRUCache.executor": "Run",
-    "Application.LengthOfLastWord.executor": "Run",
-    "Application.LinkedListCycle.executor": "Run",
-    "Application.LongestCommonPrefix.executor": "Run",
-    "Application.LongestConsecutiveSequence.executor": "Run",
-    "Application.LongestSubArrayEqualToK.executor": "Run",
-    "Application.LongestSubstringWithoutRepeatingCharacters.executor": "Run",
-    "Application.LowestCommonAncestorOfBinaryTree.executor": "Run",
-    "Application.MajorityElement.executor": "Run",
-    "Application.MaximumDepthOfBinaryTree.executor": "Run",
-    "Application.MaximumSizeSubarraySumEqualsk.executor": "Run",
-    "Application.MaximumSubarray.executor": "Run",
-    "Application.MergeIntervals.executor": "Run",
-    "Application.MergeSortedArray.executor": "Run",
-    "Application.MergeStringsAlternately.executor": "Run",
-    "Application.MergeTwoSortedLists.executor": "Run",
-    "Application.MinimumAbsoluteDifferenceInBST.executor": "Run",
-    "Application.MinimumNumberOfArrowsToBurstBalloons.executor": "Run",
-    "Application.MinimumSizeSubarraySum.executor": "Run",
-    "Application.MinimumWindowSubstring.executor": "Run",
-    "Application.MoveZeroes.executor": "Run",
-    "Application.PartitionList.executor": "Run",
-    "Application.PathSum.executor": "Run",
-    "Application.Power.executor": "Run",
-    "Application.ProductOfArrayExceptSelf.executor": "Run",
-    "Application.RandomizedSet.executor": "Run",
-    "Application.RansomNote.executor": "Run",
-    "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
-    "Application.RemoveDuplicatesFromSortedArrayII.executor": "Run",
-    "Application.RemoveDuplicatesFromSortedList.executor": "Run",
-    "Application.RemoveDuplicatesFromSortedListII.executor": "Run",
-    "Application.RemoveElement.executor": "Run",
-    "Application.RemoveNthNodeFromEndOfList.executor": "Run",
-    "Application.ReverseLinkedListII.executor": "Run",
-    "Application.ReverseNodesInKGroup.executor": "Run",
-    "Application.ReverseWordsInAString.executor": "Run",
-    "Application.RomanToInteger.executor": "Run",
-    "Application.RotateArray.executor": "Run",
-    "Application.RotateImage.executor": "Run",
-    "Application.RotateList.executor": "Run",
-    "Application.SameTree.executor": "Run",
-    "Application.SearchInRotatedSortedArray.executor": "Run",
-    "Application.SetMatrixZeroes.executor": "Run",
-    "Application.SortAnArray.executor": "Run",
-    "Application.SortColors.executor": "Run",
-    "Application.SortList.executor": "Run",
-    "Application.SpiralMatrix.executor": "Run",
-    "Application.SubarraySumDivisibleByK.executor": "Run",
-    "Application.SubarraySumEqualsK.executor": "Run",
-    "Application.Subsets.executor": "Run",
-    "Application.SumRootToLeafNumbers.executor": "Run",
-    "Application.SummaryRanges.executor": "Run",
-    "Application.SymmetricTree.executor": "Run",
-    "Application.ThreeSum.executor": "Run",
-    "Application.ThreeSumEqualToK.executor": "Run",
-    "Application.ThreeSumEqualsToK.executor": "Run",
-    "Application.TrappingRainWater.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "Application.TwoSumII.executor": "Run",
-    "Application.TwoSumInputArrayIsSorted.executor": "Run",
-    "Application.ValidAnagram.executor": "Run",
-    "Application.ValidPalindrome.executor": "Run",
-    "Application.ValidParentheses.executor": "Run",
-    "Application.ValidSuduko.executor": "Run",
-    "Application.ValidateBinarySearchTree.executor": "Run",
-    "Application.WordPattern.executor": "Run",
-    "Application.ZigzagConversion.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/pranaw_kaushal/Downloads/spring-boot-jaas",
-    "onboarding.tips.debug.path": "C:/Users/pranaw_kaushal/Documents/ALL_EPAM_TRAINING/core-java-training/basic-concepts/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AllOfExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AverageOfLevelsInBinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BestTimeToBuyAndSellStock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BestTimeToBuyAndSellStockII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTreeLevelOrderTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTreeMaximumPathSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTreeRightSideView.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTreeZigzagLevelOrderTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuildArrayWithStackOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Candy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CombinationSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompletableFutureExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContainsDuplicateII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountCompleteTreeNodes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountOfSubArrayEqualsToK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountSubArrayEqualToK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DP01_Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DP02_ClimbingStairs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DSA_RoadMap.Day1.Subsets.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvaluateReversePolishNotation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorServiceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindTheDifference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindTheIndexOfFirstOccurrenceInAString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlattenBinaryTreeToLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.G01_BFS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GasStation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupAnagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.H_Index.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HappyNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertInterval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntegerToRoman.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InvertBinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InvokeAllExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsomorphicStrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JumpGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JumpGameII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KthSmallestElementInBST.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LRUCache.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LengthOfLastWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListCycle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestConsecutiveSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubArrayEqualToK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubstringWithoutRepeatingCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LowestCommonAncestorOfBinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumDepthOfBinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSizeSubarraySumEqualsk.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSubarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeIntervals.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeStringsAlternately.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeTwoSortedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumAbsoluteDifferenceInBST.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumNumberOfArrowsToBurstBalloons.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumSizeSubarraySum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeroes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PartitionList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PathSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Power.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductOfArrayExceptSelf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomizedSet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RansomNote.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesFromSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesFromSortedArrayII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesFromSortedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesFromSortedListII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveNthNodeFromEndOfList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLinkedListII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseNodesInKGroup.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseWordsInAString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateImage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SameTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchInRotatedSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SetMatrixZeroes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortAnArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortColors.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpiralMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubarraySumDivisibleByK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubarraySumEqualsK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Subsets.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumRootToLeafNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SummaryRanges.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SymmetricTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreeSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreeSumEqualToK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreeSumEqualsToK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrappingRainWater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSumII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSumInputArrayIsSorted.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidParentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidSuduko.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidateBinarySearchTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZigzagConversion.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pranaw_kaushal/Downloads/spring-boot-jaas&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pranaw_kaushal/Documents/ALL_EPAM_TRAINING/core-java-training/basic-concepts/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\LLD" />
@@ -192,13 +187,13 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZigzagConversion">
-    <configuration name="IntegerToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.IntegerToRoman" />
+  <component name="RunManager" selected="Application.MinimumWindowSubstring">
+    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.SlidingWindow.LongestSubstringWithoutRepeatingCharacters" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.LengthOfLastWord" />
+    <configuration name="MinimumSizeSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.SlidingWindow.MinimumSizeSubarraySum" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.LongestCommonPrefix" />
+    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.SlidingWindow.MinimumWindowSubstring" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumWindowSubstring" />
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
+        <item itemvalue="Application.MinimumSizeSubarraySum" />
         <item itemvalue="Application.ZigzagConversion" />
         <item itemvalue="Application.ReverseWordsInAString" />
-        <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.LengthOfLastWord" />
-        <item itemvalue="Application.IntegerToRoman" />
       </list>
     </recent_temporary>
   </component>
