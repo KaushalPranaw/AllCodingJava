@@ -1,5 +1,7 @@
 package Leetcode.Leetcode150.Intervals;
 
+import CoreJava.OOPS.pillars.inheritance.A;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,16 +23,17 @@ public class SummaryRanges {
 
         int start = nums[0];
         for (int i = 1; i < nums.length; i++) {
+            //check if cur is not consequetive
             if (nums[i] != nums[i - 1] + 1) {
                 if (start == nums[i - 1]) {
                     list.add(String.valueOf(start));
                 } else {
                     list.add(start + "->" + nums[i - 1]);
                 }
+                //update start
                 start = nums[i];
             }
         }
-
         if (start == nums[nums.length - 1]) {
             list.add(String.valueOf(start));
         } else {

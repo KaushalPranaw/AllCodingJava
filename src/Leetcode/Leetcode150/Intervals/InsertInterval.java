@@ -6,7 +6,7 @@ import java.util.List;
 
 public class InsertInterval {
     public static void main(String[] args) {
-        int[][] intervals = {{1, 3}, {6, 9}};
+        int[][] intervals = {{1, 3}, {6, 9},{10,15}};
         int[] newInterval = {4, 6};
 
         int[][] merged = new InsertInterval().insert(intervals, newInterval);
@@ -14,28 +14,21 @@ public class InsertInterval {
     }
 
     public int[][] insert(int[][] intervals, int[] newInterval) {
-
-        List<int[]> list=new ArrayList<>();
-        int i=0;
-
-        //insert phle ke
-        while (i<intervals.length && intervals[i][1]<newInterval[0]){
-            list.add(intervals[i]);
-            i++;
+        List<int[]> list = new ArrayList<>();
+        int i = 0;
+        while (i < intervals.length && intervals[i][1] < newInterval[0]) {
+            list.add(intervals[i++]);
         }
 
-        //merge
-        while (i<intervals.length && intervals[i][0]<= newInterval[1]){
-            newInterval[0]=Math.min(intervals[i][0], newInterval[0]);
-            newInterval[1]=Math.max(intervals[i][1], newInterval[1]);
+        while (i < intervals.length && intervals[i][0] <= newInterval[1]) {
+            newInterval[0] = Math.min(intervals[i][0], newInterval[0]);
+            newInterval[1] = Math.max(intervals[i][1], newInterval[1]);
             i++;
         }
         list.add(newInterval);
 
-        //remaining
-        while (i<intervals.length){
-            list.add(intervals[i]);
-            i++;
+        while (i < intervals.length) {
+            list.add(intervals[i++]);
         }
         return list.toArray(new int[list.size()][]);
 
