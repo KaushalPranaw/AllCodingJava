@@ -1,5 +1,7 @@
 package Leetcode.Leetcode150.HashMap;
 
+import CoreJava.OOPS.pillars.inheritance.A;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -11,10 +13,12 @@ public class GroupAnagrams {
 
     public List<List<String>> groupAnagrams(String[] strs) {
         return new ArrayList<>(Arrays.stream(strs)
-                .collect(Collectors.groupingBy(s -> {
-                    char[] ca = s.toCharArray();
-                    Arrays.sort(ca);
-                    return new String(ca);
-                })).values());
+                .collect(Collectors.groupingBy(
+                        word -> {
+                            char[] ch = word.toCharArray();
+                            Arrays.sort(ch);
+                            return new String(ch);
+                        }
+                )).values());
     }
 }

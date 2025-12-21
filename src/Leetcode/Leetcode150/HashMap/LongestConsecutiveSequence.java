@@ -13,15 +13,12 @@ public class LongestConsecutiveSequence {
         if (nums == null || nums.length == 0) {
             return 0;
         }
-
         Set<Integer> set = new HashSet<>();
         for (int num : nums) {
             set.add(num);
         }
-
         int longest = 1;
         for (int num : nums) {
-
             if (!set.contains(num - 1)) {
                 int curNum = num;
                 int curStreak = 1;
@@ -31,7 +28,6 @@ public class LongestConsecutiveSequence {
                 }
                 longest = Math.max(longest, curStreak);
             }
-
         }
         return longest;
     }

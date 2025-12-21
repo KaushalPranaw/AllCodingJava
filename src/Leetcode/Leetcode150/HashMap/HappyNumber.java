@@ -15,8 +15,8 @@ public class HappyNumber {
             int cur = n;
             int sum = 0;
             while (cur != 0) {
-                int d = cur % 10;
-                sum += d * d;
+                int rem = cur % 10;
+                sum += rem * rem;
                 cur /= 10;
             }
             if (set.contains(sum)) {

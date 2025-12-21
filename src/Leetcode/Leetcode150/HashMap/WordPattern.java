@@ -15,9 +15,8 @@ public class WordPattern {
             return false;
         }
 
-        Map<String, Character> wordToCharMap = new HashMap<>();
         Map<Character, String> charToWordMap = new HashMap<>();
-
+        Map<String, Character> wordToCharMap = new HashMap<>();
         for (int i = 0; i < pattern.length(); i++) {
             char ch = pattern.charAt(i);
             String word = words[i];
@@ -38,6 +37,5 @@ public class WordPattern {
             }
         }
         return true;
-
     }
 }

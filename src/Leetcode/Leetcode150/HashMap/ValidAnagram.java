@@ -12,16 +12,16 @@ public class ValidAnagram {
             return false;
         }
 
-        int[] ca = new int[26];
+        int[] letters = new int[26];
         for (int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
-            ca[ch - 'a']++;
+            letters[ch - 'a']++;
         }
 
         for (int i = 0; i < t.length(); i++) {
             char ch = t.charAt(i);
-            ca[ch - 'a']--;
-            if (ca[ch - 'a'] < 0) {
+            letters[ch - 'a']--;
+            if (letters[ch - 'a'] < 0) {
                 return false;
             }
         }

@@ -23,7 +23,6 @@ public class IsomorphicStrings {
             map1[s.charAt(i)] = i + 1;
             map2[t.charAt(i)] = i + 1;
         }
-
         return true;
     }
 }

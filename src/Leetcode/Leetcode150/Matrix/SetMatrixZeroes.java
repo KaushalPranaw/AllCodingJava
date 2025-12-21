@@ -15,30 +15,28 @@ public class SetMatrixZeroes {
 
     //using bfs graph
     public void setZeroes(int[][] matrix) {
-        int m=matrix.length;
-        int n=matrix[0].length;
-
-        Queue<int[]> queue=new LinkedList<>();
-
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                if(matrix[i][j]==0){
+        int m = matrix.length, n = matrix[0].length;
+        Queue<int[]> queue = new LinkedList<>();
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] == 0) {
                     queue.add(new int[]{i, j});
                 }
             }
         }
 
-        while (!queue.isEmpty()){
-            int x=queue.peek()[0];
-            int y=queue.peek()[1];
+        while (!queue.isEmpty()) {
+            int x = queue.peek()[0];
+            int y = queue.peek()[1];
             queue.poll();
 
-            for(int j=0;j<n;j++){
-                matrix[x][j]=0;
+            //set row to 0
+            for (int j = 0; j < n; j++) {
+                matrix[x][j] = 0;
             }
-
-            for(int i=0;i<m;i++){
-                matrix[i][y]=0;
+            //set col to 0
+            for (int i = 0; i < m; i++) {
+                matrix[i][y] = 0;
             }
         }
     }

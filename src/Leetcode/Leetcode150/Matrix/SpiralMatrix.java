@@ -15,22 +15,23 @@ public class SpiralMatrix {
 
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> list = new ArrayList<>();
-        int m = matrix.length;
-        int n = matrix[0].length;
+        int m = matrix.length, n = matrix[0].length;
         int left = 0, right = n - 1;
         int top = 0, bottom = m - 1;
 
         while (left <= right && top <= bottom) {
+            //l->r so top row fix
             for (int i = left; i <= right; i++) {
                 list.add(matrix[top][i]);
             }
             top++;
-
+            //top to bottom so right column fix
             for (int i = top; i <= bottom; i++) {
                 list.add(matrix[i][right]);
             }
             right--;
 
+            //right->left so bottom row fix
             if (top <= bottom) {
                 for (int i = right; i >= left; i--) {
                     list.add(matrix[bottom][i]);
@@ -38,13 +39,13 @@ public class SpiralMatrix {
                 bottom--;
             }
 
+            //bottom->top so left column fix
             if (left <= right) {
                 for (int i = bottom; i >= top; i--) {
                     list.add(matrix[i][left]);
                 }
                 left++;
             }
-
         }
         return list;
     }
