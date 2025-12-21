@@ -9,27 +9,27 @@ public class EvaluateReversePolishNotation {
     }
 
     public int evalRPN(String[] tokens) {
-        Stack<String> stack = new Stack<>();
+        Stack<Integer> stack = new Stack<>();
         for (String token : tokens) {
-            if (isOperator(token)) {
-                int num2 = Integer.valueOf(stack.pop());
-                int num1 = Integer.valueOf(stack.pop());
-                int result = 0;
-                if (token.equals("+")) {
-                    result += num1 + num2;
-                } else if (token.equals("-")) {
-                    result += num1 - num2;
-                } else if (token.equals("*")) {
-                    result += num1 * num2;
-                } else if (token.equals("/")) {
-                    result += num1 / num2;
-                }
-                stack.push(String.valueOf(result));
+            if (!isOperator(token)) {
+                stack.push(Integer.valueOf(token));
             } else {
-                stack.push(token);
+                int num2 = stack.pop();
+                int num1 = stack.pop();
+                int res = 0;
+                if (token.equals("+")) {
+                    res = num1 + num2;
+                } else if (token.equals("-")) {
+                    res = num1 - num2;
+                } else if (token.equals("*")) {
+                    res = num1 * num2;
+                } else if (token.equals("/")) {
+                    res = num1 / num2;
+                }
+                stack.push(res);
             }
         }
-        return Integer.valueOf(stack.pop());
+        return stack.peek();
     }
 
     boolean isOperator(String token) {
