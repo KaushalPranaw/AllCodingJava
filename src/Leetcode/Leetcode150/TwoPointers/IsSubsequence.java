@@ -10,24 +10,24 @@ public class IsSubsequence {
         if (s.length() > t.length()) {
             return false;
         }
+
         if (s.isEmpty()) {
             return true;
         }
-        int index = 0;
 
+        int index = 0;
         for (int i = 0; i < t.length(); i++) {
-            char tChar = t.charAt(i);
-            if (tChar == s.charAt(index)) {
+            char tchar = t.charAt(i);
+            if (tchar == s.charAt(index)) {
                 index++;
             }
-
-            if (index == s.length()) {
+            if (s.length() == index) {
                 return true;
             }
         }
         return false;
-
     }
+
 
     //better sol upar wala hai but we can do using dp also
     /*public boolean isSubsequence(String s, String t) {

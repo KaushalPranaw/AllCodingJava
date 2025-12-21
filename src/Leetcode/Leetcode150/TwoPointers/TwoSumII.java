@@ -11,17 +11,19 @@ public class TwoSumII {
     }
 
     public int[] twoSum(int[] numbers, int target) {
-        int n=numbers.length;
+        int n = numbers.length;
 
-        int l=0, r=n-1;
-        while (l<r){
-            int sum=numbers[l]+numbers[r];
-            if(sum==target){
-                return new int[]{l+1, r+1};
-            }else if(sum>target){
-                r--;
-            }else {
-                l++;
+        int left = 0, right = n - 1;
+        while (left < right) {
+            int sum = numbers[left] + numbers[right];
+            if (sum == target) {
+                return new int[]{left + 1, right + 1};
+            } else {
+                if (sum > target) {
+                    right--;
+                } else {
+                    left++;
+                }
             }
         }
         return new int[0];
