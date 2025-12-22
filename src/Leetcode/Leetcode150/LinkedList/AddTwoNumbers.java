@@ -40,36 +40,35 @@ public class AddTwoNumbers {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carry = 0;
-        ListNode dummy = new ListNode(0);
-        ListNode ans = dummy;
+        ListNode dummy = new ListNode(-1);
+        ListNode cur = dummy;
 
         while (l1 != null && l2 != null) {
             int sum = l1.val + l2.val + carry;
-            carry = sum / 10;
-            ans.next = new ListNode(sum % 10);
-            ans = ans.next;
+            cur.next = new ListNode(sum % 10);
             l1 = l1.next;
             l2 = l2.next;
+            cur=cur.next;
+            carry = sum / 10;
         }
 
         while (l1 != null) {
             int sum = l1.val + carry;
-            carry = sum / 10;
-            ans.next = new ListNode(sum % 10);
-            ans = ans.next;
+            cur.next = new ListNode(sum % 10);
             l1 = l1.next;
+            cur=cur.next;
+            carry = sum / 10;
         }
-
         while (l2 != null) {
             int sum = l2.val + carry;
-            carry = sum / 10;
-            ans.next = new ListNode(sum % 10);
-            ans = ans.next;
+            cur.next = new ListNode(sum % 10);
             l2 = l2.next;
+            cur=cur.next;
+            carry = sum / 10;
         }
 
         if(carry!=0){
-            ans.next=new ListNode(carry);
+            cur.next=new ListNode(carry);
         }
 
         return dummy.next;

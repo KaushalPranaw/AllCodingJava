@@ -16,10 +16,9 @@ public class PartitionList {
 
     public ListNode partition(ListNode head, int x) {
 
-        ListNode small = new ListNode(0);
-        ListNode large = new ListNode(0);
-        ListNode sp = small;
-        ListNode lp = large;
+        ListNode small = new ListNode(-1);
+        ListNode large = new ListNode(-1);
+        ListNode sp = small, lp = large;
 
         while (head != null) {
             if (head.val < x) {

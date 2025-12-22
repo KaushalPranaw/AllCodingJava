@@ -1,5 +1,7 @@
 package Leetcode.Leetcode150.LinkedList;
 
+import java.util.List;
+
 public class LinkedListCycle {
     public static void main(String[] args) {
         // Creating a linked list with a cycle

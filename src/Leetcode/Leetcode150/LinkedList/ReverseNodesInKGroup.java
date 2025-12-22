@@ -21,27 +21,29 @@ public class ReverseNodesInKGroup {
         }
 
         // Step 1: Check if we have k nodes to reverse
-        ListNode temp = head;
         int count = 0;
-        while (temp != null && count < k) {
+        ListNode temp = head;
+        while (count < k && temp != null) {
             temp = temp.next;
             count++;
         }
+
         if (count < k) {
             return head;
         }
 
-        // Step 2: Reverse the first k nodes
-        ListNode prev = null, cur = head, next = null;
 
+        // Step 2: Reverse the first k nodes
         count = 0;
+        ListNode cur = head, next = null, prev = null;
         while (cur != null && count < k) {
+            count++;
             next = cur.next;
             cur.next = prev;
             prev = cur;
             cur = next;
-            count++;
         }
+
 
         // Step 3: Recursively reverse the remaining list and connect i
         if (next != null) {

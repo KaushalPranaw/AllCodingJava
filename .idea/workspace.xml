@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Dec 21, 2025">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Stack/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Stack/SimplifyPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Stack/EvaluateReversePolishNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Stack/EvaluateReversePolishNotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Stack/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Stack/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/LinkedListCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/MergeTwoSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/PartitionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/PartitionList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/RemoveDuplicatesFromSortedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/RemoveDuplicatesFromSortedListII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/ReverseLinkedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/ReverseLinkedListII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/ReverseNodesInKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/ReverseNodesInKGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/RotateList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/RotateList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +133,7 @@
     "Application.RemoveDuplicatesFromSortedListII.executor": "Run",
     "Application.RemoveElement.executor": "Run",
     "Application.RemoveNthNodeFromEndOfList.executor": "Run",
+    "Application.ReverseLinkedList.executor": "Run",
     "Application.ReverseLinkedListII.executor": "Run",
     "Application.ReverseNodesInKGroup.executor": "Run",
     "Application.ReverseWordsInAString.executor": "Run",
@@ -192,13 +200,13 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EvaluateReversePolishNotation">
-    <configuration name="EvaluateReversePolishNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Stack.EvaluateReversePolishNotation" />
+  <component name="RunManager" selected="Application.ReverseNodesInKGroup">
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.LinkedList.LRUCache" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Stack.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Stack.MinStack" />
+    <configuration name="PartitionList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.LinkedList.PartitionList" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Stack.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumNumberOfArrowsToBurstBalloons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Intervals.MinimumNumberOfArrowsToBurstBalloons" />
+    <configuration name="RemoveDuplicatesFromSortedListII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.LinkedList.RemoveDuplicatesFromSortedListII" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Intervals.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplifyPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Stack.SimplifyPath" />
+    <configuration name="ReverseNodesInKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.LinkedList.ReverseNodesInKGroup" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Stack.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Stack.ValidParentheses" />
+    <configuration name="RotateList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.LinkedList.RotateList" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Stack.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EvaluateReversePolishNotation" />
-        <item itemvalue="Application.MinStack" />
-        <item itemvalue="Application.SimplifyPath" />
-        <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.MinimumNumberOfArrowsToBurstBalloons" />
+        <item itemvalue="Application.ReverseNodesInKGroup" />
+        <item itemvalue="Application.RotateList" />
+        <item itemvalue="Application.LRUCache" />
+        <item itemvalue="Application.PartitionList" />
+        <item itemvalue="Application.RemoveDuplicatesFromSortedListII" />
       </list>
     </recent_temporary>
   </component>
@@ -286,15 +294,7 @@
       <updated>1736169889863</updated>
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
-      <workItem from="1766332547527" duration="2254000" />
-    </task>
-    <task id="LOCAL-00015" summary="Feb 22, 2025">
-      <option name="closed" value="true" />
-      <created>1740230797855</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1740230797855</updated>
+      <workItem from="1766332547527" duration="9444000" />
     </task>
     <task id="LOCAL-00016" summary="Feb 22, 2025">
       <option name="closed" value="true" />
@@ -680,7 +680,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766312285627</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Dec 21, 2025">
+      <option name="closed" value="true" />
+      <created>1766334886421</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1766334886421</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

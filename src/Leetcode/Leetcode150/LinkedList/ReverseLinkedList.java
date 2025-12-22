@@ -16,13 +16,21 @@ public class ReverseLinkedList {
             return head;
         }
 
-        ListNode cur = head, prev = null, next;
+        ListNode cur = head, prev = null, next = null;
         while (cur != null) {
+            //save next
             next = cur.next;
+
+            // reverse pointer
             cur.next = prev;
+
+            // move prev
             prev = cur;
+
+            // move prev
             cur = next;
+
         }
-        return prev;
+        return prev;//new head;
     }
 }

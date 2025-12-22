@@ -29,19 +29,18 @@ public class RotateList {
             cur = cur.next;
             len++;
         }
-        cur.next=head;
+        //create loop
+        cur.next = head;
 
         k = k % len;
 
         int stepsToNewHead = len - k;
-
         ListNode newTail = head;
         for (int i = 1; i < stepsToNewHead; i++) {
             newTail = newTail.next;
         }
         ListNode newHead = newTail.next;
         newTail.next = null;
-
         return newHead;
 
     }

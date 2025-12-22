@@ -11,10 +11,10 @@ public class ReverseLinkedListII {
     }
 
     public ListNode reverseBetween(ListNode head, int left, int right) {
+        //base case
         if (head == null || head.next == null || left == right) {
             return head;
         }
-
         // Step 1: Add dummy node
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
@@ -26,23 +26,24 @@ public class ReverseLinkedListII {
         }
 
         // Step 3: Start reversing
-        ListNode curNode = prev.next;
-        ListNode nextNode;
-        ListNode prevNode = null;
+        ListNode curNode = prev.next, prevNode = null, nextNode = null;
 
         // Reverse (right - left) times
         for (int i = 0; i <= (right - left); i++) {
-            nextNode = curNode.next;
-            curNode.next = prevNode;
+            nextNode = curNode.next;//save the next
+            curNode.next = prevNode;//reverse ponters
             prevNode = curNode;
             curNode = nextNode;
         }
 
+        // Connect reversed segment with the rest of the list
+        //prevNode=4 and curNode=5
+        //1 -> (reversed: 4 -> 3 -> 2)   5
         prev.next.next = curNode;
+        //1 -> (reversed: 4 -> 3 -> 2) -> 5
         prev.next = prevNode;
-
+        //1 -> 4 -> 3 -> 2 -> 5
         return dummy.next;
-
 
     }
 }
