@@ -26,16 +26,13 @@ public class ConstructBinaryTreeFromPreorderAndInorder {
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         Map<Integer, Integer> map = new HashMap<>();
-
         for (int i = 0; i < inorder.length; i++) {
             map.put(inorder[i], i);
         }
-
         return helper(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1, map);
     }
 
     private TreeNode helper(int[] preorder, int ps, int pe, int[] inorder, int is, int ie, Map<Integer, Integer> map) {
-
         if (is > ie || ps > pe) {
             return null;
         }
@@ -47,6 +44,7 @@ public class ConstructBinaryTreeFromPreorderAndInorder {
         root.left = helper(preorder, ps + 1, ps + numLeft, inorder, is, indexRoot - 1, map);
         root.right = helper(preorder, ps + numLeft + 1, pe, inorder, indexRoot + 1, ie, map);
         return root;
+
     }
 
 

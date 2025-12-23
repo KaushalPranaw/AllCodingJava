@@ -17,21 +17,27 @@ public class SymmetricTree {
     }
 
     public boolean isSymmetric(TreeNode root) {
-        if(root==null){
+        if (root == null) {
             return true;
         }
         return isSymmetricHelper(root.left, root.right);
     }
 
-    private boolean isSymmetricHelper(TreeNode left, TreeNode right) {
-        if(left==null && right==null){
+    private boolean isSymmetricHelper(TreeNode nodeLeft, TreeNode nodeRight) {
+        if (nodeLeft == null && nodeRight == null) {
             return true;
         }
 
-        if(left==null || right==null){
+        if (nodeLeft == null || nodeRight == null) {
             return false;
         }
 
-        return isSymmetricHelper(left.left, right.right) && isSymmetricHelper(left.right, right.left);
+        if (nodeLeft.val != nodeRight.val) {
+            return false;
+        }
+
+        return isSymmetricHelper(nodeLeft.left, nodeRight.right)
+                && isSymmetricHelper(nodeLeft.right, nodeRight.left);
+
     }
 }

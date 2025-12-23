@@ -30,21 +30,20 @@ public class ConstructBinaryTreeFromInorderAndPostOrder {
         for (int i = 0; i < inorder.length; i++) {
             map.put(inorder[i], i);
         }
-        return helper(inorder, 0, inorder.length - 1,
-                postorder, 0, postorder.length - 1, map);
+        return helper(inorder, 0, inorder.length - 1, postorder, 0, postorder.length - 1, map);
     }
 
     private TreeNode helper(int[] inorder, int is, int ie, int[] postorder, int ps, int pe, Map<Integer, Integer> map) {
-        if(ps>pe || is>ie){
+        if (ps > pe || is > ie) {
             return null;
         }
 
-        TreeNode root=new TreeNode(postorder[pe]);
-        int indexRoot=map.get(root.val);
-        int numLeft=indexRoot-is;
+        TreeNode root = new TreeNode(postorder[pe]);
+        int indexRoot = map.get(root.val);
+        int numLeft = indexRoot - is;
 
-        root.left=helper(inorder, is, indexRoot-1, postorder, ps, ps+numLeft-1, map);
-        root.right=helper(inorder, indexRoot+1, ie, postorder, ps+numLeft, pe-1, map);
+        root.left = helper(inorder, is, indexRoot - 1, postorder, ps, ps + numLeft - 1, map);
+        root.right = helper(inorder, indexRoot + 1, ie, postorder, ps + numLeft, pe - 1, map);
         return root;
     }
 

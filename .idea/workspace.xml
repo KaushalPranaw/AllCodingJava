@@ -6,17 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Dec 21, 2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/LinkedListCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/MergeTwoSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/PartitionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/PartitionList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/RemoveDuplicatesFromSortedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/RemoveDuplicatesFromSortedListII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/ReverseLinkedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/ReverseLinkedListII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/ReverseNodesInKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/ReverseNodesInKGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/RotateList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/LinkedList/RotateList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/ConstructBinaryTreeFromInorderAndPostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/ConstructBinaryTreeFromInorderAndPostOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/ConstructBinaryTreeFromPreorderAndInorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/ConstructBinaryTreeFromPreorderAndInorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/InvertBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/MaximumDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/SymmetricTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +35,12 @@
     &quot;assignee&quot;: &quot;KaushalPranaw&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/KaushalPranaw/AllCodingJava.git&quot;,
-    &quot;accountId&quot;: &quot;9d686644-5304-4a36-9655-72888516f1e2&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KaushalPranaw/AllCodingJava.git",
+    "accountId": "b448e12a-f7b9-400e-b4b2-5c3303283a93"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -71,6 +65,7 @@
     "Application.Candy.executor": "Run",
     "Application.CombinationSum.executor": "Run",
     "Application.CompletableFutureExample.executor": "Run",
+    "Application.ConstructBinaryTreeFromPreorderAndInorder.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.ContainsDuplicateII.executor": "Run",
     "Application.CountCompleteTreeNodes.executor": "Run",
@@ -200,13 +195,13 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseNodesInKGroup">
-    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.LinkedList.LRUCache" />
+  <component name="RunManager" selected="Application.ConstructBinaryTreeFromPreorderAndInorder">
+    <configuration name="ConstructBinaryTreeFromPreorderAndInorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.ConstructBinaryTreeFromPreorderAndInorder" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.LinkedList.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.LinkedList.PartitionList" />
+    <configuration name="InvertBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.InvertBinaryTree" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.LinkedList.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedListII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.LinkedList.RemoveDuplicatesFromSortedListII" />
+    <configuration name="MaximumDepthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.MaximumDepthOfBinaryTree" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.LinkedList.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,12 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.LinkedList.RotateList" />
+    <configuration name="SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.SameTree" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.LinkedList.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConstructBinaryTreeFromPreorderAndInorder" />
+        <item itemvalue="Application.InvertBinaryTree" />
+        <item itemvalue="Application.SameTree" />
+        <item itemvalue="Application.MaximumDepthOfBinaryTree" />
         <item itemvalue="Application.ReverseNodesInKGroup" />
-        <item itemvalue="Application.RotateList" />
-        <item itemvalue="Application.LRUCache" />
-        <item itemvalue="Application.PartitionList" />
-        <item itemvalue="Application.RemoveDuplicatesFromSortedListII" />
       </list>
     </recent_temporary>
   </component>
