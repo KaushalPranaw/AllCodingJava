@@ -87,7 +87,7 @@ public class FlattenBinaryTreeToLinkedList {
                 cur.right = cur.left;
                 cur.left = null;
             }
-            cur = cur.right;
+            cur=cur.right;
         }
     }
 }

@@ -14,45 +14,63 @@ public class BinaryTreeMaximumPathSum {
 
     }
 
-    int max = Integer.MIN_VALUE;
+    int maxSum = Integer.MIN_VALUE;
 
     public int maxPathSum(TreeNode root) {
+        /*
+        Path shapes allowed:
+        Single node
+        node → left
+        node → right
+        left → node → right   ✅ (MOST IMPORTANT CASE)
+
+        Key Idea
+        At each node, we ask 2 questions:
+        1️⃣ What is the maximum path sum passing THROUGH this node?
+        This means:
+        left contribution + node value + right contribution
+
+        2️⃣ What is the maximum path sum going UP to parent?
+        Parent can take only one side, not both.
+        So we return:
+        node value + max(left, right)
+
+        Why ignore negative paths?
+        If a child path gives negative sum, we discard it:
+        Math.max(0, leftGain)
+        Because adding a negative number reduces the total.
+        👉 This can be the final answer
+
+        Algorithm (DFS)
+
+        Do postorder traversal
+        Maintain a global max
+        At each node:
+        Get left & right gains
+        Update global max
+        Return best single path upward
+         */
+
         dfs(root);
-        return max;
+        return maxSum;
     }
 
     private int dfs(TreeNode node) {
-        if (node == null) {
+        if(node==null){
             return 0;
         }
 
-        int left = Math.max(0, dfs(node.left));
-        int right = Math.max(0, dfs(node.right));
-        max = Math.max(max, left + node.val + right);
+        // Ignore negative paths
+        int leftGain = Math.max(0, dfs(node.left));
+        int rightGain=Math.max(0, dfs(node.right));
 
-        return node.val + Math.max(left, right);
+        // Case where path passes through this node
+        int currentPathSum=node.val+leftGain+rightGain;
 
-    }
+        // Update global max
+        maxSum=Math.max(maxSum, currentPathSum);
 
-    /*public int maxPathSum(TreeNode root) {
-        maxGain(root);
-        return max;
-    }
-
-    private int maxGain(TreeNode node) {
-        if (node == null) {
-            return 0;
-        }
-
-        // Recursively calculate the maximum gain from the left and right subtrees
-        int leftGain = Math.max(maxGain(node.left), 0);
-        int rightGain = Math.max(maxGain(node.right), 0);
-
-        // Calculate the price of the current path
-        int priceNewPath = node.val + leftGain + rightGain;
-        max = Math.max(max, priceNewPath);
-
-        // Return the maximum gain if we continue the same path
+        // Return max path going UP
         return node.val + Math.max(leftGain, rightGain);
-    }*/
+    }
 }

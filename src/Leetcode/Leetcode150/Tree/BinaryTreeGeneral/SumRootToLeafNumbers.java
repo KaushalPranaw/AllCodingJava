@@ -16,16 +16,16 @@ public class SumRootToLeafNumbers {
         return dfs(root, 0);
     }
 
-    int dfs(TreeNode root, int sum) {
-        if (root == null) {
+    int dfs(TreeNode node, int currentSum) {
+        if (node == null) {
             return 0;
         }
 
-        sum = sum * 10 + root.val;
-
-        if (root.left == null && root.right == null) {
-            return sum;
+        currentSum = currentSum * 10 + node.val;
+        if (node.left == null && node.right == null) {
+            return currentSum;
         }
-        return dfs(root.left, sum) + dfs(root.right, sum);
+
+        return dfs(node.left, currentSum) + dfs(node.right, currentSum);
     }
 }
