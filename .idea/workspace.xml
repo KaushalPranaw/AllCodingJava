@@ -6,12 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Dec 23, 2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/BinaryTreeMaximumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/BinaryTreeMaximumPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/CountCompleteTreeNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/CountCompleteTreeNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/FlattenBinaryTreeToLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/FlattenBinaryTreeToLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/LowestCommonAncestorOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/LowestCommonAncestorOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/PathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/SumRootToLeafNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeGeneral/SumRootToLeafNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinarySearchTree/KthSmallestElementInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinarySearchTree/KthSmallestElementInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinarySearchTree/MinimumAbsoluteDifferenceInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinarySearchTree/MinimumAbsoluteDifferenceInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinarySearchTree/ValidateBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinarySearchTree/ValidateBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeBFS/AverageOfLevelsInBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeBFS/AverageOfLevelsInBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeBFS/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeBFS/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeBFS/BinaryTreeRightSideView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeBFS/BinaryTreeRightSideView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeBFS/BinaryTreeZigzagLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Tree/BinaryTreeBFS/BinaryTreeZigzagLevelOrderTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,13 +197,13 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlattenBinaryTreeToLinkedList">
-    <configuration name="BinaryTreeMaximumPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.BinaryTreeMaximumPathSum" />
+  <component name="RunManager" selected="Application.ValidateBinarySearchTree">
+    <configuration name="BinaryTreeLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinaryTreeBFS.BinaryTreeLevelOrderTraversal" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinaryTreeBFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +211,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlattenBinaryTreeToLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.FlattenBinaryTreeToLinkedList" />
+    <configuration name="BinaryTreeZigzagLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinaryTreeBFS.BinaryTreeZigzagLevelOrderTraversal" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinaryTreeBFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestCommonAncestorOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.LowestCommonAncestorOfBinaryTree" />
+    <configuration name="KthSmallestElementInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinarySearchTree.KthSmallestElementInBST" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.PathSum" />
+    <configuration name="MinimumAbsoluteDifferenceInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinarySearchTree.MinimumAbsoluteDifferenceInBST" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,12 +250,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumRootToLeafNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.SumRootToLeafNumbers" />
+    <configuration name="ValidateBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinarySearchTree.ValidateBinarySearchTree" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinaryTreeGeneral.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FlattenBinaryTreeToLinkedList" />
-        <item itemvalue="Application.LowestCommonAncestorOfBinaryTree" />
-        <item itemvalue="Application.BinaryTreeMaximumPathSum" />
-        <item itemvalue="Application.SumRootToLeafNumbers" />
-        <item itemvalue="Application.PathSum" />
+        <item itemvalue="Application.ValidateBinarySearchTree" />
+        <item itemvalue="Application.KthSmallestElementInBST" />
+        <item itemvalue="Application.MinimumAbsoluteDifferenceInBST" />
+        <item itemvalue="Application.BinaryTreeZigzagLevelOrderTraversal" />
+        <item itemvalue="Application.BinaryTreeLevelOrderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -291,14 +292,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00017" summary="Feb 23, 2025">
-      <option name="closed" value="true" />
-      <created>1740369358111</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1740369358111</updated>
     </task>
     <task id="LOCAL-00018" summary="Feb 23, 2025">
       <option name="closed" value="true" />
@@ -684,7 +677,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766464998759</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Dec 23, 2025">
+      <option name="closed" value="true" />
+      <created>1766486306652</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1766486306652</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

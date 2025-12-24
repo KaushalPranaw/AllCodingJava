@@ -13,26 +13,25 @@ public class KthSmallestElementInBST {
         System.out.println(obj.kthSmallest(root, k));
     }
 
-    int count = 0, result = 0;
+    int count = 0, res = 0;
 
     public int kthSmallest(TreeNode root, int k) {
         if (root == null) {
-            return result;
+            return res;
         }
         inorder(root, k);
-        return result;
+        return res;
     }
 
-    private void inorder(TreeNode root, int k) {
-        if (root == null) {
+    private void inorder(TreeNode node, int k) {
+        if (node == null) {
             return;
         }
-
-        inorder(root.left, k);
+        inorder(node.left, k);
         count++;
         if (count == k) {
-            result = root.val;
+            res = node.val;
         }
-        inorder(root.right, k);
+        inorder(node.right, k);
     }
 }

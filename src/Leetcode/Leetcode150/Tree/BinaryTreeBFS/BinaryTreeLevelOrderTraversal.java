@@ -21,28 +21,31 @@ public class BinaryTreeLevelOrderTraversal {
     }
 
     public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> wrap = new ArrayList<>();
+        List<List<Integer>> wrapList = new ArrayList<>();
         if (root == null) {
-            return wrap;
+            return wrapList;
         }
 
-        Queue<TreeNode> q = new LinkedList<>();
-        q.add(root);
-        while (!q.isEmpty()) {
-            int level = q.size();
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            int level = queue.size();
             List<Integer> list = new ArrayList<>();
             for (int i = 0; i < level; i++) {
-                TreeNode cur = q.poll();
-                list.add(cur.val);
-                if (cur.left != null) {
-                    q.add(cur.left);
+                TreeNode node = queue.poll();
+                list.add(node.val);
+
+                if (node.left != null) {
+                    queue.add(node.left);
                 }
-                if (cur.right != null) {
-                    q.add(cur.right);
+
+                if (node.right != null) {
+                    queue.add(node.right);
                 }
             }
-            wrap.add(list);
+            wrapList.add(list);
         }
-        return wrap;
+        return wrapList;
     }
 }
