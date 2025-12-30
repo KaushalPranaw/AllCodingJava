@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Dec 23, 2025">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/GraphGeneral/CourseSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/GraphGeneral/CourseScheduleII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/GraphGeneral/NumberOfIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/GraphGeneral/SurroundedRegions.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Dec 24, 2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Trie/Trie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +68,7 @@
     "Application.CountOfSubArrayEqualsToK.executor": "Run",
     "Application.CountSubArrayEqualToK.executor": "Run",
     "Application.CourseSchedule.executor": "Run",
+    "Application.CourseScheduleII.executor": "Run",
     "Application.DP01_Fibonacci.executor": "Run",
     "Application.DP02_ClimbingStairs.executor": "Run",
     "Application.DSA_RoadMap.Day1.Subsets.executor": "Run",
@@ -156,6 +154,7 @@
     "Application.ThreeSumEqualToK.executor": "Run",
     "Application.ThreeSumEqualsToK.executor": "Run",
     "Application.TrappingRainWater.executor": "Run",
+    "Application.Trie.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.TwoSumII.executor": "Run",
     "Application.TwoSumInputArrayIsSorted.executor": "Run",
@@ -197,7 +196,7 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CourseScheduleII">
+  <component name="RunManager" selected="Application.Trie">
     <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.GraphGeneral.CourseSchedule" />
       <module name="basic-concepts" />
@@ -250,12 +249,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Tree.BinarySearchTree.ValidateBinarySearchTree" />
+    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Trie.Trie" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Tree.BinarySearchTree.*" />
+          <option name="PATTERN" value="Leetcode.Trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Trie" />
         <item itemvalue="Application.CourseScheduleII" />
         <item itemvalue="Application.CourseSchedule" />
         <item itemvalue="Application.SurroundedRegions" />
         <item itemvalue="Application.NumberOfIslands" />
-        <item itemvalue="Application.ValidateBinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -292,14 +291,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00019" summary="Feb 24, 2025">
-      <option name="closed" value="true" />
-      <created>1740423128333</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1740423128333</updated>
     </task>
     <task id="LOCAL-00020" summary="Feb 25, 2025">
       <option name="closed" value="true" />
@@ -685,7 +676,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766547142953</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Dec 24, 2025">
+      <option name="closed" value="true" />
+      <created>1766551020383</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1766551020383</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -703,7 +702,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="April 16 , 2025" />
     <MESSAGE value="April 18 , 2025" />
     <MESSAGE value="April 19 , 2025" />
     <MESSAGE value="April 25 , 2025" />
@@ -728,7 +726,8 @@
     <MESSAGE value="Dec 17, 2025" />
     <MESSAGE value="Dec 21, 2025" />
     <MESSAGE value="Dec 23, 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec 23, 2025" />
+    <MESSAGE value="Dec 24, 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec 24, 2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
