@@ -8,19 +8,12 @@ public class MaxSubarraySum {
     }
 
     private static int maxSubArray(int[] nums) {
-        /*int max = nums[0];
-        int curSum = nums[0];
-        for (int i = 1; i < nums.length; i++) {
-            curSum = Math.max(nums[i], nums[i] + curSum);
-            max = Math.max(max, curSum);
-        }
-        return max;*/
-
-        int max = nums[0];
         int sum = 0;
+        int max = nums[0];
         for (int i = 0; i < nums.length; i++) {
-            sum = sum + nums[i];
+            sum += nums[i];
             max = Math.max(max, sum);
+
             if (sum < 0) {
                 sum = 0;
             }

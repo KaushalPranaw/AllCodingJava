@@ -22,11 +22,12 @@ public class MergekSortedLists {
 
         PriorityQueue<ListNode> pq = new PriorityQueue<>((a, b) -> Integer.compare(a.val, b.val));
 
-        for (ListNode node : lists) {
-            if (node != null) {
-                pq.add(node);
+        for (ListNode list : lists) {
+            if (list != null) {
+                pq.add(list);
             }
         }
+
         ListNode dummy = new ListNode(-1);
         ListNode cur = dummy;
 

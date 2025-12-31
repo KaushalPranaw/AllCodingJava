@@ -12,7 +12,7 @@ public class MaximumSumCircularSubarray {
         //Steps to Solve
         //Find the maximum subarray sum using Kadane’s Algorithm.
         //Find the minimum subarray sum using Kadane’s Algorithm (on -nums).
-        //Calculate the circular max sum as total sum - min sum.
+        //Calculate the circular max sum as totalSum - minKadane.
         //If all elements are negative, return the max subarray sum (ignoring circular sum).
 
         int maxKadane = kadane(nums);
@@ -22,25 +22,34 @@ public class MaximumSumCircularSubarray {
         for (int i = 0; i < nums.length; i++) {
             nums[i] = -nums[i];
         }
-
         int minKadane = kadane(nums);
 
-        int maxCircular = totalSum + minKadane;
+        int circularMax = totalSum - minKadane;
 
-        if (maxCircular == 0) {
+        if (circularMax == 0) {
             return maxKadane;
         }
-        return Math.max(maxKadane, maxCircular);
+        return Math.max(circularMax, maxKadane);
 
     }
 
     private int kadane(int[] nums) {
-        int sum = nums[0];
+        int sum = 0;
+        int max = nums[0];
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+            max = Math.max(max, sum);
+            if (sum < 0) {
+                sum = 0;
+            }
+        }
+        return max;
+        /*int sum = nums[0];
         int max = nums[0];
         for (int i = 1; i < nums.length; i++) {
             sum = Math.max(sum + nums[i], nums[i]);
             max = Math.max(max, sum);
         }
-        return max;
+        return max;*/
     }
 }
