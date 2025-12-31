@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Dec 29, 2025">
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Dec 31, 2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Comp/AE/MaxSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comp/AE/MaxSubarraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/BinarySearch/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/BinarySearch/SearchInsertPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/DivideAndConquer/MergekSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/DivideAndConquer/MergekSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/DivideAndConquer/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/DivideAndConquer/SortList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/KadaneAlgorithm/MaximumSumCircularSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/KadaneAlgorithm/MaximumSumCircularSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/BinarySearch/FindFirstAndLastPositionOfElementInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/BinarySearch/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/BinarySearch/FindMinimumInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/BinarySearch/FindMinimumInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/BinarySearch/FindPeakElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/BinarySearch/FindPeakElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/BinarySearch/MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/BinarySearch/MedianOfTwoSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/BinarySearch/Search2DMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/BinarySearch/Search2DMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/BinarySearch/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/BinarySearch/SearchInRotatedSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +81,9 @@
     "Application.EvaluateReversePolishNotation.executor": "Run",
     "Application.ExecutorServiceExample.executor": "Run",
     "Application.Fibonacci.executor": "Run",
+    "Application.FindFirstAndLastPositionOfElementInSortedArray.executor": "Run",
+    "Application.FindMinimumInRotatedSortedArray.executor": "Run",
+    "Application.FindPeakElement.executor": "Run",
     "Application.FindTheDifference.executor": "Run",
     "Application.FindTheIndexOfFirstOccurrenceInAString.executor": "Run",
     "Application.FlattenBinaryTreeToLinkedList.executor": "Run",
@@ -111,6 +115,7 @@
     "Application.MaximumSizeSubarraySumEqualsk.executor": "Run",
     "Application.MaximumSubarray.executor": "Run",
     "Application.MaximumSumCircularSubarray.executor": "Run",
+    "Application.MedianOfTwoSortedArrays.executor": "Run",
     "Application.MergeIntervals.executor": "Run",
     "Application.MergeSortedArray.executor": "Run",
     "Application.MergeStringsAlternately.executor": "Run",
@@ -144,6 +149,7 @@
     "Application.RotateImage.executor": "Run",
     "Application.RotateList.executor": "Run",
     "Application.SameTree.executor": "Run",
+    "Application.Search2DMatrix.executor": "Run",
     "Application.SearchInRotatedSortedArray.executor": "Run",
     "Application.SearchInsertPosition.executor": "Run",
     "Application.SetMatrixZeroes.executor": "Run",
@@ -205,13 +211,13 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchInsertPosition">
-    <configuration name="ConvertSortedArrayToBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.DivideAndConquer.ConvertSortedArrayToBinarySearchTree" />
+  <component name="RunManager" selected="Application.MedianOfTwoSortedArrays">
+    <configuration name="FindFirstAndLastPositionOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.BinarySearch.FindFirstAndLastPositionOfElementInSortedArray" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.DivideAndConquer.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +225,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Comp.AE.MaxSubarraySum" />
+    <configuration name="FindMinimumInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.BinarySearch.FindMinimumInRotatedSortedArray" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Comp.AE.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSumCircularSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.KadaneAlgorithm.MaximumSumCircularSubarray" />
+    <configuration name="FindPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.BinarySearch.FindPeakElement" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.KadaneAlgorithm.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,12 +251,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergekSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.DivideAndConquer.MergekSortedLists" />
+    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.BinarySearch.MedianOfTwoSortedArrays" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.DivideAndConquer.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,8 +264,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.BinarySearch.SearchInsertPosition" />
+    <configuration name="SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.BinarySearch.SearchInRotatedSortedArray" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -273,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SearchInsertPosition" />
-        <item itemvalue="Application.MaximumSumCircularSubarray" />
-        <item itemvalue="Application.MaxSubarraySum" />
-        <item itemvalue="Application.MergekSortedLists" />
-        <item itemvalue="Application.ConvertSortedArrayToBinarySearchTree" />
+        <item itemvalue="Application.MedianOfTwoSortedArrays" />
+        <item itemvalue="Application.FindMinimumInRotatedSortedArray" />
+        <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
+        <item itemvalue="Application.SearchInRotatedSortedArray" />
+        <item itemvalue="Application.FindPeakElement" />
       </list>
     </recent_temporary>
   </component>
@@ -300,14 +306,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00021" summary="Feb 26, 2025">
-      <option name="closed" value="true" />
-      <created>1740593471395</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1740593471396</updated>
     </task>
     <task id="LOCAL-00022" summary="Feb 27, 2025">
       <option name="closed" value="true" />
@@ -693,7 +691,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767112579124</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Dec 31, 2025">
+      <option name="closed" value="true" />
+      <created>1767157387616</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1767157387616</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,7 +717,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="April 19 , 2025" />
     <MESSAGE value="April 25 , 2025" />
     <MESSAGE value="April 26 , 2025" />
     <MESSAGE value="April 27 , 2025" />
@@ -736,7 +741,8 @@
     <MESSAGE value="Dec 23, 2025" />
     <MESSAGE value="Dec 24, 2025" />
     <MESSAGE value="Dec 29, 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec 29, 2025" />
+    <MESSAGE value="Dec 31, 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec 31, 2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

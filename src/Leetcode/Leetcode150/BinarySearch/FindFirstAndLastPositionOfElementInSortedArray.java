@@ -18,45 +18,41 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
     }
 
     public int[] searchRange(int[] nums, int target) {
-        int[] res = new int[]{-1, -1};
-        if (nums == null || nums.length == 0) {
-            return res;
-        }
-
+        int[] res = new int[2];
         res[0] = findFirsts(nums, target);
         res[1] = findSecond(nums, target);
         return res;
     }
 
     private int findFirsts(int[] nums, int target) {
-        int res = -1;
         int low = 0, high = nums.length - 1;
+        int res = -1;
         while (low <= high) {
             int mid = low + (high - low) / 2;
             if (nums[mid] == target) {
                 res = mid;
                 high = mid - 1;
-            } else if (nums[mid] < target) {
-                low = mid + 1;
-            } else {
+            } else if (nums[mid] > target) {
                 high = mid - 1;
+            } else {
+                low = mid + 1;
             }
         }
         return res;
     }
 
     private int findSecond(int[] nums, int target) {
-        int res = -1;
         int low = 0, high = nums.length - 1;
+        int res = -1;
         while (low <= high) {
             int mid = low + (high - low) / 2;
             if (nums[mid] == target) {
                 res = mid;
                 low = mid + 1;
-            } else if (nums[mid] < target) {
-                low = mid + 1;
-            } else {
+            } else if (nums[mid] > target) {
                 high = mid - 1;
+            } else {
+                low = mid + 1;
             }
         }
         return res;

@@ -11,11 +11,11 @@ public class Search2DMatrix {
         int m = matrix.length;
         int n = matrix[0].length;
 
-        if (matrix[m - 1][n - 1] < target) {
+        if (target < matrix[0][0] || matrix[m - 1][n - 1] < target) {
             return false;
         }
         for (int i = 0; i < m; i++) {
-            if (matrix[i][n - 1] >= target) {
+            if (target <= matrix[i][n - 1]) {
                 return binarySearch(i, matrix, target);
             }
         }
@@ -24,15 +24,15 @@ public class Search2DMatrix {
 
     private boolean binarySearch(int row, int[][] matrix, int target) {
         int n = matrix[0].length;
-        int low = 0, high = n - 1;
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
+        int left = 0, right = n - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
             if (matrix[row][mid] == target) {
                 return true;
             } else if (matrix[row][mid] > target) {
-                high = mid - 1;
+                right = mid - 1;
             } else {
-                low = mid + 1;
+                left = mid + 1;
             }
         }
         return false;

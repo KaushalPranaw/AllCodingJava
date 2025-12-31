@@ -12,6 +12,7 @@ public class FindMinimumInRotatedSortedArray {
         System.out.println("Test Case 2: nums = {4, 5, 6, 7, 0, 1, 2}, Result: " + solution.findMin(nums2)); // Expected: 0
 
     }
+
     /*
     If the array was not rotated, the first element would be the smallest.
     But because of rotation, the smallest element is where the rotation happened
@@ -42,24 +43,17 @@ public class FindMinimumInRotatedSortedArray {
 
      */
     public int findMin(int[] nums) {
-        if(nums[0]<nums[nums.length-1]){
+        if (nums[0] <= nums[nums.length - 1]) {
             return nums[0];
         }
-        int low=0, high=nums.length-1;
-        while (low<high){
-            int mid=low+(high-low)/2;
-
-            //now check if mid bada hai high se
-            //mtlb small aagehi hoga fir to
-            if(nums[mid]>nums[high]){
-                low=mid+1;
-            }else {
-                //mtlb mid<=high
-                //to min ya to mid hoga ya fir left side
-                high=mid;
+        int low = 0, high = nums.length - 1;
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+            if (nums[mid] > nums[high]) {
+                low = mid + 1;
+            } else {
+                high = mid;
             }
-            //jab dono barabar hoge to loop khtm ho jayega
-            //means low==high
         }
         return nums[low];
     }

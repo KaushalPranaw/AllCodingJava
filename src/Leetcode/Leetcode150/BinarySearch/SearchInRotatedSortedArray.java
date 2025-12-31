@@ -16,43 +16,44 @@ public class SearchInRotatedSortedArray {
 
     }
 
-    //The array is sorted but rotated — meaning one half is always sorted.
-    //For any mid you check:
-    //Either left half (low to mid) is sorted, or
-    //Right half (mid to high) is sorted.
-
-    //Set low = 0 and high = nums.length - 1
-    //While low <= high:
-    //Find mid = (low + high) / 2.
-    //If nums[mid] == target, return mid (found it!).
-    //Decide which half is sorted:
-
-    //If nums[low] <= nums[mid], left side is sorted
-    //Check if target lies between nums[low] and nums[mid]
-    //If yes, move high = mid - 1.
-    //Else, move low = mid + 1
-
-    //Else, right side is sorted:
-    //Check if target lies between nums[mid] and nums[high]:
-    //If yes, move low = mid + 1.
-    //Else, move high = mid - 1.
     public int search(int[] nums, int target) {
+        //thumb rule:
+        // The array is sorted but rotated — meaning always at any point one half is always sorted.
+        //For any mid you check:
+        //Either left half (low to mid) is sorted, or
+        //Right half (mid to high) is sorted.
+
+        //Set low = 0 and high = nums.length - 1
+        //While low <= high:
+        //Find mid = (low + high) / 2.
+        //If nums[mid] == target, return mid (found it!).
+        //Decide which half is sorted:
+
+        //If nums[low] <= nums[mid], left side is sorted
+        //Check if target lies between nums[low] and nums[mid]
+        //If yes, move high = mid - 1.
+        //Else, move low = mid + 1
+
+        //Else, right side is sorted:
+        //Check if target lies between nums[mid] and nums[high]:
+        //If yes, move low = mid + 1.
+        //Else, move high = mid - 1.
+
         int low = 0, high = nums.length - 1;
         while (low <= high) {
             int mid = low + (high - low) / 2;
             if (nums[mid] == target) {
                 return mid;
             } else {
-                //if left half is sorted
+                //left half is sorted
                 if (nums[low] <= nums[mid]) {
-                    if (nums[low] <= target && target < nums[mid]) {
+                    if (target >= nums[low] && target <= nums[mid]) {
                         high = mid - 1;
                     } else {
                         low = mid + 1;
                     }
                 } else {
-                    //right half is sorted
-                    if (nums[mid] < target && target <= nums[high]) {
+                    if (target > nums[mid] && target <= nums[high]) {
                         low = mid + 1;
                     } else {
                         high = mid - 1;
