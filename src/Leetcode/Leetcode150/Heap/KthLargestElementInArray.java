@@ -23,8 +23,7 @@ public class KthLargestElementInArray {
     }
 
     private static int kthLargestElementInArray(int[] nums, int k) {
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>(Integer::compare);
-
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         for (int i = 0; i < k; i++) {
             minHeap.add(nums[i]);
         }
