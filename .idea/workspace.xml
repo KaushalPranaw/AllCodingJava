@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Dec 31, 2025">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Backtracking/CombinationSumII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Heap/KthLargestElementInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Heap/KthLargestElementInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Backtracking/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Backtracking/CombinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Backtracking/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Backtracking/Combinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Backtracking/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Backtracking/Permutations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +63,8 @@
     "Application.BuildArrayWithStackOperations.executor": "Run",
     "Application.Candy.executor": "Run",
     "Application.CombinationSum.executor": "Run",
+    "Application.CombinationSumII.executor": "Run",
+    "Application.Combinations.executor": "Run",
     "Application.CompletableFutureExample.executor": "Run",
     "Application.ConstructBinaryTreeFromPreorderAndInorder.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
@@ -126,6 +131,7 @@
     "Application.NumberOfIslands.executor": "Run",
     "Application.PartitionList.executor": "Run",
     "Application.PathSum.executor": "Run",
+    "Application.Permutations.executor": "Run",
     "Application.Power.executor": "Run",
     "Application.ProductOfArrayExceptSelf.executor": "Run",
     "Application.RandomizedSet.executor": "Run",
@@ -207,13 +213,13 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KthLargestElementInArray">
-    <configuration name="FindFirstAndLastPositionOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.BinarySearch.FindFirstAndLastPositionOfElementInSortedArray" />
+  <component name="RunManager" selected="Application.CombinationSumII">
+    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Backtracking.CombinationSum" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.BinarySearch.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,12 +227,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinimumInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.BinarySearch.FindMinimumInRotatedSortedArray" />
+    <configuration name="CombinationSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Backtracking.CombinationSumII" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.BinarySearch.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Backtracking.Combinations" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Leetcode150.Backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,25 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.BinarySearch.MedianOfTwoSortedArrays" />
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Backtracking.Permutations" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.BinarySearch.SearchInRotatedSortedArray" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.BinarySearch.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CombinationSumII" />
+        <item itemvalue="Application.CombinationSum" />
+        <item itemvalue="Application.Permutations" />
+        <item itemvalue="Application.Combinations" />
         <item itemvalue="Application.KthLargestElementInArray" />
-        <item itemvalue="Application.MedianOfTwoSortedArrays" />
-        <item itemvalue="Application.FindMinimumInRotatedSortedArray" />
-        <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
-        <item itemvalue="Application.SearchInRotatedSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -302,14 +308,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00023" summary="March 1 , 2025">
-      <option name="closed" value="true" />
-      <created>1740893826384</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1740893826384</updated>
     </task>
     <task id="LOCAL-00024" summary="March 2 , 2025">
       <option name="closed" value="true" />
@@ -695,7 +693,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767165886547</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Dec 31, 2025">
+      <option name="closed" value="true" />
+      <created>1767245499680</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1767245499680</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

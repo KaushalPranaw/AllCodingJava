@@ -1,5 +1,6 @@
 package Leetcode.Leetcode150.Backtracking;
 
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -22,27 +23,23 @@ public class CombinationSum {
     private void getAllCombinations(int[] candidates, int target, int idx, ArrayList<Integer> combination, Set<List<Integer>> set) {
 
         //base case
-        if (target == 0) {
-            set.add(new ArrayList<>(combination));
+        if (idx == candidates.length || target < 0) {
             return;
         }
 
-        if (target < 0 || idx == candidates.length) {
+        if (target == 0) {
+            set.add(new ArrayList<>(combination));
             return;
         }
 
         //single inclusion
         combination.add(candidates[idx]);
         getAllCombinations(candidates, target - candidates[idx], idx + 1, combination, set);
-
-        //multi
-        //since already added no need to add again
+        //multi inclusion
         getAllCombinations(candidates, target - candidates[idx], idx, combination, set);
-
         //exclusion
         combination.remove(combination.size() - 1);
         getAllCombinations(candidates, target, idx + 1, combination, set);
-
     }
 
 }
