@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Dec 31, 2025">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Backtracking/CombinationSumII.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Jan 1, 2025">
+      <change afterPath="$PROJECT_DIR$/src/DAY200/Day001_SortColors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Backtracking/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Backtracking/CombinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Backtracking/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Backtracking/Combinations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Backtracking/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Backtracking/Permutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Graph/G02_Problem_On_BFS_DFS/G06_BFS_Detect_Cycle_Undirected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Graph/G02_Problem_On_BFS_DFS/G06_BFS_Detect_Cycle_Undirected.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Graph/G02_Problem_On_BFS_DFS/G07_DFS_Detect_Cycle_Undirected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Graph/G02_Problem_On_BFS_DFS/G07_DFS_Detect_Cycle_Undirected.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Graph/G02_Problem_On_BFS_DFS/G10_NumberOfEnclaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Graph/G02_Problem_On_BFS_DFS/G10_NumberOfEnclaves.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +34,12 @@
     &quot;assignee&quot;: &quot;KaushalPranaw&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/KaushalPranaw/AllCodingJava.git",
-    "accountId": "b448e12a-f7b9-400e-b4b2-5c3303283a93"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KaushalPranaw/AllCodingJava.git&quot;,
+    &quot;accountId&quot;: &quot;b448e12a-f7b9-400e-b4b2-5c3303283a93&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -78,6 +78,7 @@
     "Application.DP01_Fibonacci.executor": "Run",
     "Application.DP02_ClimbingStairs.executor": "Run",
     "Application.DSA_RoadMap.Day1.Subsets.executor": "Run",
+    "Application.Day001_SortColors.executor": "Run",
     "Application.EvaluateReversePolishNotation.executor": "Run",
     "Application.ExecutorServiceExample.executor": "Run",
     "Application.Fibonacci.executor": "Run",
@@ -88,6 +89,7 @@
     "Application.FindTheIndexOfFirstOccurrenceInAString.executor": "Run",
     "Application.FlattenBinaryTreeToLinkedList.executor": "Run",
     "Application.G01_BFS.executor": "Run",
+    "Application.G10_NumberOfEnclaves.executor": "Run",
     "Application.GasStation.executor": "Run",
     "Application.GroupAnagrams.executor": "Run",
     "Application.H_Index.executor": "Run",
@@ -213,7 +215,7 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CombinationSumII">
+  <component name="RunManager" selected="Application.G10_NumberOfEnclaves">
     <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Backtracking.CombinationSum" />
       <module name="basic-concepts" />
@@ -240,12 +242,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Backtracking.Combinations" />
+    <configuration name="Day001_SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DAY200.Day001_SortColors" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Backtracking.*" />
+          <option name="PATTERN" value="DAY200.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthLargestElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Heap.KthLargestElementInArray" />
+    <configuration name="G10_NumberOfEnclaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Graph.G02_Problem_On_BFS_DFS.G10_NumberOfEnclaves" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Heap.*" />
+          <option name="PATTERN" value="Leetcode.Graph.G02_Problem_On_BFS_DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,21 +283,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.G10_NumberOfEnclaves" />
+        <item itemvalue="Application.Day001_SortColors" />
         <item itemvalue="Application.CombinationSumII" />
         <item itemvalue="Application.CombinationSum" />
         <item itemvalue="Application.Permutations" />
-        <item itemvalue="Application.Combinations" />
-        <item itemvalue="Application.KthLargestElementInArray" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
-        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-IU-253.28294.334" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -308,14 +302,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00024" summary="March 2 , 2025">
-      <option name="closed" value="true" />
-      <created>1740990569938</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1740990569938</updated>
     </task>
     <task id="LOCAL-00025" summary="March 3 , 2025">
       <option name="closed" value="true" />
@@ -701,7 +687,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767245499680</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Jan 1, 2025">
+      <option name="closed" value="true" />
+      <created>1767290025832</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1767290025832</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,7 +713,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="April 25 , 2025" />
     <MESSAGE value="April 26 , 2025" />
     <MESSAGE value="April 27 , 2025" />
     <MESSAGE value="April 28 , 2025" />
@@ -744,7 +737,8 @@
     <MESSAGE value="Dec 24, 2025" />
     <MESSAGE value="Dec 29, 2025" />
     <MESSAGE value="Dec 31, 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec 31, 2025" />
+    <MESSAGE value="Jan 1, 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jan 1, 2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

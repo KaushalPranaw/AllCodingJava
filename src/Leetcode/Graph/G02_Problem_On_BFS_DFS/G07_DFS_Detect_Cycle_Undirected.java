@@ -4,6 +4,11 @@ import java.util.ArrayList;
 
 public class G07_DFS_Detect_Cycle_Undirected {
     public static void main(String[] args) {
+        /*
+        Keep visited[]
+        Pass parent in DFS
+        If neighbour is visited and neighbour ≠ parent → cycle
+         */
         int V = 5;
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
         for (int i = 0; i < V; i++)
@@ -24,6 +29,8 @@ public class G07_DFS_Detect_Cycle_Undirected {
 
     private boolean isCycle(int V, ArrayList<ArrayList<Integer>> adj) {
         boolean[] vis = new boolean[V];
+
+        //we are starting from each node
         for (int i = 0; i < V; i++) {
             if (!vis[i]) {
                 return dfs(i, -1, adj, vis);

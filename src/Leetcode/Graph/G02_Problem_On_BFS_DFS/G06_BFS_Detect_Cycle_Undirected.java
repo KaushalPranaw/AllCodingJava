@@ -6,6 +6,10 @@ import java.util.Queue;
 
 public class G06_BFS_Detect_Cycle_Undirected {
     public static void main(String[] args) {
+        /*
+        Queue stores (node, parent)
+        Same rule: visited & not parent → cycle
+         */
         int V = 5;
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
         for (int i = 0; i < V; i++)
