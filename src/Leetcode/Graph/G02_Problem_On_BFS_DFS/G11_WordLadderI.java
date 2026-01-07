@@ -20,6 +20,54 @@ public class G11_WordLadderI {
     }
 
     private int wordLadderLength(String startWord, String targetWord, String[] wordList) {
+        Set<String> dict = new HashSet<>(Arrays.asList(wordList));
+
+        if(!dict.contains(targetWord)){
+            return 0;
+        }
+
+        dict.remove(startWord);
+
+        Queue<String> queue = new LinkedList<>();
+        queue.add(startWord);
+        Set<String> vis = new HashSet<>();
+        vis.add(startWord);
+
+        int count = 1;
+
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                String word = queue.poll();
+
+                // Check all transformations
+                char[] chars = word.toCharArray();
+                for (int j = 0; j < chars.length; j++) {
+                    char original = chars[j];
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        if (c == original) {
+                            continue;
+                        }
+                        chars[j] = c;
+                        String newWord = new String(chars);
+                        if (newWord.equals(targetWord)) {
+                            return count + 1;
+                        }
+
+                        if (dict.contains(newWord) && !vis.contains(newWord)) {
+                            queue.add(newWord);
+                            vis.add(newWord);
+                        }
+                    }
+                    chars[j] = original;//restoring
+                }
+            }
+            count++;
+        }
+        return count;
+    }
+
+    /*private int wordLadderLength(String startWord, String targetWord, String[] wordList) {
         Set<String> wordSet = new HashSet<>(Arrays.asList(wordList));
         Queue<Node> queue = new LinkedList<>();
         queue.add(new Node(startWord, 1));
@@ -52,5 +100,5 @@ public class G11_WordLadderI {
     }
 
     record Node(String word, int steps) {
-    }
+    }*/
 }
