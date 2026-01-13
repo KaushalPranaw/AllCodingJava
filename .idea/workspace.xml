@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Jan 7, 2025">
+      <change afterPath="$PROJECT_DIR$/src/Comp/Unicommerce/JobSequencing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoreJava/Java21/Java21Features.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CoreJava/Java21/VirtualThreadInJava/DemoVirtualThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrefixSum/Prefix01_SubarraySumEqualsK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrefixSum/Prefix02_ContinuousSubarraySum_LC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrefixSum/Prefix03_MaximumSizeSubarraySumEqualsK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Graph/G03_Topo/G17_TopoSortKahnAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Graph/G03_Topo/G17_TopoSortKahnAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Graph/G03_Topo/G22_AlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Graph/G03_Topo/G22_AlienDictionary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +80,10 @@
     "Application.CourseScheduleII.executor": "Run",
     "Application.DP01_Fibonacci.executor": "Run",
     "Application.DP02_ClimbingStairs.executor": "Run",
+    "Application.DP05_MaximumSumOfNonAdjacentElements.executor": "Run",
     "Application.DSA_RoadMap.Day1.Subsets.executor": "Run",
     "Application.Day001_SortColors.executor": "Run",
+    "Application.DemoVirtualThread.executor": "Run",
     "Application.EvaluateReversePolishNotation.executor": "Run",
     "Application.ExecutorServiceExample.executor": "Run",
     "Application.Fibonacci.executor": "Run",
@@ -102,6 +109,7 @@
     "Application.InvokeAllExample.executor": "Run",
     "Application.IsSubsequence.executor": "Run",
     "Application.IsomorphicStrings.executor": "Run",
+    "Application.JobSequencing.executor": "Run",
     "Application.JumpGame.executor": "Run",
     "Application.JumpGameII.executor": "Run",
     "Application.KthLargestElementInArray.executor": "Run",
@@ -137,6 +145,7 @@
     "Application.PathSum.executor": "Run",
     "Application.Permutations.executor": "Run",
     "Application.Power.executor": "Run",
+    "Application.Prefix02_ContinuousSubarraySum_LC.executor": "Run",
     "Application.ProductOfArrayExceptSelf.executor": "Run",
     "Application.RandomizedSet.executor": "Run",
     "Application.RansomNote.executor": "Run",
@@ -217,13 +226,13 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.G22_AlienDictionary">
-    <configuration name="G10_NumberOfEnclaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Graph.G02_Problem_On_BFS_DFS.G10_NumberOfEnclaves" />
+  <component name="RunManager" selected="Application.DemoVirtualThread">
+    <configuration name="DP05_MaximumSumOfNonAdjacentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP05_MaximumSumOfNonAdjacentElements" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Graph.G02_Problem_On_BFS_DFS.*" />
+          <option name="PATTERN" value="Leetcode.DP.DP00_1D_2D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="G11_WordLadderI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Graph.G02_Problem_On_BFS_DFS.G11_WordLadderI" />
+    <configuration name="DemoVirtualThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoreJava.Java21.VirtualThreadInJava.DemoVirtualThread" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Graph.G02_Problem_On_BFS_DFS.*" />
+          <option name="PATTERN" value="CoreJava.Java21.VirtualThreadInJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="G12_WordLadderII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Graph.G02_Problem_On_BFS_DFS.G12_WordLadderII" />
+    <configuration name="JobSequencing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Comp.Unicommerce.JobSequencing" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Graph.G02_Problem_On_BFS_DFS.*" />
+          <option name="PATTERN" value="Comp.Unicommerce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,12 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="G17_TopoSortKahnAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Graph.G03_Topo.G17_TopoSortKahnAlgo" />
+    <configuration name="Prefix01_SubarraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrefixSum.Prefix01_SubarraySumEqualsK" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Graph.G03_Topo.*" />
+          <option name="PATTERN" value="PrefixSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="G22_AlienDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Graph.G03_Topo.G22_AlienDictionary" />
+    <configuration name="Prefix02_ContinuousSubarraySum_LC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrefixSum.Prefix02_ContinuousSubarraySum_LC" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Graph.G03_Topo.*" />
+          <option name="PATTERN" value="PrefixSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.G22_AlienDictionary" />
-        <item itemvalue="Application.G17_TopoSortKahnAlgo" />
-        <item itemvalue="Application.G12_WordLadderII" />
-        <item itemvalue="Application.G11_WordLadderI" />
-        <item itemvalue="Application.G10_NumberOfEnclaves" />
+        <item itemvalue="Application.DemoVirtualThread" />
+        <item itemvalue="Application.Prefix02_ContinuousSubarraySum_LC" />
+        <item itemvalue="Application.Prefix01_SubarraySumEqualsK" />
+        <item itemvalue="Application.JobSequencing" />
+        <item itemvalue="Application.DP05_MaximumSumOfNonAdjacentElements" />
       </list>
     </recent_temporary>
   </component>
@@ -304,14 +313,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00027" summary="March 15 , 2025">
-      <option name="closed" value="true" />
-      <created>1742093151673</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1742093151673</updated>
     </task>
     <task id="LOCAL-00028" summary="March 19 , 2025">
       <option name="closed" value="true" />
@@ -697,7 +698,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767763058351</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Jan 7, 2025">
+      <option name="closed" value="true" />
+      <created>1767801869333</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1767801869333</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
