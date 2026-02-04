@@ -18,8 +18,8 @@ public class MajorityElement {
             }
 
             if (count < 0) {
-                candidate = nums[i];
                 count = 0;
+                candidate = nums[i];
             }
         }
         return candidate;

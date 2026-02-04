@@ -6,6 +6,7 @@ public class RotateArray {
     public static void main(String[] args) {
         int nums[] = {1, 2, 3, 4, 5, 6, 7}, k = 3;
         //output [5,6,7,1,2,3,4]
+
         System.out.println(Arrays.toString(nums));
         new RotateArray().rotate(nums, k);
         System.out.println(Arrays.toString(nums));
@@ -16,18 +17,21 @@ public class RotateArray {
         if (n == 1 || k == 0) {
             return;
         }
-        //1,2,3,4,5,6,7
-        //rotate 0, n-1
+        k = k % n;
+
+        //1,2,3,4,5
+        //k=3
+        //rotate all
         reverseArrary(nums, 0, n - 1);
-        //7,6,5,4,3,2,1
-        //rotate 0, k
+        //5,4,3,2,1
+
+        //rotate k
         reverseArrary(nums, 0, k - 1);
-        //5,6,7,4,3,2,1
-        //rotate k, n-1
+        //3,4,5,2,1
+
+        //rotate n-k
         reverseArrary(nums, k, n - 1);
-        //5,6,7,1,2,3,4
-
-
+        //3,4,5,1,2
     }
 
     private void reverseArrary(int[] nums, int i, int j) {
