@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Jan 13, 2025">
-      <change afterPath="$PROJECT_DIR$/src/Java8Programs/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8Programs/Test.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 04, 2025">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/GraphNew/G01_BFS_DFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP01_Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP01_Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP02_ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP02_ClimbingStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +88,7 @@
     "Application.FindTheIndexOfFirstOccurrenceInAString.executor": "Run",
     "Application.FlattenBinaryTreeToLinkedList.executor": "Run",
     "Application.G01_BFS.executor": "Run",
+    "Application.G01_BFS_DFS.executor": "Run",
     "Application.G10_NumberOfEnclaves.executor": "Run",
     "Application.G11_WordLadderI.executor": "Run",
     "Application.G12_WordLadderII.executor": "Run",
@@ -225,7 +223,7 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DP02_ClimbingStairs">
+  <component name="RunManager" selected="Application.G01_BFS_DFS">
     <configuration name="DP01_Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP01_Fibonacci" />
       <module name="basic-concepts" />
@@ -252,12 +250,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoVirtualThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoreJava.Java21.VirtualThreadInJava.DemoVirtualThread" />
+    <configuration name="G01_BFS_DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.GraphNew.G01_BFS_DFS" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CoreJava.Java21.VirtualThreadInJava.*" />
+          <option name="PATTERN" value="Leetcode.GraphNew.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.G01_BFS_DFS" />
         <item itemvalue="Application.DP02_ClimbingStairs" />
         <item itemvalue="Application.DP01_Fibonacci" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.SwapNodesInPairs" />
-        <item itemvalue="Application.DemoVirtualThread" />
       </list>
     </recent_temporary>
   </component>
@@ -312,14 +310,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00029" summary="March 27 , 2025">
-      <option name="closed" value="true" />
-      <created>1743066482263</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1743066482263</updated>
     </task>
     <task id="LOCAL-00030" summary="April 15 , 2025">
       <option name="closed" value="true" />
@@ -705,7 +695,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768280547265</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Feb 04, 2025">
+      <option name="closed" value="true" />
+      <created>1770180388606</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1770180388606</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -723,7 +721,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="April 28 , 2025" />
     <MESSAGE value="May 30 , 2025" />
     <MESSAGE value="June 2, 2025" />
     <MESSAGE value="July 24, 2025" />
@@ -748,7 +745,8 @@
     <MESSAGE value="Jan 1, 2025" />
     <MESSAGE value="Jan 7, 2025" />
     <MESSAGE value="Jan 13, 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jan 13, 2025" />
+    <MESSAGE value="Feb 04, 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feb 04, 2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
