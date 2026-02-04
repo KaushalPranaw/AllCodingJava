@@ -10,7 +10,7 @@ public class DP02_ClimbingStairs {
     }
 
     //recur+memo
-   /* public int climbStairs(int n) {
+    /*public int climbStairs(int n) {
         int[] dp = new int[n + 1];
         Arrays.fill(dp, -1);
         return climbStairsHelper(n, dp);
@@ -20,12 +20,9 @@ public class DP02_ClimbingStairs {
         if (ind == 0 || ind == 1) {
             return 1;
         }
-
-        //if ans already calculated
         if (dp[ind] != -1) {
             return dp[ind];
         }
-        //if not calculated
         return dp[ind] = climbStairsHelper(ind - 1, dp) + climbStairsHelper(ind - 2, dp);
     }*/
 
@@ -34,9 +31,8 @@ public class DP02_ClimbingStairs {
         int[] dp = new int[n + 1];
         dp[0] = 1;
         dp[1] = 1;
-
         for (int ind = 2; ind <= n; ind++) {
-            //copy paste top down
+            //copy paste
             //return dp[ind] = climbStairsHelper(ind - 1, dp) + climbStairsHelper(ind - 2, dp);
             dp[ind] = dp[ind - 1] + dp[ind - 2];
         }
@@ -45,14 +41,15 @@ public class DP02_ClimbingStairs {
 
     //space optimize
     public int climbStairs(int n) {
-
         int prev2 = 1;
-        int prev1 = 1;
+        int prev = 1;
         for (int ind = 2; ind <= n; ind++) {
-            int cur = prev1 + prev2;
-            prev2 = prev1;
-            prev1 = cur;
+            //copy paste
+            //return dp[ind] = climbStairsHelper(ind - 1, dp) + climbStairsHelper(ind - 2, dp);
+            int cur = prev + prev2;
+            prev2 = prev;
+            prev = cur;
         }
-        return prev1;
+        return prev;
     }
 }

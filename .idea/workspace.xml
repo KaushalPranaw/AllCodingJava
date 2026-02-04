@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Jan 7, 2025">
-      <change afterPath="$PROJECT_DIR$/src/Comp/Unicommerce/JobSequencing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoreJava/Java21/Java21Features.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoreJava/Java21/VirtualThreadInJava/DemoVirtualThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrefixSum/Prefix01_SubarraySumEqualsK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrefixSum/Prefix02_ContinuousSubarraySum_LC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrefixSum/Prefix03_MaximumSizeSubarraySumEqualsK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Jan 13, 2025">
+      <change afterPath="$PROJECT_DIR$/src/Java8Programs/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8Programs/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP01_Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP01_Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP02_ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP02_ClimbingStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +176,9 @@
     "Application.SumRootToLeafNumbers.executor": "Run",
     "Application.SummaryRanges.executor": "Run",
     "Application.SurroundedRegions.executor": "Run",
+    "Application.SwapNodesInPairs.executor": "Run",
     "Application.SymmetricTree.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.ThreeSum.executor": "Run",
     "Application.ThreeSumEqualToK.executor": "Run",
     "Application.ThreeSumEqualsToK.executor": "Run",
@@ -226,9 +225,22 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoVirtualThread">
-    <configuration name="DP05_MaximumSumOfNonAdjacentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP05_MaximumSumOfNonAdjacentElements" />
+  <component name="RunManager" selected="Application.DP02_ClimbingStairs">
+    <configuration name="DP01_Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP01_Fibonacci" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.DP.DP00_1D_2D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DP02_ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP02_ClimbingStairs" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -253,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JobSequencing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Comp.Unicommerce.JobSequencing" />
+    <configuration name="SwapNodesInPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.LinkedList.SwapNodesInPairs" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Comp.Unicommerce.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,25 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prefix01_SubarraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrefixSum.Prefix01_SubarraySumEqualsK" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8Programs.Test" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrefixSum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Prefix02_ContinuousSubarraySum_LC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrefixSum.Prefix02_ContinuousSubarraySum_LC" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PrefixSum.*" />
+          <option name="PATTERN" value="Java8Programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,11 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DP02_ClimbingStairs" />
+        <item itemvalue="Application.DP01_Fibonacci" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.SwapNodesInPairs" />
         <item itemvalue="Application.DemoVirtualThread" />
-        <item itemvalue="Application.Prefix02_ContinuousSubarraySum_LC" />
-        <item itemvalue="Application.Prefix01_SubarraySumEqualsK" />
-        <item itemvalue="Application.JobSequencing" />
-        <item itemvalue="Application.DP05_MaximumSumOfNonAdjacentElements" />
       </list>
     </recent_temporary>
   </component>
@@ -313,14 +312,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00028" summary="March 19 , 2025">
-      <option name="closed" value="true" />
-      <created>1742395817860</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1742395817860</updated>
     </task>
     <task id="LOCAL-00029" summary="March 27 , 2025">
       <option name="closed" value="true" />
@@ -706,7 +697,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767801869333</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Jan 13, 2025">
+      <option name="closed" value="true" />
+      <created>1768280547264</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1768280547265</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +723,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="April 27 , 2025" />
     <MESSAGE value="April 28 , 2025" />
     <MESSAGE value="May 30 , 2025" />
     <MESSAGE value="June 2, 2025" />
@@ -749,7 +747,8 @@
     <MESSAGE value="Dec 31, 2025" />
     <MESSAGE value="Jan 1, 2025" />
     <MESSAGE value="Jan 7, 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jan 7, 2025" />
+    <MESSAGE value="Jan 13, 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jan 13, 2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
