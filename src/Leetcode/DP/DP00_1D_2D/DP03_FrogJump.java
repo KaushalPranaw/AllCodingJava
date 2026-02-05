@@ -28,42 +28,51 @@ public class DP03_FrogJump {
             return dp[ind];
         }
 
-        int jumpOne = Math.abs(height[ind] - height[ind - 1]) + frogJumpHelper(ind - 1, height, dp);
-        int jumpTwo = Integer.MAX_VALUE;
-        if (ind - 2 >= 0)
-            jumpTwo = Math.abs(height[ind] - height[ind - 2]) + frogJumpHelper(ind - 2, height, dp);
+        int jump1 = Math.abs(height[ind] - height[ind - 1]) + frogJumpHelper(ind - 1, height, dp);
 
-        return dp[ind] = Math.min(jumpTwo, jumpOne);
+        int jump2 = Integer.MAX_VALUE;
+        if (ind - 2 >= 0) {
+            jump2 = Math.abs(height[ind] - height[ind - 2]) + frogJumpHelper(ind - 2, height, dp);
+        }
+
+        return dp[ind] = Math.min(jump1, jump2);
+
     }*/
 
     //tabulation
     /*private static int frogJump(int[] height) {
+
         int n = height.length;
         int[] dp = new int[n];
+        //base case
         dp[0] = 0;
         for (int ind = 1; ind < n; ind++) {
-            int jumpOne = Math.abs(height[ind] - height[ind - 1]) + dp[ind - 1];
-            int jumpTwo = Integer.MAX_VALUE;
-            if (ind - 2 >= 0)
-                jumpTwo = Math.abs(height[ind] - height[ind - 2]) + dp[ind - 2];
+            int jump1 = Math.abs(height[ind] - height[ind - 1]) + dp[ind - 1];
 
-            dp[ind] = Math.min(jumpTwo, jumpOne);
+            int jump2 = Integer.MAX_VALUE;
+            if (ind - 2 >= 0) {
+                jump2 = Math.abs(height[ind] - height[ind - 2]) + dp[ind - 2];
+            }
+            dp[ind] = Math.min(jump1, jump2);
         }
-        return dp[n-1];
+        return dp[n - 1];
     }*/
 
     //space optimize
     private static int frogJump(int[] height) {
+
         int n = height.length;
+        //base case
         int prev = 0;
         int prev2 = 0;
         for (int ind = 1; ind < n; ind++) {
-            int jumpOne = Math.abs(height[ind] - height[ind - 1]) + prev;
-            int jumpTwo = Integer.MAX_VALUE;
-            if (ind - 2 >= 0)
-                jumpTwo = Math.abs(height[ind] - height[ind - 2]) + prev2;
+            int jump1 = Math.abs(height[ind] - height[ind - 1]) + prev;
 
-            int cur = Math.min(jumpTwo, jumpOne);
+            int jump2 = Integer.MAX_VALUE;
+            if (ind - 2 >= 0) {
+                jump2 = Math.abs(height[ind] - height[ind - 2]) + prev2;
+            }
+            int cur = Math.min(jump1, jump2);
             prev2 = prev;
             prev = cur;
         }

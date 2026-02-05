@@ -26,15 +26,16 @@ public class DP04_FrogJumpWithK {
         if (dp[ind] != -1) {
             return dp[ind];
         }
-        int minStep = Integer.MAX_VALUE;
-        for (int jump = 1; jump <= k; jump++) {
-            if (ind - jump >= 0) {
-                int cur = Math.abs(height[ind] - height[ind - jump]) + frogJumpWithKHelper(ind - jump, height, k, dp);
-                minStep = Math.min(cur, minStep);
+        int minJump = Integer.MAX_VALUE;
+        for (int j = 1; j <= k; j++) {
+            if (ind - j >= 0) {
+                int jump = Math.abs(height[ind] - height[ind - j])
+                        + frogJumpWithKHelper(ind - j, height, k, dp);
+                minJump = Math.min(minJump, jump);
             }
-
         }
-        return dp[ind] = minStep;
+        return dp[ind] = minJump;
+
     }*/
 
     //tabulation
@@ -42,14 +43,15 @@ public class DP04_FrogJumpWithK {
         int[] dp = new int[n];
         dp[0] = 0;
         for (int ind = 1; ind < n; ind++) {
-            int minStep = Integer.MAX_VALUE;
-            for (int jump = 1; jump <= k; jump++) {
-                if (ind - jump >= 0) {
-                    int cur = Math.abs(height[ind] - height[ind - jump]) + dp[ind - jump];
-                    minStep = Math.min(cur, minStep);
+            int minJump = Integer.MAX_VALUE;
+            for (int j = 1; j <= k; j++) {
+                if (ind - j >= 0) {
+                    int jump = Math.abs(height[ind] - height[ind - j])
+                            + dp[ind - j];
+                    minJump = Math.min(minJump, jump);
                 }
             }
-            dp[ind] = minStep;
+            dp[ind] = minJump;
         }
         return dp[n - 1];
     }

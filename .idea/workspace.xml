@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 04, 2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/JumpGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/JumpGameII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/JumpGameII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RemoveElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP03_FrogJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP03_FrogJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP04_FrogJumpWithK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP04_FrogJumpWithK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +75,8 @@
     "Application.CourseScheduleII.executor": "Run",
     "Application.DP01_Fibonacci.executor": "Run",
     "Application.DP02_ClimbingStairs.executor": "Run",
+    "Application.DP03_FrogJump.executor": "Run",
+    "Application.DP04_FrogJumpWithK.executor": "Run",
     "Application.DP05_MaximumSumOfNonAdjacentElements.executor": "Run",
     "Application.DSA_RoadMap.Day1.Subsets.executor": "Run",
     "Application.Day001_SortColors.executor": "Run",
@@ -228,9 +226,9 @@
       <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JumpGameII">
-    <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.BestTimeToBuyAndSellStock" />
+  <component name="RunManager" selected="Application.DP04_FrogJumpWithK">
+    <configuration name="BestTimeToBuyAndSellStockII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.BestTimeToBuyAndSellStockII" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -242,12 +240,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BestTimeToBuyAndSellStockII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.BestTimeToBuyAndSellStockII" />
+    <configuration name="DP03_FrogJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP03_FrogJump" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
+          <option name="PATTERN" value="Leetcode.DP.DP00_1D_2D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DP04_FrogJumpWithK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP04_FrogJumpWithK" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.DP.DP00_1D_2D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,26 +292,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.RotateArray" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DP04_FrogJumpWithK" />
+        <item itemvalue="Application.DP03_FrogJump" />
         <item itemvalue="Application.JumpGameII" />
         <item itemvalue="Application.JumpGame" />
         <item itemvalue="Application.BestTimeToBuyAndSellStockII" />
-        <item itemvalue="Application.BestTimeToBuyAndSellStock" />
-        <item itemvalue="Application.RotateArray" />
       </list>
     </recent_temporary>
   </component>
