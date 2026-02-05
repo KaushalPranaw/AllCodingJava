@@ -18,8 +18,24 @@ public class RomanToInteger {
         map.put('C', 100);
         map.put('D', 500);
         map.put('M', 1000);
-
         int cur;
+        int res = 0;
+        int prev = 0;
+        for (char ch : s.toCharArray()) {
+            cur = map.get(ch);
+            if (cur > prev) {
+                //IV
+                //1 already added hai res me but since V=5 bada should be substracted
+                //1+5-(2*1)=4
+                res += cur - (2 * prev);//kyuki humne already add kia tha jo ki ni hona chahiye
+            } else {
+                res += cur;
+            }
+            prev = cur;
+        }
+        return res;
+
+        /*int cur;
         int res = 0;
         int prev = 0;
         for (char ch : s.toCharArray()) {
@@ -32,6 +48,6 @@ public class RomanToInteger {
             }
             prev = cur;
         }
-        return res;
+        return res;*/
     }
 }

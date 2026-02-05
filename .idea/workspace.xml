@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 05, 2025: DP">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/GraphNew/G02_NumberOfProvince.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/GraphNew/G02_NumberOfProvince_leetcode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/GraphNew/G03_RottenOranges.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 05, 2026: Graph">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/Candy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/GasStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/H_Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/H_Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/IntegerToRoman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/LengthOfLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/LengthOfLastWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/ProductOfArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/ProductOfArrayExceptSelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RandomizedSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RandomizedSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RomanToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/TrappingRainWater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,13 +238,13 @@
       <recent name="Leetcode.TwoPointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.G03_RottenOranges">
-    <configuration name="DP04_FrogJumpWithK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP04_FrogJumpWithK" />
+  <component name="RunManager" selected="Application.LongestCommonPrefix">
+    <configuration name="IntegerToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.IntegerToRoman" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.DP.DP00_1D_2D.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,12 +252,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="G02_NumberOfProvince" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.GraphNew.G02_NumberOfProvince" />
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.LengthOfLastWord" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.GraphNew.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="G02_NumberOfProvince_leetcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.GraphNew.G02_NumberOfProvince_leetcode" />
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.LongestCommonPrefix" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.GraphNew.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,12 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="G03_RottenOranges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.GraphNew.G03_RottenOranges" />
+    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.RomanToInteger" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.GraphNew.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,12 +291,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="G04_RottenOranges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Graph.G02_Problem_On_BFS_DFS.G04_RottenOranges" />
+    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.TrappingRainWater" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Graph.G02_Problem_On_BFS_DFS.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.G03_RottenOranges" />
-        <item itemvalue="Application.G04_RottenOranges" />
-        <item itemvalue="Application.G02_NumberOfProvince_leetcode" />
-        <item itemvalue="Application.G02_NumberOfProvince" />
-        <item itemvalue="Application.DP04_FrogJumpWithK" />
+        <item itemvalue="Application.LongestCommonPrefix" />
+        <item itemvalue="Application.LengthOfLastWord" />
+        <item itemvalue="Application.IntegerToRoman" />
+        <item itemvalue="Application.RomanToInteger" />
+        <item itemvalue="Application.TrappingRainWater" />
       </list>
     </recent_temporary>
   </component>
@@ -318,14 +325,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00032" summary="April 16 , 2025">
-      <option name="closed" value="true" />
-      <created>1744894985007</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1744894985008</updated>
     </task>
     <task id="LOCAL-00033" summary="April 18 , 2025">
       <option name="closed" value="true" />
@@ -711,7 +710,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770266129745</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Feb 05, 2026: Graph">
+      <option name="closed" value="true" />
+      <created>1770298099352</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1770298099352</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -729,7 +736,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="June 2, 2025" />
     <MESSAGE value="July 24, 2025" />
     <MESSAGE value="Sep 06, 2025" />
     <MESSAGE value="Sep 17, 2025" />
@@ -754,7 +760,8 @@
     <MESSAGE value="Jan 13, 2025" />
     <MESSAGE value="Feb 04, 2025" />
     <MESSAGE value="Feb 05, 2025: DP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feb 05, 2025: DP" />
+    <MESSAGE value="Feb 05, 2026: Graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feb 05, 2026: Graph" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

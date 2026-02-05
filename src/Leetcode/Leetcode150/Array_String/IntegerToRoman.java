@@ -12,15 +12,15 @@ public class IntegerToRoman {
         String[] symbols = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 
         int i = 0;
-        StringBuilder res = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         while (num > 0) {
             if (num >= values[i]) {
-                res.append(symbols[i]);
+                sb.append(symbols[i]);
                 num -= values[i];
             } else {
                 i++;
             }
         }
-        return res.toString();
+        return sb.toString();
     }
 }

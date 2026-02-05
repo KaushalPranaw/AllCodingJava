@@ -8,14 +8,13 @@ public class GasStation {
 
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int n = gas.length;
-        int totalGas = 0;
+        int toalGas = 0;
         int totalCost = 0;
         for (int i = 0; i < n; i++) {
-            totalGas += gas[i];
+            toalGas += gas[i];
             totalCost += cost[i];
         }
-
-        if (totalCost > totalGas) {
+        if (toalGas < totalCost) {
             return -1;
         }
 
@@ -25,7 +24,7 @@ public class GasStation {
             remainingGas += gas[i] - cost[i];
             if (remainingGas < 0) {
                 remainingGas = 0;
-                index = i+1;
+                index = i + 1;
             }
         }
         return index;

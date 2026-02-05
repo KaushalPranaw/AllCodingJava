@@ -13,21 +13,23 @@ public class TrappingRainWater {
      * */
 
     //using 2 pointers
+    /*
+    min(max height on left, max height on right) − current height
+
+     */
     public int trap(int[] height) {
         int trap = 0;
-        int left = 0;
-        int right = height.length - 1;
-        int lmax = height[left];
-        int rmax = height[right];
+        int left = 0, right = height.length - 1;
+        int lMax = height[left], rMax = height[right];
 
         while (left < right) {
             if (height[left] < height[right]) {
-                lmax = Math.max(lmax, height[left]);
-                trap += Math.max(0, lmax - height[left]);
+                lMax = Math.max(lMax, height[left]);
+                trap += Math.max(0, lMax - height[left]);
                 left++;
             } else {
-                rmax = Math.max(rmax, height[right]);
-                trap += Math.max(0, rmax - height[right]);
+                rMax = Math.max(rMax, height[right]);
+                trap += Math.max(0, rMax - height[right]);
                 right--;
             }
         }

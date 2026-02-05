@@ -4,19 +4,19 @@ import java.util.*;
 
 public class RandomizedSet {
 
-    private Random random;
-    private List<Integer> list;
-    private Map<Integer, Integer> map;
+    private List<Integer> list;//to store element
+    private Random random;//for random access
+    private Map<Integer, Integer> map;//<element, index> will get index instantly
 
 
     public RandomizedSet() {
-        random = new Random();
         list = new ArrayList<>();
+        random = new Random();
         map = new HashMap<>();
     }
 
     public boolean insert(int val) {
-        if(map.containsKey(val)){
+        if (map.containsKey(val)) {
             return false;
         }
         map.put(val, list.size());
@@ -25,23 +25,24 @@ public class RandomizedSet {
     }
 
     public boolean remove(int val) {
-        if(!map.containsKey(val)){
+        if (!map.containsKey(val)) {
             return false;
         }
-        int pos=map.get(val);
-        int lastElement=list.get(list.size()-1);
-        if(pos!=list.size()-1){
-            list.set(pos, lastElement);
+
+        int pos = map.get(val);
+        if (pos != (list.size() - 1)) {
+            int lastElement = list.getLast();
             map.put(lastElement, pos);
+            list.set(pos, lastElement);
         }
+        list.remove(list.size() - 1);
         map.remove(val);
-        list.remove(list.size()-1);
         return true;
     }
 
     public int getRandom() {
-        int randomIndex=random.nextInt(list.size());
-        return list.get(randomIndex);
+        int ran = random.nextInt(list.size());
+        return list.get(ran);
     }
 
     public static void main(String[] args) {
