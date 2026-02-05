@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 04, 2025">
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 05, 2025: DP">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/GraphNew/G02_NumberOfProvince.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/GraphNew/G02_NumberOfProvince_leetcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/GraphNew/G03_RottenOranges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP03_FrogJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP03_FrogJump.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP04_FrogJumpWithK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP04_FrogJumpWithK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +93,10 @@
     "Application.FlattenBinaryTreeToLinkedList.executor": "Run",
     "Application.G01_BFS.executor": "Run",
     "Application.G01_BFS_DFS.executor": "Run",
+    "Application.G02_NumberOfProvince.executor": "Run",
+    "Application.G02_NumberOfProvince_leetcode.executor": "Run",
+    "Application.G03_RottenOranges.executor": "Run",
+    "Application.G04_RottenOranges.executor": "Run",
     "Application.G10_NumberOfEnclaves.executor": "Run",
     "Application.G11_WordLadderI.executor": "Run",
     "Application.G12_WordLadderII.executor": "Run",
@@ -219,40 +224,14 @@
       <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\DesignPatterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Leetcode.GraphNew" />
       <recent name="DSA_RoadMap.Day6" />
       <recent name="DSA_RoadMap.Day3" />
       <recent name="Comp.CodeWithComplexity75.DP" />
       <recent name="Leetcode.TwoPointers" />
-      <recent name="Leetcode.Graph.G04_ShortestPath" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DP04_FrogJumpWithK">
-    <configuration name="BestTimeToBuyAndSellStockII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.BestTimeToBuyAndSellStockII" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DP03_FrogJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP03_FrogJump" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.DP.DP00_1D_2D.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.G03_RottenOranges">
     <configuration name="DP04_FrogJumpWithK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP04_FrogJumpWithK" />
       <module name="basic-concepts" />
@@ -266,12 +245,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.JumpGame" />
+    <configuration name="G02_NumberOfProvince" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.GraphNew.G02_NumberOfProvince" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
+          <option name="PATTERN" value="Leetcode.GraphNew.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,12 +258,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpGameII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.JumpGameII" />
+    <configuration name="G02_NumberOfProvince_leetcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.GraphNew.G02_NumberOfProvince_leetcode" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
+          <option name="PATTERN" value="Leetcode.GraphNew.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="G03_RottenOranges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.GraphNew.G03_RottenOranges" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.GraphNew.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="G04_RottenOranges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Graph.G02_Problem_On_BFS_DFS.G04_RottenOranges" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.Graph.G02_Problem_On_BFS_DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,11 +299,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.G03_RottenOranges" />
+        <item itemvalue="Application.G04_RottenOranges" />
+        <item itemvalue="Application.G02_NumberOfProvince_leetcode" />
+        <item itemvalue="Application.G02_NumberOfProvince" />
         <item itemvalue="Application.DP04_FrogJumpWithK" />
-        <item itemvalue="Application.DP03_FrogJump" />
-        <item itemvalue="Application.JumpGameII" />
-        <item itemvalue="Application.JumpGame" />
-        <item itemvalue="Application.BestTimeToBuyAndSellStockII" />
       </list>
     </recent_temporary>
   </component>
@@ -313,14 +318,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00031" summary="April 15 , 2025">
-      <option name="closed" value="true" />
-      <created>1744756880922</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1744756880922</updated>
     </task>
     <task id="LOCAL-00032" summary="April 16 , 2025">
       <option name="closed" value="true" />
@@ -706,7 +703,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770181744105</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Feb 05, 2025: DP">
+      <option name="closed" value="true" />
+      <created>1770266129745</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1770266129745</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +729,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="May 30 , 2025" />
     <MESSAGE value="June 2, 2025" />
     <MESSAGE value="July 24, 2025" />
     <MESSAGE value="Sep 06, 2025" />
@@ -749,7 +753,8 @@
     <MESSAGE value="Jan 7, 2025" />
     <MESSAGE value="Jan 13, 2025" />
     <MESSAGE value="Feb 04, 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feb 04, 2025" />
+    <MESSAGE value="Feb 05, 2025: DP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feb 05, 2025: DP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
