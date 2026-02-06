@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 05, 2026: Leetcode array">
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 06, 2026: DP">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/GraphNew/G04_FloodFillAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/GraphNew/G05_BFS_Detect_Cycle_Undirected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/GraphNew/G06_DFS_Detect_Cycle_Undirected.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP05_MaximumSumOfNonAdjacentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP05_MaximumSumOfNonAdjacentElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP06_HouseRobber2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP06_HouseRobber2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP07_NinjaTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP07_NinjaTraining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Graph/G02_Problem_On_BFS_DFS/G05_FloodFillAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Graph/G02_Problem_On_BFS_DFS/G05_FloodFillAlgorithm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +99,9 @@
     "Application.G02_NumberOfProvince.executor": "Run",
     "Application.G02_NumberOfProvince_leetcode.executor": "Run",
     "Application.G03_RottenOranges.executor": "Run",
+    "Application.G04_FloodFillAlgorithm.executor": "Run",
     "Application.G04_RottenOranges.executor": "Run",
+    "Application.G06_DFS_Detect_Cycle_Undirected.executor": "Run",
     "Application.G10_NumberOfEnclaves.executor": "Run",
     "Application.G11_WordLadderI.executor": "Run",
     "Application.G12_WordLadderII.executor": "Run",
@@ -210,7 +213,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/pranaw_kaushal/Downloads/spring-boot-jaas",
+    "last_opened_file_path": "C:/Users/pranaw_kaushal/Documents/ALL_EPAM_TRAINING/core-java-training/basic-concepts/src/Leetcode/GraphNew",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/pranaw_kaushal/Documents/ALL_EPAM_TRAINING/core-java-training/basic-concepts/src/Main.java",
     "project.structure.last.edited": "Project",
@@ -222,6 +225,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\Leetcode\GraphNew" />
       <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\LLD" />
       <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\DesignPatterns" />
     </key>
@@ -233,7 +237,7 @@
       <recent name="Leetcode.TwoPointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DP07_NinjaTraining">
+  <component name="RunManager" selected="Application.G06_DFS_Detect_Cycle_Undirected">
     <configuration name="DP05_MaximumSumOfNonAdjacentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP05_MaximumSumOfNonAdjacentElements" />
       <module name="basic-concepts" />
@@ -273,12 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.LengthOfLastWord" />
+    <configuration name="G04_FloodFillAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.GraphNew.G04_FloodFillAlgorithm" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
+          <option name="PATTERN" value="Leetcode.GraphNew.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,12 +290,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.LongestCommonPrefix" />
+    <configuration name="G06_DFS_Detect_Cycle_Undirected" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.GraphNew.G06_DFS_Detect_Cycle_Undirected" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
+          <option name="PATTERN" value="Leetcode.GraphNew.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.G06_DFS_Detect_Cycle_Undirected" />
+        <item itemvalue="Application.G04_FloodFillAlgorithm" />
         <item itemvalue="Application.DP07_NinjaTraining" />
         <item itemvalue="Application.DP06_HouseRobber2" />
         <item itemvalue="Application.DP05_MaximumSumOfNonAdjacentElements" />
-        <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.LengthOfLastWord" />
       </list>
     </recent_temporary>
   </component>
@@ -320,14 +324,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00034" summary="April 19 , 2025">
-      <option name="closed" value="true" />
-      <created>1745123676526</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1745123676526</updated>
     </task>
     <task id="LOCAL-00035" summary="April 25 , 2025">
       <option name="closed" value="true" />
@@ -713,7 +709,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770312669601</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Feb 06, 2026: DP">
+      <option name="closed" value="true" />
+      <created>1770356207888</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1770356207888</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -731,7 +735,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sep 06, 2025" />
     <MESSAGE value="Sep 17, 2025" />
     <MESSAGE value="Sep 18, 2025" />
     <MESSAGE value="Sep 19, 2025" />
@@ -756,7 +759,8 @@
     <MESSAGE value="Feb 05, 2025: DP" />
     <MESSAGE value="Feb 05, 2026: Graph" />
     <MESSAGE value="Feb 05, 2026: Leetcode array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feb 05, 2026: Leetcode array" />
+    <MESSAGE value="Feb 06, 2026: DP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feb 06, 2026: DP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
