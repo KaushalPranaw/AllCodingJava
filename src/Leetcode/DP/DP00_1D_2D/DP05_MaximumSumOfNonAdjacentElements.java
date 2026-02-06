@@ -24,9 +24,11 @@ public class DP05_MaximumSumOfNonAdjacentElements {
 
     //recur+memo
     /*private static int maximumSumOfNonAdjacentElements(int n, int[] arr) {
+
         int[] dp = new int[n];
         Arrays.fill(dp, -1);
         return maximumSumOfNonAdjacentElementsHelper(n - 1, arr, dp);
+
     }
 
     private static int maximumSumOfNonAdjacentElementsHelper(int ind, int[] arr, int[] dp) {
@@ -34,9 +36,11 @@ public class DP05_MaximumSumOfNonAdjacentElements {
         if (ind == 0) {
             return arr[ind];
         }
+
         if (ind < 0) {
             return 0;
         }
+
         if (dp[ind] != -1) {
             return dp[ind];
         }
@@ -44,6 +48,7 @@ public class DP05_MaximumSumOfNonAdjacentElements {
         int take = arr[ind] + maximumSumOfNonAdjacentElementsHelper(ind - 2, arr, dp);
         int skip = maximumSumOfNonAdjacentElementsHelper(ind - 1, arr, dp);
         return dp[ind] = Math.max(take, skip);
+
     }*/
 
     //bottom up
@@ -51,9 +56,9 @@ public class DP05_MaximumSumOfNonAdjacentElements {
         int[] dp = new int[n];
         dp[0] = arr[0];
         for (int ind = 1; ind < n; ind++) {
-            int take = 0;
+            int take = arr[ind];
             if (ind - 2 >= 0) {
-                take = arr[ind] + dp[ind - 2];
+                take += dp[ind - 2];
             }
             int skip = dp[ind - 1];
             dp[ind] = Math.max(take, skip);
@@ -63,12 +68,13 @@ public class DP05_MaximumSumOfNonAdjacentElements {
 
     //space
     private static int maximumSumOfNonAdjacentElements(int n, int[] arr) {
-        int prev2 = 0;
         int prev = arr[0];
+        int prev2 = 0;
+
         for (int ind = 1; ind < n; ind++) {
-            int take = 0;
+            int take = arr[ind];
             if (ind - 2 >= 0) {
-                take = arr[ind] + prev2;
+                take += prev2;
             }
             int skip = prev;
             int cur = Math.max(take, skip);

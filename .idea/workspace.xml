@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 05, 2026: Graph">
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 05, 2026: Leetcode array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/Candy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/GasStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/H_Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/H_Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/IntegerToRoman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/LengthOfLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/LengthOfLastWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/ProductOfArrayExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RandomizedSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RandomizedSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/RomanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/TrappingRainWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP05_MaximumSumOfNonAdjacentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP05_MaximumSumOfNonAdjacentElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP06_HouseRobber2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP06_HouseRobber2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP07_NinjaTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP00_1D_2D/DP07_NinjaTraining.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +79,8 @@
     "Application.DP03_FrogJump.executor": "Run",
     "Application.DP04_FrogJumpWithK.executor": "Run",
     "Application.DP05_MaximumSumOfNonAdjacentElements.executor": "Run",
+    "Application.DP06_HouseRobber2.executor": "Run",
+    "Application.DP07_NinjaTraining.executor": "Run",
     "Application.DSA_RoadMap.Day1.Subsets.executor": "Run",
     "Application.Day001_SortColors.executor": "Run",
     "Application.DemoVirtualThread.executor": "Run",
@@ -238,13 +233,39 @@
       <recent name="Leetcode.TwoPointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestCommonPrefix">
-    <configuration name="IntegerToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.IntegerToRoman" />
+  <component name="RunManager" selected="Application.DP07_NinjaTraining">
+    <configuration name="DP05_MaximumSumOfNonAdjacentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP05_MaximumSumOfNonAdjacentElements" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
+          <option name="PATTERN" value="Leetcode.DP.DP00_1D_2D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DP06_HouseRobber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP06_HouseRobber2" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.DP.DP00_1D_2D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DP07_NinjaTraining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP00_1D_2D.DP07_NinjaTraining" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.DP.DP00_1D_2D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,39 +299,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.RomanToInteger" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Array_String.TrappingRainWater" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Array_String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DP07_NinjaTraining" />
+        <item itemvalue="Application.DP06_HouseRobber2" />
+        <item itemvalue="Application.DP05_MaximumSumOfNonAdjacentElements" />
         <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.LengthOfLastWord" />
-        <item itemvalue="Application.IntegerToRoman" />
-        <item itemvalue="Application.RomanToInteger" />
-        <item itemvalue="Application.TrappingRainWater" />
       </list>
     </recent_temporary>
   </component>
@@ -325,14 +320,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00033" summary="April 18 , 2025">
-      <option name="closed" value="true" />
-      <created>1745029471960</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1745029471960</updated>
     </task>
     <task id="LOCAL-00034" summary="April 19 , 2025">
       <option name="closed" value="true" />
@@ -718,7 +705,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770298099352</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Feb 05, 2026: Leetcode array">
+      <option name="closed" value="true" />
+      <created>1770312669601</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1770312669601</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -736,7 +731,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="July 24, 2025" />
     <MESSAGE value="Sep 06, 2025" />
     <MESSAGE value="Sep 17, 2025" />
     <MESSAGE value="Sep 18, 2025" />
@@ -761,7 +755,8 @@
     <MESSAGE value="Feb 04, 2025" />
     <MESSAGE value="Feb 05, 2025: DP" />
     <MESSAGE value="Feb 05, 2026: Graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feb 05, 2026: Graph" />
+    <MESSAGE value="Feb 05, 2026: Leetcode array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feb 05, 2026: Leetcode array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,25 +4,25 @@ package Leetcode.DP.DP00_1D_2D;
 public class DP06_HouseRobber2 {
     public static void main(String[] args) {
         // Input array with elements.
-        int arr[] = {1, 5, 1, 2, 6};
+        int arr[] = {1, 5, 1, 2, 6};//output 11
         int n = arr.length;
 
+        System.out.println(circularMaxHouse(arr, n));
+    }
+
+    private static int circularMaxHouse(int[] arr, int n) {
         if (n == 1) {
-            System.out.println(arr[0]);
+            return arr[0];
         }
 
-        int temp1[] = new int[n - 1];
-        int temp2[] = new int[n - 1];
-        int k1 = 0, k2 = 0;
-        for (int i = 0; i < n; i++) {
-            if (i != 0) {
-                temp1[k1++] = arr[i];
-            }
-            if (i != n - 1) {
-                temp2[k2++] = arr[i];
-            }
+        int[] arr1 = new int[n - 1]; // exclude first
+        int[] arr2 = new int[n - 1]; // exclude last
+
+        for (int i = 0; i < n - 1; i++) {
+            arr1[i] = arr[i + 1]; // skip first
+            arr2[i] = arr[i];     // skip last
         }
-        System.out.println(Math.max(maxHouse(n - 1, temp1), maxHouse(n - 1, temp2)));
+        return Math.max(maxHouse(n - 1, arr1), maxHouse(n - 1, arr2));
     }
 
     /*//recur+memo
