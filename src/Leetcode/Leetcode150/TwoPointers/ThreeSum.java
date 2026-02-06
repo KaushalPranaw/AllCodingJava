@@ -15,12 +15,12 @@ public class ThreeSum {
         Arrays.sort(nums);
         Set<List<Integer>> set = new HashSet<>();
         for (int i = 0; i < nums.length - 2; i++) {
-            int target = -nums[i];
             int left = i + 1, right = nums.length - 1;
+            int target = -nums[i];
             while (left < right) {
                 int sum = nums[left] + nums[right];
                 if (sum == target) {
-                    set.add(Arrays.asList(nums[i], nums[left], nums[right]));
+                    set.add(List.of(nums[i], nums[left], nums[right]));
                     left++;
                     right--;
                 } else if (sum > target) {

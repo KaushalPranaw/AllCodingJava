@@ -13,7 +13,7 @@ public class ValidPalindrome {
         }
 
         int l = 0, r = s.length() - 1;
-        while (l <= r) {
+        while (l < r) {
             if (!Character.isLetterOrDigit(s.charAt(l))) {
                 l++;
             } else if (!Character.isLetterOrDigit(s.charAt(r))) {

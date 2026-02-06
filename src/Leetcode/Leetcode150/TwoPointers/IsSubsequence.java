@@ -7,6 +7,7 @@ public class IsSubsequence {
     }
 
     public boolean isSubsequence(String s, String t) {
+        //s = "abc", t = "ahbgdc"
         if (s.length() > t.length()) {
             return false;
         }
@@ -16,13 +17,13 @@ public class IsSubsequence {
         }
 
         int index = 0;
+
         for (int i = 0; i < t.length(); i++) {
-            char tchar = t.charAt(i);
-            if (tchar == s.charAt(index)) {
+            if (s.charAt(index) == t.charAt(i)) {
                 index++;
-            }
-            if (s.length() == index) {
-                return true;
+                if (index == s.length()) {
+                    return true;
+                }
             }
         }
         return false;
