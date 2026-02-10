@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 06, 2026: Graph">
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 06, 2026: Leetcode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/ReverseWordsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/ReverseWordsInAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/ZigzagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Array_String/ZigzagConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/TwoPointers/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/TwoPointers/ContainerWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/TwoPointers/IsSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/TwoPointers/IsSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/TwoPointers/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/TwoPointers/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/TwoPointers/TwoSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/TwoPointers/TwoSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/TwoPointers/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/TwoPointers/ValidPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/RotateImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/SetMatrixZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/SetMatrixZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/SpiralMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/ValidSuduko.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/ValidSuduko.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/MinimumSizeSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/MinimumSizeSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/MinimumWindowSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,13 +240,13 @@
       <recent name="Leetcode.TwoPointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ContainerWithMostWater">
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.TwoPointers.ContainerWithMostWater" />
+  <component name="RunManager" selected="Application.SpiralMatrix">
+    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.SlidingWindow.MinimumWindowSubstring" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.TwoPointers.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,12 +254,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.TwoPointers.IsSubsequence" />
+    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Matrix.RotateImage" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.TwoPointers.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,12 +267,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.TwoPointers.ThreeSum" />
+    <configuration name="SetMatrixZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Matrix.SetMatrixZeroes" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.TwoPointers.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,12 +280,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.TwoPointers.TwoSumII" />
+    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Matrix.SpiralMatrix" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.TwoPointers.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,12 +293,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.TwoPointers.ValidPalindrome" />
+    <configuration name="ValidSuduko" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Matrix.ValidSuduko" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.TwoPointers.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.Matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.TwoSumII" />
-        <item itemvalue="Application.IsSubsequence" />
-        <item itemvalue="Application.ValidPalindrome" />
+        <item itemvalue="Application.SpiralMatrix" />
+        <item itemvalue="Application.SetMatrixZeroes" />
+        <item itemvalue="Application.RotateImage" />
+        <item itemvalue="Application.ValidSuduko" />
+        <item itemvalue="Application.MinimumWindowSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -327,14 +327,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00036" summary="April 26 , 2025">
-      <option name="closed" value="true" />
-      <created>1745723896927</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1745723896927</updated>
     </task>
     <task id="LOCAL-00037" summary="April 27 , 2025">
       <option name="closed" value="true" />
@@ -720,7 +712,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770358090199</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Feb 06, 2026: Leetcode">
+      <option name="closed" value="true" />
+      <created>1770399645915</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1770399645915</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +738,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sep 18, 2025" />
     <MESSAGE value="Sep 19, 2025" />
     <MESSAGE value="Sep 22, 2025" />
     <MESSAGE value="Sep 23, 2025" />
@@ -763,7 +762,8 @@
     <MESSAGE value="Feb 05, 2026: Leetcode array" />
     <MESSAGE value="Feb 06, 2026: DP" />
     <MESSAGE value="Feb 06, 2026: Graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feb 06, 2026: Graph" />
+    <MESSAGE value="Feb 06, 2026: Leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feb 06, 2026: Leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

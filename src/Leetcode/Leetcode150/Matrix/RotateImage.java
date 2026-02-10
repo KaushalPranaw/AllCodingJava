@@ -20,27 +20,27 @@ public class RotateImage {
         int n = matrix[0].length;
 
         //transpose
-        for(int i=0;i<m;i++){
-            for(int j=0;j<i;j++){
-                int t=matrix[i][j];
-                matrix[i][j]=matrix[j][i];
-                matrix[j][i]=t;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < i; j++) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = temp;
             }
         }
-
         //reverse
-        for(int i=0;i<m;i++){
-            int left=0, right=n-1;
-            while (left<right){
-                int t=matrix[i][left];
-                matrix[i][left]=matrix[i][right];
-                matrix[i][right]=t;
-                left++;
-                right--;
-            }
+        for (int i = 0; i < m; i++) {
+            int l = 0, r = n - 1;
+            reverseMat(matrix, i, l, r);
         }
+    }
 
-
-
+    private void reverseMat(int[][] matrix, int row, int l, int r) {
+        while (l < r) {
+            int temp = matrix[row][l];
+            matrix[row][l] = matrix[row][r];
+            matrix[row][r] = temp;
+            l++;
+            r--;
+        }
     }
 }

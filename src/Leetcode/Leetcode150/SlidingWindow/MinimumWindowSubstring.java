@@ -11,48 +11,49 @@ public class MinimumWindowSubstring {
     }
 
     public String minWindow(String s, String t) {
-        if (s.length() < t.length() || t.length() == 0) {
+        if (s.length() < t.length() || t.isEmpty()) {
             return "";
         }
 
-        //t occurance
+        //map to store t occurences
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < t.length(); i++) {
-            map.put(t.charAt(i), map.getOrDefault(t.charAt(i), 0) + 1);
+            char tc = t.charAt(i);
+            map.put(tc, map.getOrDefault(tc, 0) + 1);
         }
 
-        int start = 0, end = 0;
-        int charTLeft = t.length();
         int ansIndex = 0;
         int ansLen = Integer.MAX_VALUE;
+        int tleft = t.length();
+        int start = 0, end = 0;
 
         while (end < s.length()) {
-            char eChar = s.charAt(end);
-            if (map.containsKey(eChar)) {
-                int count = map.get(eChar);
+            char ec = s.charAt(end);
+            if (map.containsKey(ec)) {
+                int count = map.get(ec);
                 if (count > 0) {
-                    charTLeft--;
+                    tleft--;
                 }
-                map.put(eChar, count - 1);
+                map.put(ec, count - 1);
             }
             end++;
 
-            while (charTLeft == 0) {
+            while (tleft == 0) {
                 if (ansLen > end - start) {
-                    ansIndex = start;
                     ansLen = end - start;
+                    ansIndex = start;
                 }
-                char sChar = s.charAt(start);
-                if (map.containsKey(sChar)) {
-                    int count = map.get(sChar);
+                char sc = s.charAt(start);
+                if (map.containsKey(sc)) {
+                    int count = map.get(sc);
                     if (count == 0) {
-                        charTLeft++;
+                        tleft++;
                     }
-                    map.put(sChar, count + 1);
+                    map.put(sc, count + 1);
                 }
                 start++;
             }
         }
-        return ansLen == Integer.MAX_VALUE ? "" : s.substring(ansIndex, ansIndex + ansLen);
+        return ansLen == Integer.MAX_VALUE ? "" : s.substring(ansIndex, ansLen + ansIndex);
     }
 }
