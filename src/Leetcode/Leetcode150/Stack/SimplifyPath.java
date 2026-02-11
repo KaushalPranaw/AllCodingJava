@@ -18,24 +18,26 @@ public class SimplifyPath {
 
     public String simplifyPath(String path) {
         String[] components = path.split("/");
+
         Stack<String> stack = new Stack<>();
 
         for (String component : components) {
             if (component.isEmpty() || component.equals(".")) {
                 continue;
-            }
-            if (component.equals("..")) {
-                if (!stack.isEmpty()) {
-                    stack.pop();
-                }
             } else {
-                stack.push(component);
+                if (component.equals("..")) {
+                    if (!stack.isEmpty()) {
+                        stack.pop();
+                    }
+                } else {
+                    stack.push(component);
+                }
             }
         }
 
         StringBuilder sb = new StringBuilder();
-        for (String comp : stack) {
-            sb.append("/").append(comp);
+        for (String s : stack) {
+            sb.append("/").append(s);
         }
         return !sb.isEmpty() ? sb.toString() : "/";
 

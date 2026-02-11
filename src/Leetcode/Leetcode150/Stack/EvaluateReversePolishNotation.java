@@ -5,31 +5,32 @@ import java.util.Stack;
 public class EvaluateReversePolishNotation {
     public static void main(String[] args) {
         String[] tokens = {"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"};
+        //o/p - 22
         System.out.println(new EvaluateReversePolishNotation().evalRPN(tokens));
     }
 
     public int evalRPN(String[] tokens) {
-        Stack<Integer> stack = new Stack<>();
+        Stack<String> stack = new Stack<>();
         for (String token : tokens) {
-            if (!isOperator(token)) {
-                stack.push(Integer.valueOf(token));
-            } else {
-                int num2 = stack.pop();
-                int num1 = stack.pop();
-                int res = 0;
+            if (isOperator(token)) {
+                int num2 = Integer.parseInt(stack.pop());
+                int num1 = Integer.parseInt(stack.pop());
+                int res;
                 if (token.equals("+")) {
                     res = num1 + num2;
                 } else if (token.equals("-")) {
                     res = num1 - num2;
                 } else if (token.equals("*")) {
                     res = num1 * num2;
-                } else if (token.equals("/")) {
+                } else {
                     res = num1 / num2;
                 }
-                stack.push(res);
+                stack.push(String.valueOf(res));
+            }else {
+                stack.push(token);
             }
         }
-        return stack.peek();
+        return Integer.parseInt(stack.pop());
     }
 
     boolean isOperator(String token) {

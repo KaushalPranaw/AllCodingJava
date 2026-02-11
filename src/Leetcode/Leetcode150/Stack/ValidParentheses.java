@@ -12,16 +12,14 @@ public class ValidParentheses {
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            if (c == '{' || c == '[' || c == '(') {
+            if (c == '[' || c == '{' || c == '(') {
                 stack.push(c);
             } else {
                 if (stack.isEmpty()) {
                     return false;
                 } else {
                     char top = stack.peek();
-                    if ((top == '{' && c == '}')
-                            || (top == '(' && c == ')')
-                            || (top == '[' && c == ']')) {
+                    if ((top == '(' && c == ')') || (top == '{' && c == '}') || (top == '[' && c == ']')) {
                         stack.pop();
                     } else {
                         return false;
