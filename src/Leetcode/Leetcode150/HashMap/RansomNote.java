@@ -7,22 +7,24 @@ public class RansomNote {
 
     }
 
+    //ransomNote = "aa", magazine = "aab" - true
     public boolean canConstruct(String ransomNote, String magazine) {
         if (ransomNote.length() > magazine.length()) {
-            return false;
+            return true;
         }
+
         int[] letters = new int[26];
         for (int i = 0; i < magazine.length(); i++) {
-            char ch = magazine.charAt(i);
-            letters[ch - 'a']++;
+            char c = magazine.charAt(i);
+            letters[c - 'a']++;
         }
 
         for (int i = 0; i < ransomNote.length(); i++) {
-            char ch = ransomNote.charAt(i);
-            if (letters[ch - 'a'] == 0) {
+            char c = magazine.charAt(i);
+            if (letters[c - 'a'] == 0) {
                 return false;
             }
-            letters[ch - 'a']--;
+            letters[c - 'a']--;
         }
         return true;
     }

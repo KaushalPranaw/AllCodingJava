@@ -18,7 +18,7 @@ public class TwoSum {
                 if (map.get(rem) == i) {
                     continue;
                 } else {
-                    return new int[]{map.get(rem), i};
+                    return new int[]{i, map.get(rem)};
                 }
             } else {
                 map.put(nums[i], i);

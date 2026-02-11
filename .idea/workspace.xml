@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 06, 2026: Leetcode">
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 07, 2026: Leetcode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/RotateImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/SetMatrixZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/SetMatrixZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/SpiralMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/ValidSuduko.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Matrix/ValidSuduko.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/MinimumSizeSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/MinimumSizeSubarraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/SlidingWindow/MinimumWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/GroupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/HappyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/IsomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/IsomorphicStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/LongestConsecutiveSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/RansomNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/ValidAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/WordPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/HashMap/WordPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,13 +241,13 @@
       <recent name="Leetcode.TwoPointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpiralMatrix">
-    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.SlidingWindow.MinimumWindowSubstring" />
+  <component name="RunManager" selected="Application.LongestConsecutiveSequence">
+    <configuration name="ContainsDuplicateII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.HashMap.ContainsDuplicateII" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.SlidingWindow.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Matrix.RotateImage" />
+    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.HashMap.GroupAnagrams" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Matrix.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,12 +268,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetMatrixZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Matrix.SetMatrixZeroes" />
+    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.HashMap.HappyNumber" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Matrix.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,12 +281,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Matrix.SpiralMatrix" />
+    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.HashMap.LongestConsecutiveSequence" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Matrix.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,12 +294,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidSuduko" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Matrix.ValidSuduko" />
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.HashMap.TwoSum" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Matrix.*" />
+          <option name="PATTERN" value="Leetcode.Leetcode150.HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpiralMatrix" />
-        <item itemvalue="Application.SetMatrixZeroes" />
-        <item itemvalue="Application.RotateImage" />
-        <item itemvalue="Application.ValidSuduko" />
-        <item itemvalue="Application.MinimumWindowSubstring" />
+        <item itemvalue="Application.LongestConsecutiveSequence" />
+        <item itemvalue="Application.ContainsDuplicateII" />
+        <item itemvalue="Application.HappyNumber" />
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.GroupAnagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -327,14 +328,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00037" summary="April 27 , 2025">
-      <option name="closed" value="true" />
-      <created>1745803601962</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1745803601962</updated>
     </task>
     <task id="LOCAL-00038" summary="April 28 , 2025">
       <option name="closed" value="true" />
@@ -720,7 +713,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770399645915</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Feb 07, 2026: Leetcode">
+      <option name="closed" value="true" />
+      <created>1770698152811</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1770698152811</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +739,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sep 19, 2025" />
     <MESSAGE value="Sep 22, 2025" />
     <MESSAGE value="Sep 23, 2025" />
     <MESSAGE value="Oct 07, 2025" />
@@ -763,7 +763,8 @@
     <MESSAGE value="Feb 06, 2026: DP" />
     <MESSAGE value="Feb 06, 2026: Graph" />
     <MESSAGE value="Feb 06, 2026: Leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feb 06, 2026: Leetcode" />
+    <MESSAGE value="Feb 07, 2026: Leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feb 07, 2026: Leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

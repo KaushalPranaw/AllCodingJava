@@ -9,31 +9,33 @@ public class WordPattern {
         System.out.println(new WordPattern().wordPattern(pattern, s));
     }
 
+    // pattern = "abba", str = "dog cat cat dog"
     public boolean wordPattern(String pattern, String str) {
-        String[] words = str.split(" ");
-        if (words.length != pattern.length()) {
+        String[] sa = str.split(" ");
+        if (sa.length != pattern.length()) {
             return false;
         }
 
-        Map<Character, String> charToWordMap = new HashMap<>();
-        Map<String, Character> wordToCharMap = new HashMap<>();
+        Map<String, Character> stringCharacterMap = new HashMap<>();
+        Map<Character, String> characterStringMap = new HashMap<>();
+
         for (int i = 0; i < pattern.length(); i++) {
-            char ch = pattern.charAt(i);
-            String word = words[i];
-            if (charToWordMap.containsKey(ch)) {
-                if (!charToWordMap.get(ch).equals(word)) {
+            char c = pattern.charAt(i);
+            String s = sa[i];
+            if (stringCharacterMap.containsKey(s)) {
+                if (stringCharacterMap.get(s) != c) {
                     return false;
                 }
             } else {
-                charToWordMap.put(ch, word);
+                stringCharacterMap.put(s, c);
             }
 
-            if (wordToCharMap.containsKey(word)) {
-                if (wordToCharMap.get(word) != ch) {
+            if (characterStringMap.containsKey(c)) {
+                if (!characterStringMap.get(c).equals(s)) {
                     return false;
                 }
             } else {
-                wordToCharMap.put(word, ch);
+                characterStringMap.put(c, s);
             }
         }
         return true;

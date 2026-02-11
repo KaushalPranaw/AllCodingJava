@@ -12,18 +12,19 @@ public class ValidAnagram {
             return false;
         }
 
-        int[] letters = new int[26];
+        int[] count = new int[26];
+
         for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-            letters[ch - 'a']++;
+            char c = s.charAt(i);
+            count[c - 'a']++;
         }
 
         for (int i = 0; i < t.length(); i++) {
-            char ch = t.charAt(i);
-            letters[ch - 'a']--;
-            if (letters[ch - 'a'] < 0) {
+            char c = t.charAt(i);
+            if (count[c - 'a'] == 0) {
                 return false;
             }
+            count[c - 'a']--;
         }
         return true;
 
