@@ -17,20 +17,14 @@ public class SummaryRanges {
 
     public List<String> summaryRanges(int[] nums) {
         List<String> list = new ArrayList<>();
-        if (nums == null || nums.length == 0) {
-            return list;
-        }
-
         int start = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            //check if cur is not consequetive
-            if (nums[i] != nums[i - 1] + 1) {
+            if (nums[i - 1] + 1 != nums[i]) {
                 if (start == nums[i - 1]) {
                     list.add(String.valueOf(start));
                 } else {
                     list.add(start + "->" + nums[i - 1]);
                 }
-                //update start
                 start = nums[i];
             }
         }
@@ -39,6 +33,7 @@ public class SummaryRanges {
         } else {
             list.add(start + "->" + nums[nums.length - 1]);
         }
+
         return list;
     }
 }

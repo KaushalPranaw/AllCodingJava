@@ -10,24 +10,23 @@ public class MergeIntervals {
     }
 
     public int[][] merge(int[][] intervals) {
-        //Arrays.sort(intervals, (a,b)->Integer.compare(a[0], b[0]));
-        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+        List<int[]> list=new ArrayList<>();
+        Arrays.sort(intervals, (a,b)->Integer.compare(a[0], b[0]));
+        int[] currentInterval=intervals[0];
+        list.add(currentInterval);
 
-        List<int[]> mergeList = new ArrayList<>();
-        int[] currentInterval = intervals[0];
-        mergeList.add(currentInterval);
-
-        for (int i = 1; i < intervals.length; i++) {
-            int ns = intervals[i][0];
-            int ne = intervals[i][1];
-            if (currentInterval[1] >= ns) {
-                currentInterval[1] = Math.max(currentInterval[1], ne);
-            } else {
-                currentInterval = intervals[i];
-                mergeList.add(currentInterval);
+        for(int i=1;i<intervals.length;i++){
+            int ns=intervals[i][0];
+            int ne=intervals[i][1];
+            int ce=currentInterval[1];
+            if(ce>=ns){
+                currentInterval[1]=Math.max(currentInterval[1], ne);
+            }else {
+                currentInterval=intervals[i];
+                list.add(currentInterval);
             }
         }
-        return mergeList.toArray(new int[mergeList.size()][]);
+        return list.toArray(new int[list.size()][]);
 
     }
 }
