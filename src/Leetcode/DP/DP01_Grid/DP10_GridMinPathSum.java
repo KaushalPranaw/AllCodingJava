@@ -38,10 +38,6 @@ public class DP10_GridMinPathSum {
 
     private static int minSumPathHelper(int i, int j, int[][] matrix, int[][] dp) {
         //base case
-        if (i < 0 || j < 0) {
-            return 10000000;
-        }
-
         if (i == 0 && j == 0) {
             return matrix[i][j];
         }
@@ -49,9 +45,16 @@ public class DP10_GridMinPathSum {
             return dp[i][j];
         }
 
-        int up = matrix[i][j] + minSumPathHelper(i - 1, j, matrix, dp);
-        int left = matrix[i][j] + minSumPathHelper(i, j - 1, matrix, dp);
-        return dp[i][j] = Math.min(up, left);
+        int up=Integer.MAX_VALUE;
+        int left=Integer.MAX_VALUE;
+        if(i-1>=0){
+            up = matrix[i][j] + minSumPathHelper(i - 1, j, matrix, dp);
+        }
+        if(j-1>=0){
+            left = matrix[i][j] + minSumPathHelper(i, j - 1, matrix, dp);
+        }
+
+        return dp[i][j]=Math.min(up,left);
     }*/
 
     //tabulation
@@ -64,17 +67,13 @@ public class DP10_GridMinPathSum {
                     dp[i][j] = matrix[i][j];
                     continue;
                 }
-                int up = 0;
-                if (i > 0) {
+                int up = Integer.MAX_VALUE;
+                int left = Integer.MAX_VALUE;
+                if (i - 1 >= 0) {
                     up = matrix[i][j] + dp[i - 1][j];
-                } else {
-                    up = Integer.MAX_VALUE;
                 }
-                int left = 0;
-                if (j > 0) {
+                if (j - 1 >= 0) {
                     left = matrix[i][j] + dp[i][j - 1];
-                } else {
-                    left = Integer.MAX_VALUE;
                 }
                 dp[i][j] = Math.min(up, left);
             }
@@ -93,17 +92,13 @@ public class DP10_GridMinPathSum {
                     cur[j] = matrix[i][j];
                     continue;
                 }
-                int up = 0;
-                if (i > 0) {
+                int up = Integer.MAX_VALUE;
+                int left = Integer.MAX_VALUE;
+                if (i - 1 >= 0) {
                     up = matrix[i][j] + prev[j];
-                } else {
-                    up = Integer.MAX_VALUE;
                 }
-                int left = 0;
-                if (j > 0) {
+                if (j - 1 >= 0) {
                     left = matrix[i][j] + cur[j - 1];
-                } else {
-                    left = Integer.MAX_VALUE;
                 }
                 cur[j] = Math.min(up, left);
             }
