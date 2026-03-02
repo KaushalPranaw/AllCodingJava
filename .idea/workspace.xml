@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Feb 19, 2026: Leetcode">
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/LiftElevator/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/LiftElevator/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/LiftElevator/ElevatorSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/LiftElevator/Lift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/LiftElevator/LiftStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/LiftElevator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/LiftElevator/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/LiftElevator/RequestType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/LiftElevator/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/SnackLadder/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/SnackLadder/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/SnackLadder/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/SnackLadder/Ladder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/SnackLadder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/SnackLadder/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/SnackLadder/Snake.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Mar 1, 2026: Leetcode">
+      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/TicTacToe/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/TicTacToe/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/TicTacToe/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/TicTacToe/TicTacToeMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -263,7 +251,7 @@
       <recent name="Comp.CodeWithComplexity75.DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LLD.L2026.SnackLadder.Main">
+  <component name="RunManager" selected="Application.TicTacToeMain">
     <configuration name="DP08_GridUniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP01_Grid.DP08_GridUniquePaths" />
       <module name="basic-concepts" />
@@ -316,12 +304,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PS03_SubarraysDivByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.TUF.PrefixSum.PS03_SubarraysDivByK" />
+    <configuration name="TicTacToeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LLD.L2026.TicTacToe.TicTacToeMain" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.TUF.PrefixSum.*" />
+          <option name="PATTERN" value="LLD.L2026.TicTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,11 +319,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicTacToeMain" />
         <item itemvalue="Application.LLD.L2026.SnackLadder.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DP08_GridUniquePaths" />
         <item itemvalue="Application.DP10_GridMinPathSum" />
-        <item itemvalue="Application.PS03_SubarraysDivByK" />
       </list>
     </recent_temporary>
   </component>
@@ -350,14 +338,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00042" summary="July 24, 2025">
-      <option name="closed" value="true" />
-      <created>1753332112070</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1753332112070</updated>
     </task>
     <task id="LOCAL-00043" summary="Sep 06, 2025">
       <option name="closed" value="true" />
@@ -743,7 +723,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772264741804</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Mar 1, 2026: Leetcode">
+      <option name="closed" value="true" />
+      <created>1772430196555</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1772430196555</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -761,7 +749,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Oct 07, 2025" />
     <MESSAGE value="Oct 28, 2025" />
     <MESSAGE value="Oct 29, 2025" />
     <MESSAGE value="Oct 29, 2025 - refactored" />
@@ -786,7 +773,8 @@
     <MESSAGE value="Feb 07, 2026: Leetcode" />
     <MESSAGE value="Feb 10, 2026: Leetcode" />
     <MESSAGE value="Feb 19, 2026: Leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feb 19, 2026: Leetcode" />
+    <MESSAGE value="Mar 1, 2026: Leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mar 1, 2026: Leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
