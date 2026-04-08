@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Mar 1, 2026: Leetcode">
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/TicTacToe/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/TicTacToe/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/TicTacToe/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/L2026/TicTacToe/TicTacToeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D01_BitMath/FactorialTrailingZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D01_BitMath/PalindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D01_BitMath/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D01_BitMath/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D01_BitMath/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D01_BitMath/SingleNumberII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D01_BitMath/Sqrt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D02_Heap/FindKPairsWithSmallestSums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D02_Heap/KthLargestElementInAnArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,8 +102,10 @@
     "Application.DemoVirtualThread.executor": "Run",
     "Application.EvaluateReversePolishNotation.executor": "Run",
     "Application.ExecutorServiceExample.executor": "Run",
+    "Application.FactorialTrailingZeroes.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.FindFirstAndLastPositionOfElementInSortedArray.executor": "Run",
+    "Application.FindKPairsWithSmallestSums.executor": "Run",
     "Application.FindMinimumInRotatedSortedArray.executor": "Run",
     "Application.FindPeakElement.executor": "Run",
     "Application.FindTheDifference.executor": "Run",
@@ -130,6 +137,7 @@
     "Application.JobSequencing.executor": "Run",
     "Application.JumpGame.executor": "Run",
     "Application.JumpGameII.executor": "Run",
+    "Application.KthLargestElementInAnArray.executor": "Run",
     "Application.KthLargestElementInArray.executor": "Run",
     "Application.KthSmallestElementInBST.executor": "Run",
     "Application.LLD.L2026.SnackLadder.Main.executor": "Run",
@@ -163,9 +171,11 @@
     "Application.MoveZeroes.executor": "Run",
     "Application.NumberOfIslands.executor": "Run",
     "Application.PS03_SubarraysDivByK.executor": "Run",
+    "Application.PalindromeNumber.executor": "Run",
     "Application.PartitionList.executor": "Run",
     "Application.PathSum.executor": "Run",
     "Application.Permutations.executor": "Run",
+    "Application.PlusOne.executor": "Run",
     "Application.Power.executor": "Run",
     "Application.Prefix02_ContinuousSubarraySum_LC.executor": "Run",
     "Application.ProductOfArrayExceptSelf.executor": "Run",
@@ -191,10 +201,13 @@
     "Application.SearchInsertPosition.executor": "Run",
     "Application.SetMatrixZeroes.executor": "Run",
     "Application.SimplifyPath.executor": "Run",
+    "Application.SingleNumber.executor": "Run",
+    "Application.SingleNumberII.executor": "Run",
     "Application.SortAnArray.executor": "Run",
     "Application.SortColors.executor": "Run",
     "Application.SortList.executor": "Run",
     "Application.SpiralMatrix.executor": "Run",
+    "Application.Sqrt.executor": "Run",
     "Application.SubarraySumDivisibleByK.executor": "Run",
     "Application.SubarraySumEqualsK.executor": "Run",
     "Application.Subsets.executor": "Run",
@@ -251,13 +264,13 @@
       <recent name="Comp.CodeWithComplexity75.DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicTacToeMain">
-    <configuration name="DP08_GridUniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP01_Grid.DP08_GridUniquePaths" />
+  <component name="RunManager" selected="Application.Power">
+    <configuration name="FactorialTrailingZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D01_BitMath.FactorialTrailingZeroes" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.DP.DP01_Grid.*" />
+          <option name="PATTERN" value="DSA2026.D01_BitMath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,12 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DP10_GridMinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP01_Grid.DP10_GridMinPathSum" />
+    <configuration name="FindKPairsWithSmallestSums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D02_Heap.FindKPairsWithSmallestSums" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.DP.DP01_Grid.*" />
+          <option name="PATTERN" value="DSA2026.D02_Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,12 +291,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LLD.L2026.SnackLadder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LLD.L2026.SnackLadder.Main" />
+    <configuration name="KthLargestElementInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D02_Heap.KthLargestElementInAnArray" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LLD.L2026.SnackLadder.*" />
+          <option name="PATTERN" value="DSA2026.D02_Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,12 +304,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LLD.L2026.LiftElevator.Main" />
+    <configuration name="Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D01_BitMath.Power" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LLD.L2026.LiftElevator.*" />
+          <option name="PATTERN" value="DSA2026.D01_BitMath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,12 +317,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LLD.L2026.TicTacToe.TicTacToeMain" />
+    <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D01_BitMath.Sqrt" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LLD.L2026.TicTacToe.*" />
+          <option name="PATTERN" value="DSA2026.D01_BitMath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,11 +332,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TicTacToeMain" />
-        <item itemvalue="Application.LLD.L2026.SnackLadder.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DP08_GridUniquePaths" />
-        <item itemvalue="Application.DP10_GridMinPathSum" />
+        <item itemvalue="Application.Power" />
+        <item itemvalue="Application.Sqrt" />
+        <item itemvalue="Application.FactorialTrailingZeroes" />
+        <item itemvalue="Application.FindKPairsWithSmallestSums" />
+        <item itemvalue="Application.KthLargestElementInAnArray" />
       </list>
     </recent_temporary>
   </component>
