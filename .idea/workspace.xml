@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="Mar 1, 2026: Leetcode">
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D01_BitMath/FactorialTrailingZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D01_BitMath/PalindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D01_BitMath/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D01_BitMath/Power.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D01_BitMath/SingleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D01_BitMath/SingleNumberII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D01_BitMath/Sqrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D02_Heap/FindKPairsWithSmallestSums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D02_Heap/KthLargestElementInAnArray.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="April 8, 2026: heap">
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/BestTimeToBuyAndSellStockII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/GasStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/H_Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/InsertDeleteGetRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/JumpGameII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/ProductOfArrayExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/RemoveDuplicatesFromSortedArrayII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/RotateArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,6 +133,7 @@
     "Application.GroupAnagrams.executor": "Run",
     "Application.H_Index.executor": "Run",
     "Application.HappyNumber.executor": "Run",
+    "Application.InsertDeleteGetRandom.executor": "Run",
     "Application.InsertInterval.executor": "Run",
     "Application.IntegerToRoman.executor": "Run",
     "Application.InvertBinaryTree.executor": "Run",
@@ -257,20 +263,20 @@
       <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\DesignPatterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DSA2026.D03_Array_String" />
       <recent name="Leetcode.Leetcode150.LinkedList" />
       <recent name="Leetcode.GraphNew" />
       <recent name="DSA_RoadMap.Day6" />
       <recent name="DSA_RoadMap.Day3" />
-      <recent name="Comp.CodeWithComplexity75.DP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Power">
-    <configuration name="FactorialTrailingZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D01_BitMath.FactorialTrailingZeroes" />
+  <component name="RunManager" selected="Application.ProductOfArrayExceptSelf">
+    <configuration name="H_Index" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.H_Index" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA2026.D01_BitMath.*" />
+          <option name="PATTERN" value="DSA2026.D03_Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,12 +284,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindKPairsWithSmallestSums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D02_Heap.FindKPairsWithSmallestSums" />
+    <configuration name="InsertDeleteGetRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.InsertDeleteGetRandom" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA2026.D02_Heap.*" />
+          <option name="PATTERN" value="DSA2026.D03_Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,12 +297,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthLargestElementInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D02_Heap.KthLargestElementInAnArray" />
+    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.JumpGame" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA2026.D02_Heap.*" />
+          <option name="PATTERN" value="DSA2026.D03_Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,12 +310,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D01_BitMath.Power" />
+    <configuration name="JumpGameII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.JumpGameII" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA2026.D01_BitMath.*" />
+          <option name="PATTERN" value="DSA2026.D03_Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,12 +323,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D01_BitMath.Sqrt" />
+    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.ProductOfArrayExceptSelf" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA2026.D01_BitMath.*" />
+          <option name="PATTERN" value="DSA2026.D03_Array_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,11 +338,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Power" />
-        <item itemvalue="Application.Sqrt" />
-        <item itemvalue="Application.FactorialTrailingZeroes" />
-        <item itemvalue="Application.FindKPairsWithSmallestSums" />
-        <item itemvalue="Application.KthLargestElementInAnArray" />
+        <item itemvalue="Application.ProductOfArrayExceptSelf" />
+        <item itemvalue="Application.InsertDeleteGetRandom" />
+        <item itemvalue="Application.H_Index" />
+        <item itemvalue="Application.JumpGameII" />
+        <item itemvalue="Application.JumpGame" />
       </list>
     </recent_temporary>
   </component>
@@ -351,14 +357,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00043" summary="Sep 06, 2025">
-      <option name="closed" value="true" />
-      <created>1757139766218</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1757139766218</updated>
     </task>
     <task id="LOCAL-00044" summary="Sep 06, 2025">
       <option name="closed" value="true" />
@@ -744,7 +742,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772430196555</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="April 8, 2026: heap">
+      <option name="closed" value="true" />
+      <created>1775623959680</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1775623959681</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -762,7 +768,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Oct 28, 2025" />
     <MESSAGE value="Oct 29, 2025" />
     <MESSAGE value="Oct 29, 2025 - refactored" />
     <MESSAGE value="Oct 30, 2025" />
@@ -787,7 +792,8 @@
     <MESSAGE value="Feb 10, 2026: Leetcode" />
     <MESSAGE value="Feb 19, 2026: Leetcode" />
     <MESSAGE value="Mar 1, 2026: Leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mar 1, 2026: Leetcode" />
+    <MESSAGE value="April 8, 2026: heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="April 8, 2026: heap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
