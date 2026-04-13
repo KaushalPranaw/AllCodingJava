@@ -4,22 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="April 8, 2026: heap">
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/BestTimeToBuyAndSellStockII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/GasStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/H_Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/InsertDeleteGetRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/JumpGameII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/RemoveDuplicatesFromSortedArrayII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/RotateArray.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="April 11, 2026: heap">
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/Candy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/FindIndexOfFirstOccurrenceInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/IntegerToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/LengthOfLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/ReverseWordsInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/ZigzagConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/Java8Programs/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/Java8Programs/TestJava8Programs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA2026/D03_Array_String/GasStation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +108,7 @@
     "Application.FactorialTrailingZeroes.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.FindFirstAndLastPositionOfElementInSortedArray.executor": "Run",
+    "Application.FindIndexOfFirstOccurrenceInString.executor": "Run",
     "Application.FindKPairsWithSmallestSums.executor": "Run",
     "Application.FindMinimumInRotatedSortedArray.executor": "Run",
     "Application.FindPeakElement.executor": "Run",
@@ -197,6 +196,7 @@
     "Application.ReverseLinkedListII.executor": "Run",
     "Application.ReverseNodesInKGroup.executor": "Run",
     "Application.ReverseWordsInAString.executor": "Run",
+    "Application.ReverseWordsInString.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
     "Application.RotateArray.executor": "Run",
     "Application.RotateImage.executor": "Run",
@@ -223,6 +223,7 @@
     "Application.SwapNodesInPairs.executor": "Run",
     "Application.SymmetricTree.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.TestJava8Programs.executor": "Run",
     "Application.ThreeSum.executor": "Run",
     "Application.ThreeSumEqualToK.executor": "Run",
     "Application.ThreeSumEqualsToK.executor": "Run",
@@ -270,9 +271,9 @@
       <recent name="DSA_RoadMap.Day3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductOfArrayExceptSelf">
-    <configuration name="H_Index" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.H_Index" />
+  <component name="RunManager" selected="Application.ZigzagConversion">
+    <configuration name="FindIndexOfFirstOccurrenceInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.FindIndexOfFirstOccurrenceInString" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -284,8 +285,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertDeleteGetRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.InsertDeleteGetRandom" />
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.LengthOfLastWord" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -297,8 +298,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.JumpGame" />
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.LongestCommonPrefix" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -310,8 +311,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpGameII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.JumpGameII" />
+    <configuration name="ReverseWordsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.ReverseWordsInString" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -323,8 +324,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.ProductOfArrayExceptSelf" />
+    <configuration name="ZigzagConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D03_Array_String.ZigzagConversion" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
@@ -338,11 +339,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductOfArrayExceptSelf" />
-        <item itemvalue="Application.InsertDeleteGetRandom" />
-        <item itemvalue="Application.H_Index" />
-        <item itemvalue="Application.JumpGameII" />
-        <item itemvalue="Application.JumpGame" />
+        <item itemvalue="Application.ZigzagConversion" />
+        <item itemvalue="Application.FindIndexOfFirstOccurrenceInString" />
+        <item itemvalue="Application.ReverseWordsInString" />
+        <item itemvalue="Application.LongestCommonPrefix" />
+        <item itemvalue="Application.LengthOfLastWord" />
       </list>
     </recent_temporary>
   </component>
@@ -357,14 +358,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00044" summary="Sep 06, 2025">
-      <option name="closed" value="true" />
-      <created>1758078558127</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1758078558127</updated>
     </task>
     <task id="LOCAL-00045" summary="Sep 17, 2025">
       <option name="closed" value="true" />
@@ -750,7 +743,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775623959681</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="April 11, 2026: heap">
+      <option name="closed" value="true" />
+      <created>1775889826260</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1775889826261</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -768,7 +769,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Oct 29, 2025" />
     <MESSAGE value="Oct 29, 2025 - refactored" />
     <MESSAGE value="Oct 30, 2025" />
     <MESSAGE value="Dec 16, 2025" />
@@ -793,7 +793,8 @@
     <MESSAGE value="Feb 19, 2026: Leetcode" />
     <MESSAGE value="Mar 1, 2026: Leetcode" />
     <MESSAGE value="April 8, 2026: heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="April 8, 2026: heap" />
+    <MESSAGE value="April 11, 2026: heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="April 11, 2026: heap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

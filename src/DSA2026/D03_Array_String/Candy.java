@@ -1,0 +1,37 @@
+package DSA2026.D03_Array_String;
+
+import java.util.Arrays;
+
+public class Candy {
+    public static void main(String[] args) {
+        //Input: ratings = [1,0,2]
+        //Output: 5
+        int[] ratings = {1, 0, 2};
+        System.out.println(candy(ratings));
+
+    }
+
+    public static int candy(int[] ratings) {
+
+        int n = ratings.length;
+        int[] candy = new int[n];
+        Arrays.fill(candy, 1);
+
+        //l->r
+        for (int i = 1; i < n; i++) {
+            if (ratings[i] > ratings[i - 1]) {
+                candy[i] = candy[i - 1] + 1;
+            }
+        }
+
+        //r->l
+        for (int i = n - 2; i >= 0; i--) {
+            if (ratings[i] > ratings[i + 1]) {
+                candy[i] = Math.max(candy[i + 1] + 1, candy[i]);
+            }
+        }
+
+        return Arrays.stream(candy).sum();
+
+    }
+}
