@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="April 14, 2026: heap">
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D08_Intervals/InsertInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D08_Intervals/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D08_Intervals/MinimumNumberOfArrowsToBurstBalloons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D09_Stack/BasicCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D09_Stack/EvaluateReversePolishNotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D09_Stack/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D09_Stack/SimplifyPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D09_Stack/ValidParentheses.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="April 18, 2026: heap">
       <change afterPath="$PROJECT_DIR$/src/DSA2026/D10_LinkedList/LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA2026/D10_LinkedList/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA2026/D08_Intervals/SummaryRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA2026/D08_Intervals/SummaryRanges.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +267,7 @@
       <recent name="DSA_RoadMap.Day6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BasicCalculator">
+  <component name="RunManager" selected="Application.LinkedListCycle">
     <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSA2026.D09_Stack.BasicCalculator" />
       <module name="basic-concepts" />
@@ -295,6 +287,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DSA2026.D09_Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA2026.D10_LinkedList.LinkedListCycle" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DSA2026.D10_LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,26 +333,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D09_Stack.ValidParentheses" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DSA2026.D09_Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListCycle" />
         <item itemvalue="Application.BasicCalculator" />
         <item itemvalue="Application.EvaluateReversePolishNotation" />
         <item itemvalue="Application.MinStack" />
         <item itemvalue="Application.SimplifyPath" />
-        <item itemvalue="Application.ValidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -362,14 +354,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00047" summary="Sep 18, 2025">
-      <option name="closed" value="true" />
-      <created>1758279264897</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1758279264897</updated>
     </task>
     <task id="LOCAL-00048" summary="Sep 19, 2025">
       <option name="closed" value="true" />
@@ -755,7 +739,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776220118148</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="April 18, 2026: heap">
+      <option name="closed" value="true" />
+      <created>1776490014557</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1776490014557</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -773,7 +765,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dec 16, 2025" />
     <MESSAGE value="Dec 17, 2025" />
     <MESSAGE value="Dec 21, 2025" />
     <MESSAGE value="Dec 23, 2025" />
@@ -798,7 +789,8 @@
     <MESSAGE value="April 11, 2026: heap" />
     <MESSAGE value="April 13, 2026: heap" />
     <MESSAGE value="April 14, 2026: heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="April 14, 2026: heap" />
+    <MESSAGE value="April 18, 2026: heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="April 18, 2026: heap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
