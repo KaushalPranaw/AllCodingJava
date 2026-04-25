@@ -3,7 +3,7 @@ package Leetcode.DP.DP02_Subsequence;
 import java.util.Arrays;
 
 //For example, for the array: [2,3,1] ,
-// the subsequences will be [{2},{3},{1},{2,3},{2,1},{3,1},{2,3,1}}
+// the subsequences will be [{2},{3},{1},{2,3},{2, 1},{3,1},{2,3,1}}
 // but {3,2} is not a subsequence because its elements are not in the same order as the original array.
 public class DP14_SubsetSumEqualToTarget {
     public static void main(String[] args) {

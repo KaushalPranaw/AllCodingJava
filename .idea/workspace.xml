@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="April 18, 2026: heap">
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D10_LinkedList/LinkedListCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA2026/D10_LinkedList/ListNode.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="April 18, 2026: linkedlist">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP01_Grid/DP08_GridUniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP01_Grid/DP08_GridUniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP02_Subsequence/DP14_SubsetSumEqualToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP02_Subsequence/DP14_SubsetSumEqualToTarget.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +94,10 @@
     "Application.DP07_NinjaTraining.executor": "Run",
     "Application.DP08_GridUniquePaths.executor": "Run",
     "Application.DP10_GridMinPathSum.executor": "Run",
+    "Application.DP11_GridTriangleMinPathSum.executor": "Run",
+    "Application.DP12_MaxMinFallingPathSumVariableStartingAndEnding.executor": "Run",
+    "Application.DP13_CherryPickII_3D_DP.executor": "Run",
+    "Application.DP14_SubsetSumEqualToTarget.executor": "Run",
     "Application.DSA_RoadMap.Day1.Subsets.executor": "Run",
     "Application.Day001_SortColors.executor": "Run",
     "Application.DemoVirtualThread.executor": "Run",
@@ -267,13 +273,13 @@
       <recent name="DSA_RoadMap.Day6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedListCycle">
-    <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D09_Stack.BasicCalculator" />
+  <component name="RunManager" selected="Application.DP14_SubsetSumEqualToTarget">
+    <configuration name="DP10_GridMinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP01_Grid.DP10_GridMinPathSum" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA2026.D09_Stack.*" />
+          <option name="PATTERN" value="Leetcode.DP.DP01_Grid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,12 +287,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvaluateReversePolishNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D09_Stack.EvaluateReversePolishNotation" />
+    <configuration name="DP11_GridTriangleMinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP01_Grid.DP11_GridTriangleMinPathSum" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA2026.D09_Stack.*" />
+          <option name="PATTERN" value="Leetcode.DP.DP01_Grid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,12 +300,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D10_LinkedList.LinkedListCycle" />
+    <configuration name="DP12_MaxMinFallingPathSumVariableStartingAndEnding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP01_Grid.DP12_MaxMinFallingPathSumVariableStartingAndEnding" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA2026.D10_LinkedList.*" />
+          <option name="PATTERN" value="Leetcode.DP.DP01_Grid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,12 +313,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D09_Stack.MinStack" />
+    <configuration name="DP13_CherryPickII_3D_DP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP01_Grid.DP13_CherryPickII_3D_DP" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA2026.D09_Stack.*" />
+          <option name="PATTERN" value="Leetcode.DP.DP01_Grid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,12 +326,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplifyPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA2026.D09_Stack.SimplifyPath" />
+    <configuration name="DP14_SubsetSumEqualToTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP02_Subsequence.DP14_SubsetSumEqualToTarget" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA2026.D09_Stack.*" />
+          <option name="PATTERN" value="Leetcode.DP.DP02_Subsequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,11 +341,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedListCycle" />
-        <item itemvalue="Application.BasicCalculator" />
-        <item itemvalue="Application.EvaluateReversePolishNotation" />
-        <item itemvalue="Application.MinStack" />
-        <item itemvalue="Application.SimplifyPath" />
+        <item itemvalue="Application.DP14_SubsetSumEqualToTarget" />
+        <item itemvalue="Application.DP13_CherryPickII_3D_DP" />
+        <item itemvalue="Application.DP12_MaxMinFallingPathSumVariableStartingAndEnding" />
+        <item itemvalue="Application.DP11_GridTriangleMinPathSum" />
+        <item itemvalue="Application.DP10_GridMinPathSum" />
       </list>
     </recent_temporary>
   </component>
@@ -354,14 +360,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00048" summary="Sep 19, 2025">
-      <option name="closed" value="true" />
-      <created>1758359296716</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1758359296716</updated>
     </task>
     <task id="LOCAL-00049" summary="Sep 22, 2025">
       <option name="closed" value="true" />
@@ -747,7 +745,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776490014557</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="April 18, 2026: linkedlist">
+      <option name="closed" value="true" />
+      <created>1776527386484</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1776527386484</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,7 +771,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dec 17, 2025" />
     <MESSAGE value="Dec 21, 2025" />
     <MESSAGE value="Dec 23, 2025" />
     <MESSAGE value="Dec 24, 2025" />
@@ -790,7 +795,8 @@
     <MESSAGE value="April 13, 2026: heap" />
     <MESSAGE value="April 14, 2026: heap" />
     <MESSAGE value="April 18, 2026: heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="April 18, 2026: heap" />
+    <MESSAGE value="April 18, 2026: linkedlist" />
+    <option name="LAST_COMMIT_MESSAGE" value="April 18, 2026: linkedlist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,7 +4,10 @@ import java.util.Arrays;
 
 //https://takeuforward.org/data-structure/grid-unique-paths-dp-on-grids-dp8/
 /*
-Problem Statement: Given two integers m and n, representing the number of rows and columns of a 2d array named matrix. Return the number of unique ways to go from the top-left cell (matrix[0][0]) to the bottom-right cell (matrix[m-1][n-1]).
+Problem Statement: Given two integers m and n,
+representing the number of rows and columns of a 2d array named matrix.
+Return the number of unique ways to go from the top-left cell (matrix[0][0])
+to the bottom-right cell (matrix[m-1][n-1]).
  */
 public class DP08_GridUniquePaths {
     public static void main(String[] args) {
