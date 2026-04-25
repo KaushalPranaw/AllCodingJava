@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="April 18, 2026: linkedlist">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP01_Grid/DP08_GridUniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP01_Grid/DP08_GridUniquePaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP02_Subsequence/DP14_SubsetSumEqualToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP02_Subsequence/DP14_SubsetSumEqualToTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP02_Subsequence/DP16_PartitionTwoSubsetsWithMinAbsoluteSumDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP02_Subsequence/DP16_PartitionTwoSubsetsWithMinAbsoluteSumDifference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +95,7 @@
     "Application.DP12_MaxMinFallingPathSumVariableStartingAndEnding.executor": "Run",
     "Application.DP13_CherryPickII_3D_DP.executor": "Run",
     "Application.DP14_SubsetSumEqualToTarget.executor": "Run",
+    "Application.DP16_PartitionTwoSubsetsWithMinAbsoluteSumDifference.executor": "Run",
     "Application.DSA_RoadMap.Day1.Subsets.executor": "Run",
     "Application.Day001_SortColors.executor": "Run",
     "Application.DemoVirtualThread.executor": "Run",
@@ -273,20 +271,7 @@
       <recent name="DSA_RoadMap.Day6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DP14_SubsetSumEqualToTarget">
-    <configuration name="DP10_GridMinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP01_Grid.DP10_GridMinPathSum" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.DP.DP01_Grid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DP16_PartitionTwoSubsetsWithMinAbsoluteSumDifference">
     <configuration name="DP11_GridTriangleMinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP01_Grid.DP11_GridTriangleMinPathSum" />
       <module name="basic-concepts" />
@@ -339,13 +324,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DP16_PartitionTwoSubsetsWithMinAbsoluteSumDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP02_Subsequence.DP16_PartitionTwoSubsetsWithMinAbsoluteSumDifference" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.DP.DP02_Subsequence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DP16_PartitionTwoSubsetsWithMinAbsoluteSumDifference" />
         <item itemvalue="Application.DP14_SubsetSumEqualToTarget" />
         <item itemvalue="Application.DP13_CherryPickII_3D_DP" />
         <item itemvalue="Application.DP12_MaxMinFallingPathSumVariableStartingAndEnding" />
         <item itemvalue="Application.DP11_GridTriangleMinPathSum" />
-        <item itemvalue="Application.DP10_GridMinPathSum" />
       </list>
     </recent_temporary>
   </component>
@@ -360,14 +358,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00049" summary="Sep 22, 2025">
-      <option name="closed" value="true" />
-      <created>1758536351622</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1758536351622</updated>
     </task>
     <task id="LOCAL-00050" summary="Sep 23, 2025">
       <option name="closed" value="true" />
@@ -753,7 +743,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776527386484</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="April 18, 2026: linkedlist">
+      <option name="closed" value="true" />
+      <created>1777078358494</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1777078358494</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
