@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="April 18, 2026: linkedlist">
+      <change afterPath="$PROJECT_DIR$/src/Comp/Crisil/BinarySearchUsingRecur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comp/Crisil/SecondHighestNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/DP/DP02_Subsequence/DP16_PartitionTwoSubsetsWithMinAbsoluteSumDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/DP02_Subsequence/DP16_PartitionTwoSubsetsWithMinAbsoluteSumDifference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +61,7 @@
     "Application.BestTimeToBuyAndSellStock.executor": "Run",
     "Application.BestTimeToBuyAndSellStockII.executor": "Run",
     "Application.BinarySearch.executor": "Run",
+    "Application.BinarySearchUsingRecur.executor": "Run",
     "Application.BinaryTreeLevelOrderTraversal.executor": "Run",
     "Application.BinaryTreeMaximumPathSum.executor": "Run",
     "Application.BinaryTreeRightSideView.executor": "Run",
@@ -202,6 +204,7 @@
     "Application.Search2DMatrix.executor": "Run",
     "Application.SearchInRotatedSortedArray.executor": "Run",
     "Application.SearchInsertPosition.executor": "Run",
+    "Application.SecondHighestNum.executor": "Run",
     "Application.SetMatrixZeroes.executor": "Run",
     "Application.SimplifyPath.executor": "Run",
     "Application.SingleNumber.executor": "Run",
@@ -271,26 +274,13 @@
       <recent name="DSA_RoadMap.Day6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DP16_PartitionTwoSubsetsWithMinAbsoluteSumDifference">
-    <configuration name="DP11_GridTriangleMinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP01_Grid.DP11_GridTriangleMinPathSum" />
+  <component name="RunManager" selected="Application.BinarySearchUsingRecur">
+    <configuration name="BinarySearchUsingRecur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Comp.Crisil.BinarySearchUsingRecur" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.DP.DP01_Grid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DP12_MaxMinFallingPathSumVariableStartingAndEnding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP01_Grid.DP12_MaxMinFallingPathSumVariableStartingAndEnding" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.DP.DP01_Grid.*" />
+          <option name="PATTERN" value="Comp.Crisil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,13 +327,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecondHighestNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Comp.Crisil.SecondHighestNum" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Comp.Crisil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchUsingRecur" />
+        <item itemvalue="Application.SecondHighestNum" />
         <item itemvalue="Application.DP16_PartitionTwoSubsetsWithMinAbsoluteSumDifference" />
         <item itemvalue="Application.DP14_SubsetSumEqualToTarget" />
         <item itemvalue="Application.DP13_CherryPickII_3D_DP" />
-        <item itemvalue="Application.DP12_MaxMinFallingPathSumVariableStartingAndEnding" />
-        <item itemvalue="Application.DP11_GridTriangleMinPathSum" />
       </list>
     </recent_temporary>
   </component>
@@ -358,14 +361,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00050" summary="Sep 23, 2025">
-      <option name="closed" value="true" />
-      <created>1758646475869</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1758646475870</updated>
     </task>
     <task id="LOCAL-00051" summary="Sep 23, 2025">
       <option name="closed" value="true" />
@@ -751,7 +746,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777078358494</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="April 18, 2026: linkedlist">
+      <option name="closed" value="true" />
+      <created>1777099733517</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1777099733517</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
