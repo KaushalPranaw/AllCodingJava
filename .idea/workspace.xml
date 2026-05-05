@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="April 18, 2026: linkedlist">
-      <change afterPath="$PROJECT_DIR$/src/Comp/Crisil/BinarySearchUsingRecur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Comp/Crisil/SecondHighestNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CheckIfNumberIsArmstrongNumberOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CheckIfNumberIsPalindromeOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CheckIfNumberIsPrimeOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CountDigitsInNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/FindGCDOfTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/PrintAllDivisorsOfGivenNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/ReverseDigitsOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R01_PrintNameNTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R02_Print1ToNUsingRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R03_PrintNTo1UsingRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R04_SumOfFirstNNaturalNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R05_FactorialOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R06_RecursiveFibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/HourlyPricing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/PricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/VehicleType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +40,7 @@
       <list>
         <option value="Dockerfile" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -68,6 +90,9 @@
     "Application.BinaryTreeZigzagLevelOrderTraversal.executor": "Run",
     "Application.BuildArrayWithStackOperations.executor": "Run",
     "Application.Candy.executor": "Run",
+    "Application.CheckIfNumberIsArmstrongNumberOrNot.executor": "Run",
+    "Application.CheckIfNumberIsPalindromeOrNot.executor": "Run",
+    "Application.CheckIfNumberIsPrimeOrNot.executor": "Run",
     "Application.CombinationSum.executor": "Run",
     "Application.CombinationSumII.executor": "Run",
     "Application.Combinations.executor": "Run",
@@ -78,6 +103,7 @@
     "Application.ConvertSortedArrayToBinarySearchTree.executor": "Run",
     "Application.CopyListWithRandomPointer.executor": "Run",
     "Application.CountCompleteTreeNodes.executor": "Run",
+    "Application.CountDigitsInNumber.executor": "Run",
     "Application.CountOfSubArrayEqualsToK.executor": "Run",
     "Application.CountSubArrayEqualToK.executor": "Run",
     "Application.CountSubarraysWithGivenSum.executor": "Run",
@@ -106,6 +132,7 @@
     "Application.FactorialTrailingZeroes.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.FindFirstAndLastPositionOfElementInSortedArray.executor": "Run",
+    "Application.FindGCDOfTwoNumbers.executor": "Run",
     "Application.FindIndexOfFirstOccurrenceInString.executor": "Run",
     "Application.FindKPairsWithSmallestSums.executor": "Run",
     "Application.FindMinimumInRotatedSortedArray.executor": "Run",
@@ -181,7 +208,14 @@
     "Application.PlusOne.executor": "Run",
     "Application.Power.executor": "Run",
     "Application.Prefix02_ContinuousSubarraySum_LC.executor": "Run",
+    "Application.Print1ToNUsingRecursion.executor": "Run",
+    "Application.PrintAllDivisorsOfGivenNumber.executor": "Run",
+    "Application.PrintNTo1UsingRecursion.executor": "Run",
+    "Application.PrintNameNTimes.executor": "Run",
     "Application.ProductOfArrayExceptSelf.executor": "Run",
+    "Application.R04_SumOfFirstNNaturalNumbers.executor": "Run",
+    "Application.R05_FactorialOfNumber.executor": "Run",
+    "Application.R06_RecursiveFibonacci.executor": "Run",
     "Application.RandomizedSet.executor": "Run",
     "Application.RansomNote.executor": "Run",
     "Application.RateLimiter.executor": "Run",
@@ -191,6 +225,7 @@
     "Application.RemoveDuplicatesFromSortedListII.executor": "Run",
     "Application.RemoveElement.executor": "Run",
     "Application.RemoveNthNodeFromEndOfList.executor": "Run",
+    "Application.ReverseDigitsOfNumber.executor": "Run",
     "Application.ReverseLinkedList.executor": "Run",
     "Application.ReverseLinkedListII.executor": "Run",
     "Application.ReverseNodesInKGroup.executor": "Run",
@@ -256,7 +291,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.completions.CompletionsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -267,20 +302,20 @@
       <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\DesignPatterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="May2026.LLD.ParkingLot" />
       <recent name="DSA2026.D04_TwoPointers" />
       <recent name="DSA2026.D03_Array_String" />
       <recent name="Leetcode.Leetcode150.LinkedList" />
       <recent name="Leetcode.GraphNew" />
-      <recent name="DSA_RoadMap.Day6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchUsingRecur">
-    <configuration name="BinarySearchUsingRecur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Comp.Crisil.BinarySearchUsingRecur" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.LLD.ParkingLot.Main" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Comp.Crisil.*" />
+          <option name="PATTERN" value="May2026.LLD.ParkingLot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,12 +323,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DP13_CherryPickII_3D_DP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP01_Grid.DP13_CherryPickII_3D_DP" />
+    <configuration name="R03_PrintNTo1UsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.Day1.LearnBasicRecursion.R03_PrintNTo1UsingRecursion" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.DP.DP01_Grid.*" />
+          <option name="PATTERN" value="May2026.Day1.LearnBasicRecursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,12 +336,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DP14_SubsetSumEqualToTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP02_Subsequence.DP14_SubsetSumEqualToTarget" />
+    <configuration name="R04_SumOfFirstNNaturalNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.Day1.LearnBasicRecursion.R04_SumOfFirstNNaturalNumbers" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.DP.DP02_Subsequence.*" />
+          <option name="PATTERN" value="May2026.Day1.LearnBasicRecursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,12 +349,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DP16_PartitionTwoSubsetsWithMinAbsoluteSumDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.DP.DP02_Subsequence.DP16_PartitionTwoSubsetsWithMinAbsoluteSumDifference" />
+    <configuration name="R05_FactorialOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.Day1.LearnBasicRecursion.R05_FactorialOfNumber" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.DP.DP02_Subsequence.*" />
+          <option name="PATTERN" value="May2026.Day1.LearnBasicRecursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,12 +362,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondHighestNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Comp.Crisil.SecondHighestNum" />
+    <configuration name="R06_RecursiveFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.Day1.LearnBasicRecursion.R06_RecursiveFibonacci" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Comp.Crisil.*" />
+          <option name="PATTERN" value="May2026.Day1.LearnBasicRecursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,11 +377,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchUsingRecur" />
-        <item itemvalue="Application.SecondHighestNum" />
-        <item itemvalue="Application.DP16_PartitionTwoSubsetsWithMinAbsoluteSumDifference" />
-        <item itemvalue="Application.DP14_SubsetSumEqualToTarget" />
-        <item itemvalue="Application.DP13_CherryPickII_3D_DP" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.R06_RecursiveFibonacci" />
+        <item itemvalue="Application.R05_FactorialOfNumber" />
+        <item itemvalue="Application.R04_SumOfFirstNNaturalNumbers" />
+        <item itemvalue="Application.R03_PrintNTo1UsingRecursion" />
       </list>
     </recent_temporary>
   </component>
@@ -361,14 +396,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00051" summary="Sep 23, 2025">
-      <option name="closed" value="true" />
-      <created>1759122209247</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1759122209248</updated>
     </task>
     <task id="LOCAL-00052" summary="Oct 07, 2025">
       <option name="closed" value="true" />
@@ -754,7 +781,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777099733517</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="April 18, 2026: linkedlist">
+      <option name="closed" value="true" />
+      <created>1777940605358</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1777940605359</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
