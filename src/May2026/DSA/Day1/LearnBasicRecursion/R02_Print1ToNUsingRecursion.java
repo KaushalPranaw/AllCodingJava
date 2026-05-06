@@ -1,4 +1,4 @@
-package May2026.Day1.LearnBasicRecursion;
+package May2026.DSA.Day1.LearnBasicRecursion;
 
 public class R02_Print1ToNUsingRecursion {
     public static void main(String[] args) {

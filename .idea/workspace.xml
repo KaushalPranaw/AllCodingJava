@@ -4,31 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="April 18, 2026: linkedlist">
-      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CheckIfNumberIsArmstrongNumberOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CheckIfNumberIsPalindromeOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CheckIfNumberIsPrimeOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CountDigitsInNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/FindGCDOfTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/PrintAllDivisorsOfGivenNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/ReverseDigitsOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R01_PrintNameNTimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R02_Print1ToNUsingRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R03_PrintNTo1UsingRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R04_SumOfFirstNNaturalNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R05_FactorialOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R06_RecursiveFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/HourlyPricing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/ParkingSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/PricingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/VehicleType.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="May 5, 2026: DSA+LLD">
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day2/LearnSortingTechniques/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day2/LearnSortingTechniques/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day2/LearnSortingTechniques/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day2/LearnSortingTechniques/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day2/LearnSortingTechniques/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day2/LearnSortingTechniques/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CheckIfNumberIsArmstrongNumberOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/KnowBasicMaths/CheckIfNumberIsArmstrongNumberOrNot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CheckIfNumberIsPalindromeOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/KnowBasicMaths/CheckIfNumberIsPalindromeOrNot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CheckIfNumberIsPrimeOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/KnowBasicMaths/CheckIfNumberIsPrimeOrNot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CountDigitsInNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/KnowBasicMaths/CountDigitsInNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/FindGCDOfTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/KnowBasicMaths/FindGCDOfTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/PrintAllDivisorsOfGivenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/KnowBasicMaths/PrintAllDivisorsOfGivenNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/ReverseDigitsOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/KnowBasicMaths/ReverseDigitsOfNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R01_PrintNameNTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/LearnBasicRecursion/R01_PrintNameNTimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R02_Print1ToNUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/LearnBasicRecursion/R02_Print1ToNUsingRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R03_PrintNTo1UsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/LearnBasicRecursion/R03_PrintNTo1UsingRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R04_SumOfFirstNNaturalNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/LearnBasicRecursion/R04_SumOfFirstNNaturalNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R05_FactorialOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/LearnBasicRecursion/R05_FactorialOfNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R06_RecursiveFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/LearnBasicRecursion/R06_RecursiveFibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +84,7 @@
     "Application.BinaryTreeMaximumPathSum.executor": "Run",
     "Application.BinaryTreeRightSideView.executor": "Run",
     "Application.BinaryTreeZigzagLevelOrderTraversal.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
     "Application.BuildArrayWithStackOperations.executor": "Run",
     "Application.Candy.executor": "Run",
     "Application.CheckIfNumberIsArmstrongNumberOrNot.executor": "Run",
@@ -159,6 +156,7 @@
     "Application.HappyNumber.executor": "Run",
     "Application.InsertDeleteGetRandom.executor": "Run",
     "Application.InsertInterval.executor": "Run",
+    "Application.InsertionSort.executor": "Run",
     "Application.IntegerToRoman.executor": "Run",
     "Application.InvertBinaryTree.executor": "Run",
     "Application.InvokeAllExample.executor": "Run",
@@ -189,6 +187,7 @@
     "Application.MaximumSumCircularSubarray.executor": "Run",
     "Application.MedianOfTwoSortedArrays.executor": "Run",
     "Application.MergeIntervals.executor": "Run",
+    "Application.MergeSort.executor": "Run",
     "Application.MergeSortedArray.executor": "Run",
     "Application.MergeStringsAlternately.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
@@ -213,6 +212,7 @@
     "Application.PrintNTo1UsingRecursion.executor": "Run",
     "Application.PrintNameNTimes.executor": "Run",
     "Application.ProductOfArrayExceptSelf.executor": "Run",
+    "Application.QuickSort.executor": "Run",
     "Application.R04_SumOfFirstNNaturalNumbers.executor": "Run",
     "Application.R05_FactorialOfNumber.executor": "Run",
     "Application.R06_RecursiveFibonacci.executor": "Run",
@@ -240,6 +240,7 @@
     "Application.SearchInRotatedSortedArray.executor": "Run",
     "Application.SearchInsertPosition.executor": "Run",
     "Application.SecondHighestNum.executor": "Run",
+    "Application.SelectionSort.executor": "Run",
     "Application.SetMatrixZeroes.executor": "Run",
     "Application.SimplifyPath.executor": "Run",
     "Application.SingleNumber.executor": "Run",
@@ -302,20 +303,20 @@
       <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\DesignPatterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="May2026.DSA.Day2.LearnSortingTechniques" />
       <recent name="May2026.LLD.ParkingLot" />
       <recent name="DSA2026.D04_TwoPointers" />
       <recent name="DSA2026.D03_Array_String" />
       <recent name="Leetcode.Leetcode150.LinkedList" />
-      <recent name="Leetcode.GraphNew" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.LLD.ParkingLot.Main" />
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day2.LearnSortingTechniques.BubbleSort" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.LLD.ParkingLot.*" />
+          <option name="PATTERN" value="May2026.DSA.Day2.LearnSortingTechniques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,12 +324,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="R03_PrintNTo1UsingRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.Day1.LearnBasicRecursion.R03_PrintNTo1UsingRecursion" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day2.LearnSortingTechniques.InsertionSort" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.Day1.LearnBasicRecursion.*" />
+          <option name="PATTERN" value="May2026.DSA.Day2.LearnSortingTechniques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,12 +337,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="R04_SumOfFirstNNaturalNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.Day1.LearnBasicRecursion.R04_SumOfFirstNNaturalNumbers" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day2.LearnSortingTechniques.MergeSort" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.Day1.LearnBasicRecursion.*" />
+          <option name="PATTERN" value="May2026.DSA.Day2.LearnSortingTechniques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,12 +350,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="R05_FactorialOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.Day1.LearnBasicRecursion.R05_FactorialOfNumber" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day2.LearnSortingTechniques.QuickSort" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.Day1.LearnBasicRecursion.*" />
+          <option name="PATTERN" value="May2026.DSA.Day2.LearnSortingTechniques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,12 +363,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="R06_RecursiveFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.Day1.LearnBasicRecursion.R06_RecursiveFibonacci" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day2.LearnSortingTechniques.SelectionSort" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.Day1.LearnBasicRecursion.*" />
+          <option name="PATTERN" value="May2026.DSA.Day2.LearnSortingTechniques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,11 +378,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.R06_RecursiveFibonacci" />
-        <item itemvalue="Application.R05_FactorialOfNumber" />
-        <item itemvalue="Application.R04_SumOfFirstNNaturalNumbers" />
-        <item itemvalue="Application.R03_PrintNTo1UsingRecursion" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -396,14 +397,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00052" summary="Oct 07, 2025">
-      <option name="closed" value="true" />
-      <created>1759810782458</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1759810782459</updated>
     </task>
     <task id="LOCAL-00053" summary="Oct 07, 2025">
       <option name="closed" value="true" />
@@ -789,7 +782,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777940605359</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="May 5, 2026: DSA+LLD">
+      <option name="closed" value="true" />
+      <created>1777961988656</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1777961988656</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -807,7 +808,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dec 21, 2025" />
     <MESSAGE value="Dec 23, 2025" />
     <MESSAGE value="Dec 24, 2025" />
     <MESSAGE value="Dec 29, 2025" />
@@ -832,7 +832,8 @@
     <MESSAGE value="April 14, 2026: heap" />
     <MESSAGE value="April 18, 2026: heap" />
     <MESSAGE value="April 18, 2026: linkedlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="April 18, 2026: linkedlist" />
+    <MESSAGE value="May 5, 2026: DSA+LLD" />
+    <option name="LAST_COMMIT_MESSAGE" value="May 5, 2026: DSA+LLD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

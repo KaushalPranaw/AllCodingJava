@@ -1,4 +1,4 @@
-package May2026.Day1.KnowBasicMaths;
+package May2026.DSA.Day1.KnowBasicMaths;
 
 import java.util.ArrayList;
 import java.util.List;

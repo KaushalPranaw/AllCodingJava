@@ -1,4 +1,4 @@
-package May2026.Day1.KnowBasicMaths;
+package May2026.DSA.Day1.KnowBasicMaths;
 
 public class CountDigitsInNumber {
     public static void main(String[] args) {
