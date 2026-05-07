@@ -4,27 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="May 5, 2026: DSA+LLD">
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day2/LearnSortingTechniques/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day2/LearnSortingTechniques/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day2/LearnSortingTechniques/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day2/LearnSortingTechniques/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day2/LearnSortingTechniques/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day2/LearnSortingTechniques/SelectionSort.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="May 6, 2026: DSA">
+      <change afterPath="$PROJECT_DIR$/src/May2026/Java8Stream/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/BookCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/BookStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/Librarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/LibraryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/Chair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/FurnitureFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/ModernChair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/ModernFurnitureFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/ModernSofa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/Sofa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/VictorianChair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/VictorianFurnitureFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/VictorianSofa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/factory/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/factory/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/factory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/factory/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/factory/VehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/singleton/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/singleton/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CheckIfNumberIsArmstrongNumberOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/KnowBasicMaths/CheckIfNumberIsArmstrongNumberOrNot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CheckIfNumberIsPalindromeOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/KnowBasicMaths/CheckIfNumberIsPalindromeOrNot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CheckIfNumberIsPrimeOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/KnowBasicMaths/CheckIfNumberIsPrimeOrNot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/CountDigitsInNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/KnowBasicMaths/CountDigitsInNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/FindGCDOfTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/KnowBasicMaths/FindGCDOfTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/PrintAllDivisorsOfGivenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/KnowBasicMaths/PrintAllDivisorsOfGivenNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/KnowBasicMaths/ReverseDigitsOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/KnowBasicMaths/ReverseDigitsOfNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R01_PrintNameNTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/LearnBasicRecursion/R01_PrintNameNTimes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R02_Print1ToNUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/LearnBasicRecursion/R02_Print1ToNUsingRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R03_PrintNTo1UsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/LearnBasicRecursion/R03_PrintNTo1UsingRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R04_SumOfFirstNNaturalNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/LearnBasicRecursion/R04_SumOfFirstNNaturalNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R05_FactorialOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/LearnBasicRecursion/R05_FactorialOfNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/Day1/LearnBasicRecursion/R06_RecursiveFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/DSA/Day1/LearnBasicRecursion/R06_RecursiveFibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/HourlyPricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/HourlyPricing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/ParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/PricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/PricingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/VehicleType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +53,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dockerfile" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -185,6 +203,9 @@
     "Application.MaximumSizeSubarraySumEqualsk.executor": "Run",
     "Application.MaximumSubarray.executor": "Run",
     "Application.MaximumSumCircularSubarray.executor": "Run",
+    "Application.May2026.LLD.Day2.LibraryManagement.Main.executor": "Run",
+    "Application.May2026.LLD.Day2.abstractfactory.Main.executor": "Run",
+    "Application.May2026.LLD.Day2.factory.Main.executor": "Run",
     "Application.MedianOfTwoSortedArrays.executor": "Run",
     "Application.MergeIntervals.executor": "Run",
     "Application.MergeSort.executor": "Run",
@@ -303,20 +324,20 @@
       <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\DesignPatterns" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="May2026.LLD.Day2.LibraryManagement" />
+      <recent name="May2026.LLD.Day2.abstractfactory" />
+      <recent name="May2026.LLD.Day2.factory" />
       <recent name="May2026.DSA.Day2.LearnSortingTechniques" />
       <recent name="May2026.LLD.ParkingLot" />
-      <recent name="DSA2026.D04_TwoPointers" />
-      <recent name="DSA2026.D03_Array_String" />
-      <recent name="Leetcode.Leetcode150.LinkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day2.LearnSortingTechniques.BubbleSort" />
+  <component name="RunManager" selected="Application.May2026.LLD.Day2.LibraryManagement.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.LLD.Day2.singleton.Main" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.DSA.Day2.LearnSortingTechniques.*" />
+          <option name="PATTERN" value="May2026.LLD.Day2.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,12 +345,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day2.LearnSortingTechniques.InsertionSort" />
+    <configuration name="May2026.LLD.Day2.LibraryManagement.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.LLD.Day2.LibraryManagement.Main" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.DSA.Day2.LearnSortingTechniques.*" />
+          <option name="PATTERN" value="May2026.LLD.Day2.LibraryManagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,12 +358,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day2.LearnSortingTechniques.MergeSort" />
+    <configuration name="May2026.LLD.Day2.abstractfactory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.LLD.Day2.abstractfactory.Main" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.DSA.Day2.LearnSortingTechniques.*" />
+          <option name="PATTERN" value="May2026.LLD.Day2.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,12 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day2.LearnSortingTechniques.QuickSort" />
+    <configuration name="May2026.LLD.Day2.factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.LLD.Day2.factory.Main" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.DSA.Day2.LearnSortingTechniques.*" />
+          <option name="PATTERN" value="May2026.LLD.Day2.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,12 +384,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day2.LearnSortingTechniques.SelectionSort" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.Java8Stream.Test" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.DSA.Day2.LearnSortingTechniques.*" />
+          <option name="PATTERN" value="May2026.Java8Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -378,11 +399,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.May2026.LLD.Day2.LibraryManagement.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.May2026.LLD.Day2.abstractfactory.Main" />
+        <item itemvalue="Application.May2026.LLD.Day2.factory.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -397,14 +418,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00053" summary="Oct 07, 2025">
-      <option name="closed" value="true" />
-      <created>1759816325558</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1759816325558</updated>
     </task>
     <task id="LOCAL-00054" summary="Oct 07, 2025">
       <option name="closed" value="true" />
@@ -790,7 +803,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777961988656</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="May 6, 2026: DSA">
+      <option name="closed" value="true" />
+      <created>1778031948604</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1778031948604</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -808,7 +829,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dec 23, 2025" />
     <MESSAGE value="Dec 24, 2025" />
     <MESSAGE value="Dec 29, 2025" />
     <MESSAGE value="Dec 31, 2025" />
@@ -833,7 +853,8 @@
     <MESSAGE value="April 18, 2026: heap" />
     <MESSAGE value="April 18, 2026: linkedlist" />
     <MESSAGE value="May 5, 2026: DSA+LLD" />
-    <option name="LAST_COMMIT_MESSAGE" value="May 5, 2026: DSA+LLD" />
+    <MESSAGE value="May 6, 2026: DSA" />
+    <option name="LAST_COMMIT_MESSAGE" value="May 6, 2026: DSA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,4 +1,4 @@
-package May2026.LLD.ParkingLot;
+package May2026.LLD.Day1.ParkingLot;
 
 public abstract class Vehicle {
     String number;

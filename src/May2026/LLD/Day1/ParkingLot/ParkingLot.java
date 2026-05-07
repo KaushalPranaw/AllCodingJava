@@ -1,6 +1,4 @@
-package May2026.LLD.ParkingLot;
-
-import DesignPatterns.Behavioural.Strategy.PaymentStrategy;
+package May2026.LLD.Day1.ParkingLot;
 
 import java.util.ArrayList;
 import java.util.List;
