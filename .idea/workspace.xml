@@ -4,45 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="May 6, 2026: DSA">
-      <change afterPath="$PROJECT_DIR$/src/May2026/Java8Stream/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/BookCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/BookStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/Librarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/LibraryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/LibraryManagement/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/Chair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/FurnitureFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/ModernChair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/ModernFurnitureFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/ModernSofa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/Sofa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/VictorianChair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/VictorianFurnitureFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/abstractfactory/VictorianSofa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/factory/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/factory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/factory/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/factory/VehicleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/singleton/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/LLD/Day2/singleton/Main.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="May 7, 2026: DSA">
+      <change afterPath="$PROJECT_DIR$/src/Comp/Ustglobal/Thread/TestOddEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comp/Ustglobal/Thread/TestOddEvenUsingLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/Bike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/HourlyPricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/HourlyPricing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/ParkingSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/PricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/PricingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/May2026/LLD/ParkingLot/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/May2026/LLD/Day1/ParkingLot/VehicleType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,6 +246,8 @@
     "Application.SymmetricTree.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestJava8Programs.executor": "Run",
+    "Application.TestOddEven.executor": "Run",
+    "Application.TestOddEvenUsingLock.executor": "Run",
     "Application.ThreeSum.executor": "Run",
     "Application.ThreeSumEqualToK.executor": "Run",
     "Application.ThreeSumEqualsK.executor": "Run",
@@ -307,7 +274,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/pranaw_kaushal/Documents/ALL_EPAM_TRAINING/core-java-training/basic-concepts/src/Leetcode/GraphNew",
+    "last_opened_file_path": "C:/Users/pranaw_kaushal/Documents/ALL_EPAM_TRAINING/core-java-training/basic-concepts/src/Comp/Ustglobal/Thread",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/pranaw_kaushal/Documents/ALL_EPAM_TRAINING/core-java-training/basic-concepts/src/Main.java",
     "project.structure.last.edited": "Project",
@@ -319,6 +286,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\Comp\Ustglobal\Thread" />
       <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\Leetcode\GraphNew" />
       <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\LLD" />
       <recent name="C:\Users\pranaw_kaushal\Documents\ALL_EPAM_TRAINING\core-java-training\basic-concepts\src\DesignPatterns" />
@@ -331,20 +299,7 @@
       <recent name="May2026.LLD.ParkingLot" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.May2026.LLD.Day2.LibraryManagement.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.LLD.Day2.singleton.Main" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="May2026.LLD.Day2.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestOddEvenUsingLock">
     <configuration name="May2026.LLD.Day2.LibraryManagement.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="May2026.LLD.Day2.LibraryManagement.Main" />
       <module name="basic-concepts" />
@@ -371,19 +326,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May2026.LLD.Day2.factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.LLD.Day2.factory.Main" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="May2026.LLD.Day2.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="May2026.Java8Stream.Test" />
       <module name="basic-concepts" />
@@ -397,13 +339,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestOddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Comp.Ustglobal.Thread.TestOddEven" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Comp.Ustglobal.Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOddEvenUsingLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Comp.Ustglobal.Thread.TestOddEvenUsingLock" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Comp.Ustglobal.Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestOddEvenUsingLock" />
+        <item itemvalue="Application.TestOddEven" />
         <item itemvalue="Application.May2026.LLD.Day2.LibraryManagement.Main" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.May2026.LLD.Day2.abstractfactory.Main" />
-        <item itemvalue="Application.May2026.LLD.Day2.factory.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -418,14 +386,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00054" summary="Oct 07, 2025">
-      <option name="closed" value="true" />
-      <created>1761621870074</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1761621870074</updated>
     </task>
     <task id="LOCAL-00055" summary="Oct 28, 2025">
       <option name="closed" value="true" />
@@ -811,7 +771,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778031948604</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="May 7, 2026: DSA">
+      <option name="closed" value="true" />
+      <created>1778139676385</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1778139676385</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -829,7 +797,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dec 24, 2025" />
     <MESSAGE value="Dec 29, 2025" />
     <MESSAGE value="Dec 31, 2025" />
     <MESSAGE value="Jan 1, 2025" />
@@ -854,7 +821,8 @@
     <MESSAGE value="April 18, 2026: linkedlist" />
     <MESSAGE value="May 5, 2026: DSA+LLD" />
     <MESSAGE value="May 6, 2026: DSA" />
-    <option name="LAST_COMMIT_MESSAGE" value="May 6, 2026: DSA" />
+    <MESSAGE value="May 7, 2026: DSA" />
+    <option name="LAST_COMMIT_MESSAGE" value="May 7, 2026: DSA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
