@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="May 7, 2026: DSA">
-      <change afterPath="$PROJECT_DIR$/src/Comp/Ustglobal/Thread/TestOddEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Comp/Ustglobal/Thread/TestOddEvenUsingLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D01_FindLargestElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D02_FindSecondSmallestAndSecondLargestElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D03_CheckIfArrayIsSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D04_RemoveDuplicatesInPlaceFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D05_LeftRotateArrayByOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D06_RotateArrayByKElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D07_MoveAllZerosToEndOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D08_UnionOfTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D09_FindMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D10_CountMaximumConsecutiveOnesInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D11_FindNumberThatAppearsOnceAndOtherNumbersTwice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D12_LongestSubarrayWithGivenSumK_Positives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D13_LengthOfLongestSubarrayWithZeroSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +100,18 @@
     "Application.CountSubarraysWithGivenSum.executor": "Run",
     "Application.CourseSchedule.executor": "Run",
     "Application.CourseScheduleII.executor": "Run",
+    "Application.D01_FindLargestElementInArray.executor": "Run",
+    "Application.D02_FindSecondSmallestAndSecondLargestElementInArray.executor": "Run",
+    "Application.D03_CheckIfArrayIsSorted.executor": "Run",
+    "Application.D04_RemoveDuplicatesInPlaceFromSortedArray.executor": "Run",
     "Application.D04_ValidPalindrome.executor": "Run",
+    "Application.D05_LeftRotateArrayByOne.executor": "Run",
+    "Application.D06_RotateArrayByKElements.executor": "Run",
+    "Application.D07_MoveAllZerosToEndOfArray.executor": "Run",
+    "Application.D08_UnionOfTwoSortedArrays.executor": "Run",
+    "Application.D09_FindMissingNumber.executor": "Run",
+    "Application.D10_CountMaximumConsecutiveOnesInArray.executor": "Run",
+    "Application.D12_LongestSubarrayWithGivenSumK_Positives.executor": "Run",
     "Application.DP01_Fibonacci.executor": "Run",
     "Application.DP02_ClimbingStairs.executor": "Run",
     "Application.DP03_FrogJump.executor": "Run",
@@ -116,6 +138,7 @@
     "Application.FindIndexOfFirstOccurrenceInString.executor": "Run",
     "Application.FindKPairsWithSmallestSums.executor": "Run",
     "Application.FindMinimumInRotatedSortedArray.executor": "Run",
+    "Application.FindNumberThatAppearsOnceAndOtherNumbersTwice.executor": "Run",
     "Application.FindPeakElement.executor": "Run",
     "Application.FindTheDifference.executor": "Run",
     "Application.FindTheIndexOfFirstOccurrenceInAString.executor": "Run",
@@ -299,13 +322,13 @@
       <recent name="May2026.LLD.ParkingLot" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestOddEvenUsingLock">
-    <configuration name="May2026.LLD.Day2.LibraryManagement.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.LLD.Day2.LibraryManagement.Main" />
+  <component name="RunManager" selected="Application.D13_LengthOfLongestSubarrayWithZeroSum">
+    <configuration name="D09_FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.D09_FindMissingNumber" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.LLD.Day2.LibraryManagement.*" />
+          <option name="PATTERN" value="May2026.DSA.Day3.DSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,12 +336,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May2026.LLD.Day2.abstractfactory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.LLD.Day2.abstractfactory.Main" />
+    <configuration name="D10_CountMaximumConsecutiveOnesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.D10_CountMaximumConsecutiveOnesInArray" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.LLD.Day2.abstractfactory.*" />
+          <option name="PATTERN" value="May2026.DSA.Day3.DSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,12 +349,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.Java8Stream.Test" />
+    <configuration name="D11_FindNumberThatAppearsOnceAndOtherNumbersTwice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.D11_FindNumberThatAppearsOnceAndOtherNumbersTwice" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.Java8Stream.*" />
+          <option name="PATTERN" value="May2026.DSA.Day3.DSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,12 +362,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Comp.Ustglobal.Thread.TestOddEven" />
+    <configuration name="D12_LongestSubarrayWithGivenSumK_Positives" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.D12_LongestSubarrayWithGivenSumK_Positives" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Comp.Ustglobal.Thread.*" />
+          <option name="PATTERN" value="May2026.DSA.Day3.DSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,12 +375,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOddEvenUsingLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Comp.Ustglobal.Thread.TestOddEvenUsingLock" />
+    <configuration name="D13_LengthOfLongestSubarrayWithZeroSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.D13_LengthOfLongestSubarrayWithZeroSum" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Comp.Ustglobal.Thread.*" />
+          <option name="PATTERN" value="May2026.DSA.Day3.DSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,11 +390,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestOddEvenUsingLock" />
-        <item itemvalue="Application.TestOddEven" />
-        <item itemvalue="Application.May2026.LLD.Day2.LibraryManagement.Main" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.May2026.LLD.Day2.abstractfactory.Main" />
+        <item itemvalue="Application.D13_LengthOfLongestSubarrayWithZeroSum" />
+        <item itemvalue="Application.D12_LongestSubarrayWithGivenSumK_Positives" />
+        <item itemvalue="Application.D11_FindNumberThatAppearsOnceAndOtherNumbersTwice" />
+        <item itemvalue="Application.D10_CountMaximumConsecutiveOnesInArray" />
+        <item itemvalue="Application.D09_FindMissingNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -386,14 +409,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00055" summary="Oct 28, 2025">
-      <option name="closed" value="true" />
-      <created>1761623217537</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1761623217537</updated>
     </task>
     <task id="LOCAL-00056" summary="Oct 29, 2025">
       <option name="closed" value="true" />
@@ -779,7 +794,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778139676385</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="May 7, 2026: DSA">
+      <option name="closed" value="true" />
+      <created>1778209557709</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1778209557709</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
