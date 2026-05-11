@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="May 7, 2026: DSA">
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D01_FindLargestElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D02_FindSecondSmallestAndSecondLargestElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D03_CheckIfArrayIsSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D04_RemoveDuplicatesInPlaceFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D05_LeftRotateArrayByOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D06_RotateArrayByKElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D07_MoveAllZerosToEndOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D08_UnionOfTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D09_FindMissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D10_CountMaximumConsecutiveOnesInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D11_FindNumberThatAppearsOnceAndOtherNumbersTwice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D12_LongestSubarrayWithGivenSumK_Positives.java" afterDir="false" />
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="May 8, 2026: DSA">
       <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/D13_LengthOfLongestSubarrayWithZeroSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/PrefixSum/PS01_RangeQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/PrefixSum/PS02_EquibriumIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/PrefixSum/PS02_SubarraySumEqualsK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/PrefixSum/PS03_LongestSubarrayWithSumK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/PrefixSum/PS04_CountEqual0sAnd1s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/May2026/DSA/Day3/DSA/PrefixSum/PS05_2DPrefixSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +106,7 @@
     "Application.D09_FindMissingNumber.executor": "Run",
     "Application.D10_CountMaximumConsecutiveOnesInArray.executor": "Run",
     "Application.D12_LongestSubarrayWithGivenSumK_Positives.executor": "Run",
+    "Application.D13_LengthOfLongestSubarrayWithZeroSum.executor": "Run",
     "Application.DP01_Fibonacci.executor": "Run",
     "Application.DP02_ClimbingStairs.executor": "Run",
     "Application.DP03_FrogJump.executor": "Run",
@@ -208,7 +203,12 @@
     "Application.MinimumWindowSubstring.executor": "Run",
     "Application.MoveZeroes.executor": "Run",
     "Application.NumberOfIslands.executor": "Run",
+    "Application.PS02_EquibriumIndex.executor": "Run",
+    "Application.PS02_SubarraySumEqualsK.executor": "Run",
+    "Application.PS03_LongestSubarrayWithSumK.executor": "Run",
     "Application.PS03_SubarraysDivByK.executor": "Run",
+    "Application.PS04_CountEqual0sAnd1s.executor": "Run",
+    "Application.PS05_2DPrefixSum.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
     "Application.PartitionList.executor": "Run",
     "Application.PathSum.executor": "Run",
@@ -226,6 +226,7 @@
     "Application.R05_FactorialOfNumber.executor": "Run",
     "Application.R06_RecursiveFibonacci.executor": "Run",
     "Application.RandomizedSet.executor": "Run",
+    "Application.RangeQuery.executor": "Run",
     "Application.RansomNote.executor": "Run",
     "Application.RateLimiter.executor": "Run",
     "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
@@ -322,13 +323,13 @@
       <recent name="May2026.LLD.ParkingLot" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.D13_LengthOfLongestSubarrayWithZeroSum">
-    <configuration name="D09_FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.D09_FindMissingNumber" />
+  <component name="RunManager" selected="Application.PS02_EquibriumIndex">
+    <configuration name="PS02_EquibriumIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.PrefixSum.PS02_EquibriumIndex" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.DSA.Day3.DSA.*" />
+          <option name="PATTERN" value="May2026.DSA.Day3.DSA.PrefixSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,12 +337,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D10_CountMaximumConsecutiveOnesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.D10_CountMaximumConsecutiveOnesInArray" />
+    <configuration name="PS03_SubarraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.PrefixSum.PS03_SubarraySumEqualsK" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.DSA.Day3.DSA.*" />
+          <option name="PATTERN" value="May2026.DSA.Day3.DSA.PrefixSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,12 +350,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D11_FindNumberThatAppearsOnceAndOtherNumbersTwice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.D11_FindNumberThatAppearsOnceAndOtherNumbersTwice" />
+    <configuration name="PS04_LongestSubarrayWithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.PrefixSum.PS04_LongestSubarrayWithSumK" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.DSA.Day3.DSA.*" />
+          <option name="PATTERN" value="May2026.DSA.Day3.DSA.PrefixSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,12 +363,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D12_LongestSubarrayWithGivenSumK_Positives" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.D12_LongestSubarrayWithGivenSumK_Positives" />
+    <configuration name="PS05_CountEqual0sAnd1s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.PrefixSum.PS05_CountEqual0sAnd1s" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.DSA.Day3.DSA.*" />
+          <option name="PATTERN" value="May2026.DSA.Day3.DSA.PrefixSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,12 +376,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D13_LengthOfLongestSubarrayWithZeroSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.D13_LengthOfLongestSubarrayWithZeroSum" />
+    <configuration name="PS06_2DPrefixSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="May2026.DSA.Day3.DSA.PrefixSum.PS06_2DPrefixSum" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="May2026.DSA.Day3.DSA.*" />
+          <option name="PATTERN" value="May2026.DSA.Day3.DSA.PrefixSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,11 +391,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.D13_LengthOfLongestSubarrayWithZeroSum" />
-        <item itemvalue="Application.D12_LongestSubarrayWithGivenSumK_Positives" />
-        <item itemvalue="Application.D11_FindNumberThatAppearsOnceAndOtherNumbersTwice" />
-        <item itemvalue="Application.D10_CountMaximumConsecutiveOnesInArray" />
-        <item itemvalue="Application.D09_FindMissingNumber" />
+        <item itemvalue="Application.PS02_EquibriumIndex" />
+        <item itemvalue="Application.PS06_2DPrefixSum" />
+        <item itemvalue="Application.PS03_SubarraySumEqualsK" />
+        <item itemvalue="Application.PS05_CountEqual0sAnd1s" />
+        <item itemvalue="Application.PS04_LongestSubarrayWithSumK" />
       </list>
     </recent_temporary>
   </component>
@@ -409,14 +410,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00056" summary="Oct 29, 2025">
-      <option name="closed" value="true" />
-      <created>1761797073850</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1761797073851</updated>
     </task>
     <task id="LOCAL-00057" summary="Oct 29, 2025 - refactored">
       <option name="closed" value="true" />
@@ -802,7 +795,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778209557709</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="May 8, 2026: DSA">
+      <option name="closed" value="true" />
+      <created>1778221733923</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1778221733923</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -820,7 +821,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dec 29, 2025" />
     <MESSAGE value="Dec 31, 2025" />
     <MESSAGE value="Jan 1, 2025" />
     <MESSAGE value="Jan 7, 2025" />
@@ -845,7 +845,8 @@
     <MESSAGE value="May 5, 2026: DSA+LLD" />
     <MESSAGE value="May 6, 2026: DSA" />
     <MESSAGE value="May 7, 2026: DSA" />
-    <option name="LAST_COMMIT_MESSAGE" value="May 7, 2026: DSA" />
+    <MESSAGE value="May 8, 2026: DSA" />
+    <option name="LAST_COMMIT_MESSAGE" value="May 8, 2026: DSA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
