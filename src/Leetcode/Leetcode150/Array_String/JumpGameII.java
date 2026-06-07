@@ -7,7 +7,7 @@ public class JumpGameII {
     }
 
     public int jump(int[] nums) {
-        int minJumps = 0;
+        int min = 0;
         int l = 0, r = 0;
         while (r < nums.length - 1) {
             int farthest = 0;
@@ -15,12 +15,11 @@ public class JumpGameII {
                 farthest = Math.max(farthest, i + nums[i]);
             }
 
-            //update l, r
             l = r + 1;
             r = farthest;
-            minJumps++;
+            min++;
         }
-        return minJumps;
+        return min;
     }
 
 }

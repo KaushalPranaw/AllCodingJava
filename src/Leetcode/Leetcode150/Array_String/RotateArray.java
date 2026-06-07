@@ -13,29 +13,28 @@ public class RotateArray {
     }
 
     public void rotate(int[] nums, int k) {
+        //base case
         int n = nums.length;
+        k = k % n;
         if (n == 1 || k == 0) {
             return;
         }
-        k = k % n;
 
-        //1,2,3,4,5
-        //k=3
         //rotate all
-        reverseArrary(nums, 0, n - 1);
-        //5,4,3,2,1
+        //7,6,5,4,3,2,1
+        reverse(nums, 0, n - 1);
 
         //rotate k
-        reverseArrary(nums, 0, k - 1);
-        //3,4,5,2,1
+        //5,6,7,4,3,2,1
+        reverse(nums, 0, k - 1);
 
-        //rotate n-k
-        reverseArrary(nums, k, n - 1);
-        //3,4,5,1,2
+        //rotate remaining
+        //5,6,7,1,2,3,4
+        reverse(nums, k, n - 1);
     }
 
-    private void reverseArrary(int[] nums, int i, int j) {
-        while (i <= j) {
+    void reverse(int[] nums, int i, int j) {
+        while (i < j) {
             int t = nums[i];
             nums[i] = nums[j];
             nums[j] = t;

@@ -9,17 +9,17 @@ public class H_Index {
     public int hIndex(int[] citations) {
         int n = citations.length;
         int[] countArray = new int[n + 1];
-        for (int i = 0; i < n; i++) {
-            if (citations[i] > n) {
+        for (int c : citations) {
+            if (c > n) {
                 countArray[n]++;
             } else {
-                countArray[i]++;
+                countArray[c]++;
             }
         }
 
         int count = 0;
-        for (int i = countArray.length - 1; i >= 0; i--) {
-            count = count + countArray[i];
+        for (int i = countArray.length-1; i >= 0; i--) {
+            count += countArray[i];
             if (count >= i) {
                 return i;
             }

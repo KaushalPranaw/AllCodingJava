@@ -16,33 +16,33 @@ public class RandomizedSet {
     }
 
     public boolean insert(int val) {
-        if (map.containsKey(val)) {
+        if(map.containsKey(val)){
             return false;
         }
+
         map.put(val, list.size());
         list.add(val);
         return true;
     }
 
     public boolean remove(int val) {
-        if (!map.containsKey(val)) {
+        if(!map.containsKey(val)){
             return false;
         }
 
-        int pos = map.get(val);
-        if (pos != (list.size() - 1)) {
-            int lastElement = list.getLast();
-            map.put(lastElement, pos);
-            list.set(pos, lastElement);
+        int index=map.get(val);
+        if(index!=list.size()-1){
+            int lastElement=list.getLast();
+            list.set(index, lastElement);
+            map.put(lastElement, index);
         }
-        list.remove(list.size() - 1);
+        list.removeLast();
         map.remove(val);
         return true;
     }
 
     public int getRandom() {
-        int ran = random.nextInt(list.size());
-        return list.get(ran);
+        return list.get(random.nextInt(list.size()));
     }
 
     public static void main(String[] args) {

@@ -8,20 +8,20 @@ public class MajorityElement {
     }
 
     public int majorityElement(int[] nums) {
-        int count = 0;
-        int candidate = nums[0];
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] == candidate) {
+        int count=0;
+        int candiate=nums[0];
+        for(int i=0;i<nums.length;i++){
+            if(nums[i]==candiate){
                 count++;
-            } else {
+            }else {
                 count--;
             }
 
-            if (count < 0) {
-                count = 0;
-                candidate = nums[i];
+            if(count<0){
+                count=0;
+                candiate=nums[i];
             }
         }
-        return candidate;
+        return candiate;
     }
 }

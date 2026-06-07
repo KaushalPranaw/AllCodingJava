@@ -18,30 +18,35 @@ public class ZigzagConversion {
     }
 
     public String convert(String s, int numRows) {
+        //base case
         if (numRows == 1) {
             return s;
         }
 
-        StringBuilder[] rows = new StringBuilder[numRows];
-        for (int i = 0; i < numRows; i++) {
-            rows[i] = new StringBuilder();
+        //initialize
+        StringBuilder[] sba = new StringBuilder[numRows];
+        for (int i=0;i<numRows;i++) {
+            sba[i] = new StringBuilder();
         }
 
         int i = 0;
         while (i < s.length()) {
             for (int index = 0; index < numRows && i < s.length(); index++) {
-                rows[index].append(s.charAt(i++));
+                sba[index].append(s.charAt(i));
+                i++;
             }
 
-            for (int index = numRows - 2; index > 0 && i < s.length(); index--) {
-                rows[index].append(s.charAt(i++));
+            for (int index = numRows - 2; index >= 1 && i < s.length(); index--) {
+                sba[index].append(s.charAt(i));
+                i++;
             }
         }
 
-        StringBuilder sb = new StringBuilder();
-        for (var row : rows) {
-            sb.append(row);
+        StringBuilder res = new StringBuilder();
+        for (StringBuilder sb : sba) {
+            res.append(sb);
         }
-        return sb.toString();
+        return res.toString();
     }
+
 }

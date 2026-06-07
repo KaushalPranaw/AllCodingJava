@@ -18,18 +18,17 @@ public class TrappingRainWater {
 
      */
     public int trap(int[] height) {
-        int trap = 0;
         int left = 0, right = height.length - 1;
         int lMax = height[left], rMax = height[right];
-
+        int trap = 0;
         while (left < right) {
             if (height[left] < height[right]) {
                 lMax = Math.max(lMax, height[left]);
-                trap += Math.max(0, lMax - height[left]);
+                trap += lMax - height[left];
                 left++;
             } else {
                 rMax = Math.max(rMax, height[right]);
-                trap += Math.max(0, rMax - height[right]);
+                trap += rMax - height[right];
                 right--;
             }
         }

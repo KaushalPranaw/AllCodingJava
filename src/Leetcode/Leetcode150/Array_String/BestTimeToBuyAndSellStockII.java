@@ -13,6 +13,7 @@ public class BestTimeToBuyAndSellStockII {
                 totalProfit += prices[i] - prices[i - 1];
             }
         }
+
         return totalProfit;
     }
 }
