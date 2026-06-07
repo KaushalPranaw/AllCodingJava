@@ -13,21 +13,24 @@ public class LongestSubstringWithoutRepeatingCharacters {
     }
 
     public int lengthOfLongestSubstring(String s) {
-        //map to store <char, index> for right index
-        Map<Character, Integer> map = new HashMap<>();
-
-        int left = 0;
         int maxLen = 0;
-        for (int right = 0; right < s.length(); right++) {
-            char ch = s.charAt(right);
-            //duplicate found, move left to after where duplicate exist in map
-            if (map.containsKey(ch)) {
-                left = Math.max(left, map.get(ch) + 1);
+        //map<char, latestIndex>
+        Map<Character, Integer> map = new HashMap<>();
+        int left = 0, right = 0;
+        while (right < s.length()) {
+            if (map.containsKey(s.charAt(right))) {
+                // Duplicate character mila hai.
+                // Hum dekhte hain ki current character (s.charAt(right))
+                // last time kis index par aaya tha.
+                //
+                // left ko uske next position par move karenge,
+                // lekin left ko kabhi peeche nahi le jana hai.
+                // Isliye Math.max use karte hain.
+                left = Math.max(left, map.get(s.charAt(right)) + 1);
             }
-
-            //if first time, then inserting, and in case of duplicate updating index
-            map.put(ch, right);
+            map.put(s.charAt(right), right);
             maxLen = Math.max(maxLen, right - left + 1);
+            right++;
         }
         return maxLen;
     }

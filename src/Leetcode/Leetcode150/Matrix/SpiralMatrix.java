@@ -15,36 +15,39 @@ public class SpiralMatrix {
 
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> list = new ArrayList<>();
-
         int m = matrix.length;
         int n = matrix[0].length;
 
         int left = 0, right = n - 1, top = 0, bottom = m - 1;
         while (left <= right && top <= bottom) {
-            //left to right
+            //l->r
             for (int i = left; i <= right; i++) {
+                //same row (top)
                 list.add(matrix[top][i]);
             }
             top++;
 
-            //top to bottom
+            //top->bottom
             for (int i = top; i <= bottom; i++) {
+                //same col(right)
                 list.add(matrix[i][right]);
             }
             right--;
 
-            //right to left
+            //right->left
             if (top <= bottom) {
                 for (int i = right; i >= left; i--) {
+                    //same row(bottom)
                     list.add(matrix[bottom][i]);
                 }
                 bottom--;
             }
 
 
-            //bottom to top
+            //bottom->top
             if (left <= right) {
                 for (int i = bottom; i >= top; i--) {
+                    //same col(left)
                     list.add(matrix[i][left]);
                 }
                 left++;

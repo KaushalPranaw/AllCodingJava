@@ -13,16 +13,15 @@ public class IsomorphicStrings {
             return false;
         }
 
-        int[] map1 = new int[256];
-        int[] map2 = new int[256];
+        int[] ascii1 = new int[256];
+        int[] ascii2 = new int[256];
         for (int i = 0; i < s.length(); i++) {
-            if (map1[s.charAt(i)] != map2[t.charAt(i)]) {
-                return false;//should be same or 0
+            if (ascii1[s.charAt(i)] != ascii2[t.charAt(i)]) {
+                return false;
             }
-            map1[s.charAt(i)] = i + 1;
-            map2[t.charAt(i)] = i + 1;
+            ascii1[s.charAt(i)] = i + 1;
+            ascii2[t.charAt(i)] = i + 1;
         }
-
         return true;
     }
 }

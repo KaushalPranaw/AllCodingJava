@@ -22,25 +22,30 @@ public class RotateImage {
         //transpose
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < i; j++) {
-                int temp = matrix[i][j];
+                int t = matrix[i][j];
                 matrix[i][j] = matrix[j][i];
-                matrix[j][i] = temp;
+                matrix[j][i] = t;
             }
         }
+
+
         //reverse
         for (int i = 0; i < m; i++) {
-            int l = 0, r = n - 1;
-            reverseMat(matrix, i, l, r);
+            //reverse
+            int left = 0, right = m - 1;
+            reverseMat(matrix, i, left, right);
         }
+
     }
 
     private void reverseMat(int[][] matrix, int row, int l, int r) {
         while (l < r) {
-            int temp = matrix[row][l];
+            int t = matrix[row][l];
             matrix[row][l] = matrix[row][r];
-            matrix[row][r] = temp;
+            matrix[row][r] = t;
             l++;
             r--;
+
         }
     }
 }

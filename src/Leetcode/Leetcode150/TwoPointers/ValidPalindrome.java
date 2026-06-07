@@ -12,18 +12,18 @@ public class ValidPalindrome {
             return true;
         }
 
-        int l = 0, r = s.length() - 1;
-        while (l < r) {
-            if (!Character.isLetterOrDigit(s.charAt(l))) {
-                l++;
-            } else if (!Character.isLetterOrDigit(s.charAt(r))) {
-                r--;
+        int left = 0, right = s.length() - 1;
+        while (left <= right) {
+            if (!Character.isLetterOrDigit(s.charAt(left))) {
+                left++;
+            } else if (!Character.isLetterOrDigit(s.charAt(right))) {
+                right--;
             } else {
-                if (Character.toLowerCase(s.charAt(l)) != Character.toLowerCase(s.charAt(r))) {
+                if (Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))) {
                     return false;
                 } else {
-                    l++;
-                    r--;
+                    left++;
+                    right--;
                 }
             }
         }

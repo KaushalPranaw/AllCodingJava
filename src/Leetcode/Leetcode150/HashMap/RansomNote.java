@@ -10,22 +10,22 @@ public class RansomNote {
     //ransomNote = "aa", magazine = "aab" - true
     public boolean canConstruct(String ransomNote, String magazine) {
         if (ransomNote.length() > magazine.length()) {
-            return true;
+            return false;
         }
 
-        int[] letters = new int[26];
+        int[] countArray = new int[26];
         for (int i = 0; i < magazine.length(); i++) {
-            char c = magazine.charAt(i);
-            letters[c - 'a']++;
+            countArray[magazine.charAt(i) - 'a']++;
         }
 
         for (int i = 0; i < ransomNote.length(); i++) {
-            char c = magazine.charAt(i);
-            if (letters[c - 'a'] == 0) {
+            char c = ransomNote.charAt(i);
+            if (countArray[c - 'a'] == 0) {
                 return false;
             }
-            letters[c - 'a']--;
+            countArray[c - 'a']--;
         }
         return true;
+
     }
 }

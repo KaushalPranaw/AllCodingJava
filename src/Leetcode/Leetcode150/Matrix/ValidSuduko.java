@@ -26,8 +26,7 @@ public class ValidSuduko {
             for (int j = 0; j < board[0].length; j++) {
                 char c = board[i][j];
                 if (c != '.') {
-                    if (!set.add(c + " in row " + i)
-                            || !set.add(c + " in col " + j)
+                    if (!set.add(c + " in row " + i) || !set.add(c + " in col " + j)
                             || !set.add(c + " in box " + (i / 3) + "-" + (j / 3))) {
                         return false;
                     }

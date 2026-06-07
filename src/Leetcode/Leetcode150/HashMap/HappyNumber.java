@@ -21,12 +21,12 @@ public class HappyNumber {
     public boolean isHappy(int n) {
         Set<Integer> set = new HashSet<>();
         while (n != 1) {
-            int temp = n;
+            int num = n;
             int sum = 0;
-            while (temp != 0) {
-                int digit = temp % 10;
+            while (num != 0) {
+                int digit = num % 10;
                 sum += digit * digit;
-                temp = temp / 10;
+                num /= 10;
             }
             if (set.contains(sum)) {
                 return false;

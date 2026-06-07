@@ -11,6 +11,10 @@ public class TwoSum {
     }
 
     public int[] twoSum(int[] nums, int target) {
+        //we are creating map
+        //then doing target-nums[i]=rem
+        //if remender exists in map and it is not same integer of i
+        //then simply get index and return
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int rem = target - nums[i];
@@ -18,7 +22,7 @@ public class TwoSum {
                 if (map.get(rem) == i) {
                     continue;
                 } else {
-                    return new int[]{i, map.get(rem)};
+                    return new int[]{map.get(rem), i};
                 }
             } else {
                 map.put(nums[i], i);

@@ -15,45 +15,46 @@ public class MinimumWindowSubstring {
             return "";
         }
 
-        //map to store t occurences
+        int start = 0, end = 0;
+        int ansIndex = 0, ansLen = Integer.MAX_VALUE;
+        int tLen = t.length();
+
+        //cal t occurrence
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < t.length(); i++) {
-            char tc = t.charAt(i);
-            map.put(tc, map.getOrDefault(tc, 0) + 1);
+            map.put(t.charAt(i), map.getOrDefault(t.charAt(i), 0) + 1);
         }
 
-        int ansIndex = 0;
-        int ansLen = Integer.MAX_VALUE;
-        int tleft = t.length();
-        int start = 0, end = 0;
-
         while (end < s.length()) {
-            char ec = s.charAt(end);
-            if (map.containsKey(ec)) {
-                int count = map.get(ec);
+            char eChar = s.charAt(end);
+            if (map.containsKey(eChar)) {
+                int count = map.get(eChar);
                 if (count > 0) {
-                    tleft--;
+                    tLen--;
                 }
-                map.put(ec, count - 1);
+                map.put(eChar, count - 1);
             }
             end++;
 
-            while (tleft == 0) {
+            while (tLen == 0) {
+                //cal minLen
                 if (ansLen > end - start) {
                     ansLen = end - start;
                     ansIndex = start;
                 }
-                char sc = s.charAt(start);
-                if (map.containsKey(sc)) {
-                    int count = map.get(sc);
+
+                //update schar
+                char sChar = s.charAt(start);
+                if (map.containsKey(sChar)) {
+                    int count = map.get(sChar);
                     if (count == 0) {
-                        tleft++;
+                        tLen++;
                     }
-                    map.put(sc, count + 1);
+                    map.put(sChar, count + 1);
                 }
                 start++;
             }
         }
-        return ansLen == Integer.MAX_VALUE ? "" : s.substring(ansIndex, ansLen + ansIndex);
+        return ansLen == Integer.MAX_VALUE ? "" : s.substring(ansIndex, ansIndex + ansLen);
     }
 }
