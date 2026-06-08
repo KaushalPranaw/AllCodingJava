@@ -15,24 +15,21 @@ public class MinimumNumberOfArrowsToBurstBalloons {
             return 0;
         }
 
+        int count = 1;
         Arrays.sort(points, Comparator.comparingInt(a -> a[0]));
 
-        int arrow = 1;
-        int minEnd = points[0][1];
+        int end = points[0][1];
         for (int i = 1; i < points.length; i++) {
-            if (minEnd >= points[i][0]) {
-                //why min?
-                //{1,6}, {2,8}, {7,12}, {10,16}
-                //end=min(6, 8)=6
-                //so one array can shot only 2 points
-                //isiliye min lena hoga
-                minEnd = Math.min(minEnd, points[i][1]);
+            if (end >= points[i][0]) {
+                end = Math.min(end, points[i][1]);
             } else {
-                arrow++;
-                minEnd = points[i][1];
+                count++;
+                end=points[i][1];
             }
         }
-        return arrow;
+
+        return count;
+
 
     }
 }

@@ -18,20 +18,18 @@ public class SimplifyPath {
 
     public String simplifyPath(String path) {
         String[] components = path.split("/");
-
         Stack<String> stack = new Stack<>();
 
         for (String component : components) {
-            if (component.isEmpty() || component.equals(".")) {
+            if (component.equals(".") || component.isEmpty()) {
                 continue;
-            } else {
-                if (component.equals("..")) {
-                    if (!stack.isEmpty()) {
-                        stack.pop();
-                    }
-                } else {
-                    stack.push(component);
+            }
+            if (component.equals("..")) {
+                if (!stack.isEmpty()) {
+                    stack.pop();
                 }
+            } else {
+                stack.push(component);
             }
         }
 
@@ -40,6 +38,5 @@ public class SimplifyPath {
             sb.append("/").append(s);
         }
         return !sb.isEmpty() ? sb.toString() : "/";
-
     }
 }

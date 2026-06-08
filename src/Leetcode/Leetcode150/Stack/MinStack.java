@@ -3,23 +3,25 @@ package Leetcode.Leetcode150.Stack;
 import java.util.Stack;
 
 public class MinStack {
-    private Stack<Integer> stack;       // Primary stack to store elements
-    private Stack<Integer> minStack;    // Stack to store minimum elements
+    // Primary stack to store elements
+    private Stack<Integer> stack;
+    // Stack to store minimum elements
+    private Stack<Integer> minStack;
 
     public MinStack() {
-        stack=new Stack<>();
-        minStack=new Stack<>();
+        stack = new Stack<>();
+        minStack = new Stack<>();
     }
 
     public void push(int val) {
-        stack.push(val);
-        if(minStack.isEmpty()|| minStack.peek()>=val){
+        if (minStack.isEmpty() || minStack.peek() >= val) {
             minStack.push(val);
         }
+        stack.push(val);
     }
 
     public void pop() {
-        if(stack.peek().equals(minStack.peek())){
+        if (minStack.peek() == stack.peek()) {
             minStack.pop();
         }
         stack.pop();

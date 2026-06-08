@@ -18,8 +18,8 @@ public class ValidParentheses {
                 if (stack.isEmpty()) {
                     return false;
                 } else {
-                    char top = stack.peek();
-                    if ((top == '(' && c == ')') || (top == '{' && c == '}') || (top == '[' && c == ']')) {
+                    char last = stack.peek();
+                    if (last == '(' && c == ')' || (last == '{' && c == '}') || (last == '[' && c == ']')) {
                         stack.pop();
                     } else {
                         return false;

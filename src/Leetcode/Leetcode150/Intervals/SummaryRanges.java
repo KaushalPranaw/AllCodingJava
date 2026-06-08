@@ -19,7 +19,7 @@ public class SummaryRanges {
         List<String> list = new ArrayList<>();
         int start = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            if (nums[i - 1] + 1 != nums[i]) {
+            if (nums[i] != nums[i - 1] + 1) {
                 if (start == nums[i - 1]) {
                     list.add(String.valueOf(start));
                 } else {
@@ -33,7 +33,6 @@ public class SummaryRanges {
         } else {
             list.add(start + "->" + nums[nums.length - 1]);
         }
-
         return list;
     }
 }
