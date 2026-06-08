@@ -11,21 +11,20 @@ public class CountOfSubArrayEqualsToK {
     }
 
     private static int countOfSubArrayEqualsToK(int[] arr, int k) {
-        Map<Integer, Integer> prefixSumMap = new HashMap<>();
+        //map<prefixSum, count>
+        Map<Integer, Integer> map = new HashMap<>();
         //means prefix sum equal to zero have one occurence
-        prefixSumMap.put(0, 1);
+        map.put(0, 1);
 
         int count = 0;
-        int prefixSum = 0;
-
+        int currentPrefixSum = 0;
         for (int num : arr) {
-            prefixSum += num;
-            if (prefixSumMap.containsKey(prefixSum - k)) {
-                count += prefixSumMap.get(prefixSum - k);
-            }
+            currentPrefixSum += num;
 
+            //update count for (currentPrefix-k)=oldPrefix agar hai to update count
+            count += map.getOrDefault(currentPrefixSum-k, 0);
             //update map
-            prefixSumMap.put(prefixSum, prefixSumMap.getOrDefault(prefixSum, 0) + 1);
+            map.put(currentPrefixSum, map.getOrDefault(currentPrefixSum, 0) + 1);
         }
         return count;
 

@@ -10,8 +10,21 @@ public class LongestSubArrayEqualToK {
         System.out.println(longestSubArrayEqualsToK(arr, k));
     }
 
-    private static int longestSubArrayEqualsToK(int[] nums, int k) {
+    /*
+    Count Subarrays Sum = K
+    Map<PrefixSum, Count>
+
+    Longest Subarray Sum = K
+    Map<PrefixSum, FirstIndex>
+    That's the biggest change.
+
+
+     */
+    /*private static int longestSubArrayEqualsToK(int[] nums, int k) {
+
+        //map<prefixsum, firstIndex>
         Map<Integer, Integer> prefixSumMap = new HashMap<>();
+
 
         int prefixSum = 0;
         int maxLen = 0;
@@ -24,14 +37,44 @@ public class LongestSubArrayEqualToK {
             }
 
             //now do reverse enginerring
-            int rem = prefixSum - k;
-            if (prefixSumMap.containsKey(rem)) {
-                int len = i - prefixSumMap.get(rem);
+            int oldPrefix = prefixSum - k;
+            if (prefixSumMap.containsKey(oldPrefix)) {
+                int len = i - prefixSumMap.get(oldPrefix);
                 maxLen = Math.max(maxLen, len);
             }
             //for handling negative num we need to check if not exist then we have to add
+            //since we need sbse bada to jo sbse phle aya hoga wahi bada hoga
+            //isiliye if not inserted then add
             if(!prefixSumMap.containsKey(prefixSum))
                 prefixSumMap.put(prefixSum, i);
+        }
+        return maxLen;
+
+    }*/
+    private static int longestSubArrayEqualsToK(int[] nums, int k) {
+
+        //map<prefixsum, firstIndex>
+        Map<Integer, Integer> map = new HashMap<>();
+
+        int maxLen = 0;
+        int prefixSum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            prefixSum += nums[i];
+
+            //coming first time sum equals k
+            if (prefixSum == k) {
+                maxLen = Math.max(maxLen, i + 1);
+            }
+
+            int oldPrefix = prefixSum - k;
+            if (map.containsKey(oldPrefix)) {
+                int len = i - map.get(oldPrefix);
+                maxLen = Math.max(maxLen, len);
+            }
+
+            if (!map.containsKey(prefixSum)) {
+                map.put(prefixSum, i);
+            }
         }
         return maxLen;
 

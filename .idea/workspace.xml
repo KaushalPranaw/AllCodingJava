@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="June 7, 2026: DSA">
+    <list default="true" id="967fc710-37d8-41c3-92f1-950e3eb36d20" name="Changes" comment="June 8, 2026: DSA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Intervals/InsertInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Intervals/InsertInterval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Intervals/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Intervals/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Intervals/MinimumNumberOfArrowsToBurstBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Intervals/MinimumNumberOfArrowsToBurstBalloons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Intervals/SummaryRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Intervals/SummaryRanges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Stack/EvaluateReversePolishNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Stack/EvaluateReversePolishNotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Stack/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Stack/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Stack/SimplifyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Stack/SimplifyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Stack/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/Leetcode150/Stack/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/PrefixSum/CountOfSubArrayEqualsToK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/PrefixSum/CountOfSubArrayEqualsToK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/PrefixSum/LongestSubArrayEqualToK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/PrefixSum/LongestSubArrayEqualToK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/PrefixSum/SubarraySumDivisibleByK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/PrefixSum/SubarraySumDivisibleByK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,13 +329,39 @@
       <recent name="May2026.LLD.ParkingLot" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EvaluateReversePolishNotation">
+  <component name="RunManager" selected="Application.SubarraySumDivisibleByK">
+    <configuration name="CountOfSubArrayEqualsToK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.PrefixSum.CountOfSubArrayEqualsToK" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.PrefixSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EvaluateReversePolishNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Stack.EvaluateReversePolishNotation" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Leetcode.Leetcode150.Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubArrayEqualToK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.PrefixSum.LongestSubArrayEqualToK" />
+      <module name="basic-concepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.PrefixSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -361,38 +382,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumNumberOfArrowsToBurstBalloons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Intervals.MinimumNumberOfArrowsToBurstBalloons" />
+    <configuration name="SubarraySumDivisibleByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.PrefixSum.SubarraySumDivisibleByK" />
       <module name="basic-concepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Intervals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimplifyPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Stack.SimplifyPath" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.Leetcode150.Stack.ValidParentheses" />
-      <module name="basic-concepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.Leetcode150.Stack.*" />
+          <option name="PATTERN" value="Leetcode.PrefixSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,11 +397,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubarraySumDivisibleByK" />
+        <item itemvalue="Application.LongestSubArrayEqualToK" />
+        <item itemvalue="Application.CountOfSubArrayEqualsToK" />
         <item itemvalue="Application.EvaluateReversePolishNotation" />
         <item itemvalue="Application.MinStack" />
-        <item itemvalue="Application.SimplifyPath" />
-        <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.MinimumNumberOfArrowsToBurstBalloons" />
       </list>
     </recent_temporary>
   </component>
@@ -429,14 +424,6 @@
       <workItem from="1765865325764" duration="18186000" />
       <workItem from="1766029007079" duration="12574000" />
       <workItem from="1766332547527" duration="9444000" />
-    </task>
-    <task id="LOCAL-00059" summary="Oct 30, 2025">
-      <option name="closed" value="true" />
-      <created>1765771104115</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1765771104116</updated>
     </task>
     <task id="LOCAL-00060" summary="Dec 16, 2025">
       <option name="closed" value="true" />
@@ -822,7 +809,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780839336010</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="June 8, 2026: DSA">
+      <option name="closed" value="true" />
+      <created>1780888283611</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1780888283611</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -840,7 +835,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Jan 7, 2025" />
     <MESSAGE value="Jan 13, 2025" />
     <MESSAGE value="Feb 04, 2025" />
     <MESSAGE value="Feb 05, 2025: DP" />
@@ -865,7 +859,8 @@
     <MESSAGE value="May 8, 2026: DSA" />
     <MESSAGE value="June 6, 2026: DSA" />
     <MESSAGE value="June 7, 2026: DSA" />
-    <option name="LAST_COMMIT_MESSAGE" value="June 7, 2026: DSA" />
+    <MESSAGE value="June 8, 2026: DSA" />
+    <option name="LAST_COMMIT_MESSAGE" value="June 8, 2026: DSA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
