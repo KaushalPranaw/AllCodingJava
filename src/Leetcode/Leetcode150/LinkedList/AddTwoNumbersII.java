@@ -3,6 +3,25 @@ package Leetcode.Leetcode150.LinkedList;
 import java.util.Stack;
 
 public class AddTwoNumbersII {
+    static ListNode buildList(int[] arr) {
+        ListNode dummy = new ListNode(0);
+        ListNode curr = dummy;
+
+        for (int val : arr) {
+            curr.next = new ListNode(val);
+            curr = curr.next;
+        }
+
+        return dummy.next;
+    }
+
+    static void printList(ListNode node) {
+        while (node != null) {
+            System.out.print(node.val + " ");
+            node = node.next;
+        }
+        System.out.println();
+    }
     public static void main(String[] args) {
         // l1 = [7,2,4,3]
         ListNode l1 = buildList(new int[]{7,2,4,3});
@@ -25,6 +44,7 @@ public class AddTwoNumbersII {
 
     }
 
+    //yhi TODO hai main code
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         //Since digits are most-significant-first, we simulate reverse order using two stacks.
         /*
@@ -36,54 +56,47 @@ public class AddTwoNumbersII {
             Insert node at front of result list
          */
 
-        Stack<Integer> s1=new Stack<>();
-        Stack<Integer> s2=new Stack<>();
+        //1. create stack
+        Stack<Integer> stack1=new Stack<>();
+        Stack<Integer> stack2=new Stack<>();
 
+        //2. push l1 to stack1 and l2 to stack2
         while (l1!=null){
-            s1.push(l1.val);
+            stack1.push(l1.val);
             l1=l1.next;
         }
-
         while (l2!=null){
-            s2.push(l2.val);
+            stack2.push(l2.val);
             l2=l2.next;
         }
 
+        //3. now pop 1 by 1 and code of insert at frnt
+        ListNode head=null;
         int carry=0;
-        ListNode head=null;// since we need to do InsertAtStart
-        while (!s1.isEmpty() || !s2.isEmpty() || carry!=0){
+        while (!stack1.isEmpty() || !stack2.isEmpty()){
             int sum=carry;
-            if(!s1.isEmpty()) sum+=s1.pop();
-            if(!s2.isEmpty()) sum+=s2.pop();
+            if(!stack1.isEmpty()){
+                sum+=stack1.pop();
+            }
+            if(!stack2.isEmpty()){
+                sum+=stack2.pop();
+            }
 
-            //now insert at front
-            ListNode node=new ListNode(sum%10);
-            node.next=head;
-            head=node;
+            //now insert at front code
+            ListNode newNode=new ListNode(sum%10);
+            newNode.next=head;
+            head=newNode;
 
             //update carry
             carry=sum/10;
         }
+        if (carry != 0) {
+            ListNode newNode = new ListNode(carry);
+            newNode.next = head;
+            head = newNode;
+        }
+
         return head;
-    }
 
-    static ListNode buildList(int[] arr) {
-        ListNode dummy = new ListNode(0);
-        ListNode curr = dummy;
-
-        for (int val : arr) {
-            curr.next = new ListNode(val);
-            curr = curr.next;
-        }
-
-        return dummy.next;
-    }
-
-    static void printList(ListNode node) {
-        while (node != null) {
-            System.out.print(node.val + " ");
-            node = node.next;
-        }
-        System.out.println();
     }
 }

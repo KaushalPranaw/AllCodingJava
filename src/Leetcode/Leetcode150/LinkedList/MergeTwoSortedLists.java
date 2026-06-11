@@ -31,13 +31,13 @@ public class MergeTwoSortedLists {
             }
             cur = cur.next;
         }
+
         if (list1 != null) {
             cur.next = list1;
         }
         if (list2 != null) {
             cur.next = list2;
         }
-
         return dummy.next;
     }
 }
