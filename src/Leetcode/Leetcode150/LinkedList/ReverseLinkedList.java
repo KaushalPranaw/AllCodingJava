@@ -12,25 +12,17 @@ public class ReverseLinkedList {
     }
 
     private static ListNode reverseLL(ListNode head) {
-        if (head == null || head.next == null) {
+        if(head==null || head.next==null){
             return head;
         }
 
-        ListNode cur = head, prev = null, next = null;
-        while (cur != null) {
-            //save next
-            next = cur.next;
-
-            // reverse pointer
-            cur.next = prev;
-
-            // move prev
-            prev = cur;
-
-            // move prev
-            cur = next;
-
+        ListNode cur=head, next=null, prev=null;
+        while (cur!=null){
+            next=cur.next;
+            cur.next=prev;
+            prev=cur;
+            cur=next;
         }
-        return prev;//new head;
+        return prev;
     }
 }

@@ -20,35 +20,53 @@ public class ReverseNodesInKGroup {
             return head;
         }
 
-        // Step 1: Check if we have k nodes to reverse
-        int count = 0;
-        ListNode temp = head;
-        while (count < k && temp != null) {
-            temp = temp.next;
-            count++;
+        ListNode temp=head;
+        ListNode prevNode=null;
+        while (temp!=null){
+            ListNode kthNode=getKthNode(temp, k);
+            if(kthNode==null){
+                if(prevNode!=null){
+                    prevNode.next=temp;
+                }
+                break;
+            }
+
+            ListNode nextNode=kthNode.next;
+            kthNode.next=null;
+
+            ListNode reversedHead = reverseLL(temp);
+            if(temp==head){
+                head=reversedHead;
+            }else {
+                prevNode.next=reversedHead;
+            }
+
+            prevNode=temp;
+            temp=nextNode;
         }
+        return head;
 
-        if (count < k) {
-            return head;
-        }
+    }
 
-
-        // Step 2: Reverse the first k nodes
-        count = 0;
-        ListNode cur = head, next = null, prev = null;
-        while (cur != null && count < k) {
-            count++;
-            next = cur.next;
-            cur.next = prev;
-            prev = cur;
-            cur = next;
-        }
-
-
-        // Step 3: Recursively reverse the remaining list and connect i
-        if (next != null) {
-            head.next = reverseKGroup(next, k);
+    private ListNode reverseLL(ListNode temp) {
+        ListNode cur=temp, next=null, prev=null;
+        while (cur!=null){
+            next=cur.next;
+            cur.next=prev;
+            prev=cur;
+            cur=next;
         }
         return prev;
+
+    }
+
+    //get Kth node
+    ListNode getKthNode(ListNode temp, int k){
+        k--;
+        while (temp!=null &&  k>0){
+            k--;
+            temp=temp.next;
+        }
+        return temp;
     }
 }

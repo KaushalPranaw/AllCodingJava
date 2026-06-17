@@ -19,7 +19,6 @@ public class PartitionList {
         ListNode small = new ListNode(-1);
         ListNode large = new ListNode(-1);
         ListNode sp = small, lp = large;
-
         while (head != null) {
             if (head.val < x) {
                 sp.next = head;
@@ -30,6 +29,7 @@ public class PartitionList {
             }
             head = head.next;
         }
+
         sp.next = large.next;
         lp.next = null;
         return small.next;

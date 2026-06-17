@@ -23,15 +23,15 @@ public class RotateList {
             return head;
         }
 
-        int len = 1;
+        //cal len
         ListNode cur = head;
+        int len = 1;
         while (cur.next != null) {
             cur = cur.next;
             len++;
         }
-        //create loop
-        cur.next = head;
 
+        cur.next = head;
         k = k % len;
 
         int stepsToNewHead = len - k;

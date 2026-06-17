@@ -12,37 +12,31 @@ public class ReverseLinkedListII {
 
     public ListNode reverseBetween(ListNode head, int left, int right) {
         //base case
-        if (head == null || head.next == null || left == right) {
+        if(left==right|| head==null || head.next==null){
             return head;
         }
-        // Step 1: Add dummy node
-        ListNode dummy = new ListNode(-1);
-        dummy.next = head;
-        ListNode prev = dummy;
 
-        // Step 2: Move prev to the node before left
-        for (int i = 1; i < left; i++) {
-            prev = prev.next;
+        ListNode dummy=new ListNode(-1);
+        dummy.next=head;
+
+        ListNode prev=dummy;
+        //move prev to the  node before left
+        for(int i=1;i<left;i++){
+            prev=prev.next;
         }
 
-        // Step 3: Start reversing
-        ListNode curNode = prev.next, prevNode = null, nextNode = null;
-
-        // Reverse (right - left) times
-        for (int i = 0; i <= (right - left); i++) {
-            nextNode = curNode.next;//save the next
-            curNode.next = prevNode;//reverse ponters
-            prevNode = curNode;
-            curNode = nextNode;
+        //reverse from left to right
+        ListNode curNode=prev.next, nextNode=null, prevNode=null;
+        for(int i=0;i<=(right-left);i++) {
+            nextNode = curNode.next;
+            curNode.next = prevNode;
+            prevNode=curNode;
+            curNode=nextNode;
         }
 
-        // Connect reversed segment with the rest of the list
-        //prevNode=4 and curNode=5
-        //1 -> (reversed: 4 -> 3 -> 2)   5
-        prev.next.next = curNode;
-        //1 -> (reversed: 4 -> 3 -> 2) -> 5
-        prev.next = prevNode;
-        //1 -> 4 -> 3 -> 2 -> 5
+        prev.next.next=curNode;
+        prev.next=prevNode;
+
         return dummy.next;
 
     }
